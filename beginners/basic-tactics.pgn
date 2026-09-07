@@ -1,0 +1,166 @@
+[Event "Basic tactics: the fork, lesson"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/oLCBkefa/sdDSE6ge"]
+[FEN "8/5q1p/8/5NK1/6P1/3k4/8/8 b - - 11 52"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/5q1p/8/5NK1/6P1/3k4/8/8_b_-_-_11_52"]
+
+{ We will now learn the fork. One move, two targets, and neither of them can run. }
+52... Ke4 { His king steps out. Now your knight can hit the king and the queen at once. [%csl Re4,Rf7][%cal Yf5d6] } 53. Nd6+ { Check! He must answer the check, so his queen has no time to escape. [%cal Rd6e4,Rd6f7] } (53. Nh6 { You attack the queen, but with no check she simply steps away. } 53... Qe7+ 54. Kh5 { She left with check, and now White is the one in trouble. }) (53. Ne7 { The knight lands next to the queen, and she just eats it. } 53... Qxe7+ 54. Kh6 { A whole knight gone for nothing. }) 53... Kd5 { The king runs, and the queen is still standing on f7. [%cal Yd6f7] } 54. Nxf7 { The queen is yours. One knight, two targets: that is a fork. } (54. Nf5 { The knight runs home and lets the queen off the hook. } 54... Ke5 55. Nh4 Qf4 { The fork is gone and White is losing. }) 1-0
+
+
+[Event "Basic tactics: fork practice one"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/oLCBkefa/uL3WWVrr"]
+[FEN "8/8/5kp1/5n1p/4K3/8/8/6R1 w - - 2 58"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/8/5kp1/5n1p/4K3/8/8/6R1_w_-_-_2_58"]
+
+{ Your knight is hunting. Look for a square that attacks two things at once. }
+58. Rh1 { The rook drops back to the corner. Where can your knight jump? } 58... Ng3+ { Check, and the rook in the corner is attacked too. [%cal Gg3e4,Gg3h1] } (58... h4 { You push the pawn, and the fork quietly disappears. } 59. Rg1 Ne7 60. Kf4 { Nothing is left here. This is only a draw. }) (58... Nd6+ { A check as well. But look behind it: there is nothing there. } 59. Kf3 { The king just steps away. A check with one target wins nothing. }) 59. Kf4 { The king has to move, and nothing can guard the corner. } 59... Nxh1 { A whole rook. The fork did all the work. } (59... Ne2+ { You save the knight and forget about the rook. } 60. Ke3 Ng3 61. Ra1 { The rook slipped away. Only a draw. }) 0-1
+
+
+[Event "Basic tactics: fork practice two"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/oLCBkefa/io8m2o9v"]
+[FEN "5q1k/1Q1nN3/4pn1p/3p2p1/1p1PB3/rPb1P1BP/5PP1/5RK1 b - - 0 32"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/5q1k/1Q1nN3/4pn1p/3p2p1/1p1PB3/rPb1P1BP/5PP1/5RK1_b_-_-_0_32"]
+
+{ A busy board this time. He is about to take a bishop, and he feels safe. }
+32... dxe4 { He takes the bishop. Your knight is looking for a square. } 33. Ng6+ { Check, and the queen sitting behind the king is attacked too. [%cal Gg6h8,Gg6f8] } (33. Nc6 { The knight jumps out, but it does not attack anything that matters. } 33... Qa8 34. Qc7 { The queen walked away and now you are worse. }) (33. Be5 { You attack his knight, but he takes yours on e7 first. } 33... Qxe7 34. Bxf6 Qxf6 { A knight down, and the fork is gone too. }) 33... Kg8 { The king slides across, and the queen still cannot move. } 34. Nxf8 { A queen for a knight. The fork wins again. } (34. Ne5 { The knight steps back and lets the queen live. } 34... Qa8 35. Qc7 { You had a queen in your hands and let it go. }) 1-0
+
+
+[Event "Basic tactics: the pin, lesson"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/oLCBkefa/qmwSksav"]
+[FEN "r1b2rk1/3n1pp1/pq2p2p/1pb5/4B2B/5N2/PPPQ2PP/2KR1R2 w - - 1 16"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/r1b2rk1/3n1pp1/pq2p2p/1pb5/4B2B/5N2/PPPQ2PP/2KR1R2_w_-_-_1_16"]
+
+{ We will now learn the pin. A pinned piece is stuck: it is not allowed to move away. }
+16. Bxa8 { He grabs your rook. Now look at his queen and his king on one diagonal. [%csl Rd2,Rc1][%cal Yc5e3] } 16... Be3 { The bishop pins the queen to the king. She cannot step aside. [%cal Ge3d2,Gd2c1] } (16... Qa7 { You tuck the queen away, but the pin was the whole point. } 17. Qc3 { Nothing has happened, and White is still a rook up. }) (16... a5 { A quiet pawn move while you are a rook down. } 17. Rfe1 b4 18. Kb1 { His king steps off the diagonal and the chance is gone. }) 17. Qxe3 { He must take, because his queen was never allowed to move. [%cal Yb6e3] } 17... Qxe3+ { A queen for a bishop. That is what a pin does. } (17... Qc7 { You forget to take back, and your bishop is simply gone. } 18. Bg3 { A whole piece for nothing. }) 0-1
+
+
+[Event "Basic tactics: pin practice one"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/oLCBkefa/qFpAnWmi"]
+[FEN "2kr2nr/ppp3pp/4N1b1/3p4/8/4P2q/PPP1B3/R1BQ1RK1 b - - 3 18"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/2kr2nr/ppp3pp/4N1b1/3p4/8/4P2q/PPP1B3/R1BQ1RK1_b_-_-_3_18"]
+
+{ This time you are the one a piece down. One bishop move turns the whole game around. }
+18... Qxe6 { His queen grabs your knight. Now ask where his king is standing. } 19. Bg4 { The bishop pins the queen: his king is right behind her. [%cal Gg4e6,Ge6c8] } (19. Bd2 { A quiet developing move while you are a piece down. } 19... Nf6 20. Qe1 { His extra knight is starting to count. }) (19. Rf4 { The rook swings across, but it traps nothing at all. } 19... Kb8 20. Bd2 { Nothing gained, and you are still a piece down. }) 19... Qxg4+ { She has to take, and it arrives with check. } 20. Qxg4+ { Take back. A queen for a bishop, and now you are winning. } (20. Kh2 { You step out of the check and forget about the queen. } 20... Qh4+ 21. Kg2 { A queen down, and mate is on the way. }) 1-0
+
+
+[Event "Basic tactics: the skewer, lesson"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/oLCBkefa/hnHmSl7U"]
+[FEN "6k1/5pp1/5bn1/r2B3Q/2pP4/2P3P1/5P2/6K1 w - - 2 41"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/6k1/5pp1/5bn1/r2B3Q/2pP4/2P3P1/5P2/6K1_w_-_-_2_41"]
+
+{ We will now learn the skewer. Check the king, and take whatever was hiding behind him. }
+41. Qh1 { His queen tucks in behind the king. Both are on the bottom row now. [%csl Rg1,Rh1][%cal Ya5a1] } 41... Ra1+ { Check along the bottom row. He must move, and the queen is left bare. [%cal Ga1g1,Ga1h1] } (41... Bxd4 { You grab a pawn with the bishop, but the queen was the real prize. } 42. Qe4 Rxd5 43. Qxd5 { His queen slipped away and took your rook on the way. }) (41... Ra7 { The rook steps back to safety and the moment has gone. } 42. Bxc4 { He takes a pawn, his queen is comfortable, and you are simply worse. }) 42. Kh2 { He steps up. Now take the piece that was standing behind him. [%cal Ya1h1] } 42... Rxh1+ { The queen falls. In a skewer the big piece is in front and has to move. } (42... Ra7 { You retreat and let the queen live. } 43. Qb1 { The skewer has gone and White is fine again. }) 0-1
+
+
+[Event "Basic tactics: skewer practice one"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/oLCBkefa/vcP3Z5BU"]
+[FEN "q3k3/1np1bpp1/3p2b1/1p1Pp1P1/1P2P3/2P5/2BN1P2/2B1K2Q b - - 0 22"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/q3k3/1np1bpp1/3p2b1/1p1Pp1P1/1P2P3/2P5/2BN1P2/2B1K2Q_b_-_-_0_22"]
+
+{ This time your queen does the work. Look along his back row before you move. }
+22... Bxg5 { He grabs a pawn with the bishop. His king and his queen share a row. } 23. Qh8+ { Check all the way down the row. He must move, and his queen cannot follow. [%cal Gh8e8,Ge8a8] } (23. Nb3 { A sensible knight move, and the moment quietly passes. } 23... Bxc1 24. Nxc1 Nd8 { Level, and his queen in the corner is perfectly safe. }) (23. Bd3 { You tidy your pieces up and he simply walks the king away. } 23... Ke7 { Now there is nothing behind the king and the idea has gone. }) 23... Ke7 { The king steps off the row, and everything behind him is loose. } 24. Qxa8 { A whole queen, collected from the far corner. } (24. Qh3 { You bring the queen home instead of collecting. } 24... Nd8 25. Qg4 { His queen is safe and you are the one who is worse. }) 1-0
+
+
+[Event "Basic tactics: skewer practice two"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/oLCBkefa/o8AMGXQ9"]
+[FEN "4b3/6p1/2k5/1p1p1pP1/1P1P1P2/2N2K2/8/8 w - - 1 33"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/4b3/6p1/2k5/1p1p1pP1/1P1P1P2/2N2K2/8/8_w_-_-_1_33"]
+
+{ Almost nothing left on the board. Your bishop and his king and knight sit on one line. }
+33. Nd1 { The knight drops back. Now his king and his knight share a diagonal. } 33... Bh5+ { Check from far away, and the knight behind him cannot move. [%cal Gh5f3,Gf3d1] } (33... Kd6 { A quiet king step. But his knight is loose right this moment. } 34. Ne3 Ke6 35. Kg3 { The chance has gone and this is only a draw. }) (33... Bg6 { The bishop steps out, but it arrives without check. } 34. Kg3 { No check means he simply walks over and defends the knight. }) 34. Kg2 { The king moves aside. Look all the way down the diagonal. } 34... Bxd1 { A whole knight, won from the other side of the board. } (34... Bg6 { You tuck the bishop away and the knight escapes. } 35. Kh3 Kd6 36. Nf2 { The knight is safe and the game is a draw. }) 0-1
+
+
+[Event "Basic tactics: the discovered attack, lesson"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/oLCBkefa/Wo1dJhaW"]
+[FEN "8/pp4k1/3r2pp/4N3/3n3P/6P1/P2R2PK/8 w - - 10 41"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/pp4k1/3r2pp/4N3/3n3P/6P1/P2R2PK/8_w_-_-_10_41"]
+
+{ We will now learn the discovered attack. One piece moves away and another one strikes. }
+41. Nf3 { His knight offers a trade. Notice that your own knight blocks your rook. [%csl Gd6,Rd2][%cal Yd4f3] } 41... Nxf3+ { Your knight leaves with check, and the rook behind it wakes up. [%cal Gd6d2] } (41... Nf5 { You save the knight, but the rook behind it never gets going. } 42. Rb2 b6 43. Rc2 { Nothing has happened here. This is a draw. }) (41... h5 { A pawn move, and he untangles at once. } 42. Nxd4 { He simply takes your knight and the chance has gone. }) 42. gxf3 { He must answer the check first. That is the whole idea. [%cal Yd6d2] } 42... Rxd2+ { A free rook. The check bought you the time to take it. } (42... Ra6 { The rook goes the wrong way and the moment passes. } 43. Rd7+ Kf6 44. Rxb7 { Now he is the one collecting pawns. }) 0-1
+
+
+[Event "Basic tactics: discovered attack practice one"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/oLCBkefa/q1pQjWr0"]
+[FEN "3r2k1/1pp2pp1/p2b3p/8/1P6/P3P3/4NPPP/3R2K1 w - - 0 21"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/3r2k1/1pp2pp1/p2b3p/8/1P6/P3P3/4NPPP/3R2K1_w_-_-_0_21"]
+
+{ Your rook and his rook face each other down one column, and your bishop is in the way. }
+21. h3 { He makes a little space for his king. Your bishop is standing in your own way. } 21... Bh2+ { The bishop leaves the column with check, and offers itself as well. [%cal Gd8d1] } (21... c5 { A pawn push while the two rooks stare at each other. } 22. Nc3 cxb4 23. axb4 { Even, and the trick has quietly gone. }) (21... Be7 { The bishop does step off the column, but far too slowly. } 22. Nd4 { He gets organised and his rook is defended again. }) 22. Kxh2 { He takes the bishop, and his king has left the back rank. } 22... Rxd1 { A bishop for a rook, because his king had to answer the check first. } (22... Ra8 { You forget to take, and a whole piece is gone for nothing. } 23. Nd4 c6 24. Nb3 { A bishop down with nothing at all to show. }) 0-1
+
+
+[Event "Basic tactics: the back rank mate, lesson"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/oLCBkefa/4UUeXlma"]
+[FEN "7k/1p4pp/p1b5/8/6N1/7P/PP1R1K2/4r3 b - - 4 38"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/7k/1p4pp/p1b5/8/6N1/7P/PP1R1K2/4r3_b_-_-_4_38"]
+
+{ We will now learn the back rank mate. A king with pawns in front of it has no air. }
+38... Rb1 { His king is stuck behind its own two pawns. Send your rook to the last row. [%csl Rh8,Rg7,Rh7][%cal Yd2d8] } 39. Rd8+ { Check, and his king has nowhere to run. Only a block can delay it. [%cal Gd8h8] } (39. Ne5 { A fine square for the knight, but the mate was already on. } 39... g6 40. Nxc6 bxc6 { You traded pieces and gave his king a breathing hole. }) (39. h4 { You make air for your own king and hand him the time. } 39... h6 { Now his king has a square too, and the mate has gone. }) 39... Be8 { He throws the bishop in the way. Take it. [%cal Yd8e8] } 40. Rxe8# { Mate. The pawns he never moved are what trapped him. } (40. b3 { You had mate in one and pushed a pawn instead. } 40... Rb2+ 41. Kf3 { The mate is still there, but so is his rook. }) 1-0
+
+
+[Event "Basic tactics: back rank practice one"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/oLCBkefa/vkwgJUeX"]
+[FEN "r1b1q2k/ppp3pp/3R4/8/8/4PQ2/P5PP/5RK1 b - - 0 19"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/r1b1q2k/ppp3pp/3R4/8/8/4PQ2/P5PP/5RK1_b_-_-_0_19"]
+
+{ His king is boxed in again, but this time a defender is guarding the door. }
+19... cxd6 { He takes your rook and you are a whole rook down. His queen guards f8. [%csl Rh8,Rg7,Rh7] } 20. Qf8+ { The queen walks in anyway. She cannot be ignored and she cannot be allowed. [%cal Gf3f8] } (20. Rf2 { You defend instead of striking, and now you are simply losing. } 20... Be6 21. Qxb7 Bg8 { His extra rook decides the game. }) (20. h3 { A quiet move, and the whole idea evaporates. } 20... Bd7 21. Qxb7 Bc6 { He is a rook up and getting organised. }) 20... Qxf8 { He has to take. His queen is no longer guarding that square. } 21. Rxf8# { Mate. You gave a queen to drag his guard off the last row. } (21. Rf2 { You forget the mate and hand the queen straight back. } 21... Qxf2+ 22. Kxf2 { A queen down instead of mate in one. }) 1-0
+
+
+[Event "Basic tactics: removing the defender, lesson"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/oLCBkefa/qSjhztze"]
+[FEN "r5k1/5ppp/4q3/p7/1pQ1P3/P2P3P/KP6/2R5 b - - 3 28"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/r5k1/5ppp/4q3/p7/1pQ1P3/P2P3P/KP6/2R5_b_-_-_3_28"]
+
+{ We will now learn to remove the defender. Take away the guard, then take the prize. }
+28... Rc8 { His rook comes to your column. Only his queen defends it from e6. [%csl Rc8][%cal Ge6c8] } 29. Qxe6 { Take the guard first, even though it is a queen for a queen. [%cal Yc4e6] } (29. axb4 { You grab a pawn, and his rook lands on your queen instead. } 29... Rxc4 30. dxc4 axb4 { A rook for nothing, and you are lost. }) (29. Rc2 { You defend the queen, and he simply takes her anyway. } 29... Rxc4 30. dxc4 { The queen has gone and so has the game. }) 29... fxe6 { He takes back. The guard is gone and the rook is loose. [%cal Yc1c8] } 30. Rxc8+ { A whole rook. Remove the defender, then collect. } (30. Rb1 { You forget the rook you paid a queen to win. } 30... bxa3 31. Kxa3 { Level again, and the queen was spent for nothing. }) 1-0
+
+
+[Event "Basic tactics: removing the defender practice one"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/oLCBkefa/s5WIEu38"]
+[FEN "2kr3r/2p3pp/p4p2/1p1np2b/8/2P1BN1P/PP1N1PP1/R3R1K1 w - - 0 19"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/2kr3r/2p3pp/p4p2/1p1np2b/8/2P1BN1P/PP1N1PP1/R3R1K1_w_-_-_0_19"]
+
+{ Your rook and his knight face each other down one column. Something is guarding it. }
+19. Nh2 { A knight steps back. Now ask what is defending the other one on d2. } 19... Nxe3 { Take the guard. His bishop was the only thing holding d2. [%cal Ge3d2] } (19... Rd7 { You defend your own rook, but his pieces are the better ones. } 20. Nhf1 Rhd8 21. Nb3 { You are worse and the moment has gone. }) (19... b4 { A pawn push that does not touch the knight at all. } 20. Nhf1 { He untangles and you are simply worse. }) 20. Rxe3 { He takes back, and now d2 has nobody looking after it. } 20... Rxd2 { A free knight. The guard had to go first. } (20... Rd5 { You centralise the rook and leave the knight alone. } 21. Ne4 Bg6 22. Nf1 { The knight was there for the taking and you let it go. }) 0-1

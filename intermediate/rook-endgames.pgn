@@ -1,0 +1,178 @@
+[Event "Rook endgames: behind the passed pawn"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/GhFJctMz/vZQa2yT6"]
+[FEN "8/8/1k1P4/1r6/R5K1/8/8/8 w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/8/1k1P4/1r6/R5K1/8/8/8_w_-_-_0_1"]
+
+{ Time to learn rook endings. First rule: your rook belongs behind the passed pawn. [%cal Ya4d4] }
+1. Rd4 { Behind the pawn, where it belongs. Now nothing stops it. [%csl Gd4][%cal Gd6d8] } (1. d7 { The pawn runs off alone. Watch him park in front of it. } 1... Rd5 2. d8=Q+ Rxd8 { Your new queen lasted one move. Drawn. }) (1. Ra6+ { A free check, and a free rook for him. } 1... Kxa6 { The rook is gone and the pawn falls next. Lost. }) (1. Rb4 { You offer a trade and he is delighted. } 1... Rxb4+ { Now the pawn is all alone. You are lost. }) (1. Ra5 { Sideways, and your rook lands right beside his. } 1... Rxa5 { The rook is gone. You are lost. }) (1. Ra8 { Far from the pawn, and far from safe. } 1... Rb4+ 2. Kf3 Rb3+ { The checks never stop. Drawn. }) 1... Kc5 { He comes for your rook. Push the pawn anyway. [%cal Yd6d7] } 2. d7 { The rook shields the pawn from behind. [%csl Gd7] } (2. Rd1 { Also winning. Still behind the pawn, just further back. } 2... Kc6 { The pawn goes home all the same. }) (2. Rd2 { The same idea, one square along. Also winning. } 2... Kc6 { Behind the pawn is behind the pawn. Still winning. }) (2. Rd3 { Also fine. Any square behind the pawn does the job. } 2... Kc6 { The pawn walks home from here. }) (2. Rd5+ { A check, but you have given the rook away. } 2... Kxd5 3. d7 Rb8 { His rook stops the pawn. You are lost. }) (2. Rc4+ { Another check that hangs your rook. } 2... Kxc4 3. Kf3 Rd5 { The pawn falls next. You are lost. }) (2. Ra4 { The rook leaves the pawn to fend for itself. } 2... Kxd6 { And the pawn is simply eaten. Drawn. }) 2... Kxd4 { He took the rook. Now count it out. [%cal Yd7d8] } 3. d8=Q+ { A new queen with check, and his rook falls next. A rook would only draw. [%csl Gd8] } (3. Kf3 { The pawn cannot wait. } 3... Rb8 { His rook gets in front and the pawn is dead. You are lost. }) 1-0
+
+
+[Event "Rook endgames: get behind his runner"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/GhFJctMz/5haHjaqz"]
+[FEN "4k3/8/3K4/8/4P3/8/7r/R7 w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/4k3/8/3K4/8/4P3/8/7r/R7_w_-_-_0_1"]
+
+{ His pawn is ready to run and his king is guarding it. Your rook must stop it alone. }
+1. e5 { The pawn sets off. Which square kills it dead? } 1... Re2 { Right behind it, and it cannot take another step. [%csl Ge2][%cal Ge2e5] } (1... Rd2+ { A check that only helps his king forward. } 2. Ke6 Kd8 3. Ra8+ { You are driven back and the pawn walks in. Lost. }) (1... Rh6+ { The same trouble: the check sends him where he wants to go. } 2. e6 Kf8 3. Ra8+ { You are lost. }) (1... Kf7 { You step aside and the pawn is free. } 2. e6+ Kf6 3. Rf1+ { Lost. }) (1... Ra2 { You offer a trade you cannot afford. } 2. Rxa2 { A bare king against a pawn. Lost. }) (1... Rh1 { Wandering off, and the rook is not even safe there. } 2. Rxh1 { Lost. }) 2. e6 { He pushes past your rook. Now what? } 2... Rd2+ { You cut his king off on the d column. The pawn is stuck for ever. [%csl Gd2] } (2... Rxe6+ { A free pawn! But look at what is left. } 3. Kxe6 { A bare king against a rook. You are lost. }) (2... Re1 { Behind the pawn again, but he was quicker. } 3. Ra8# { Mate. }) (2... Kf8 { The king wanders off the pawn's file. } 3. Ra8+ { And the pawn queens behind you. Lost. }) 0-1
+
+
+[Event "Rook endgames: your rook is attacked"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/GhFJctMz/Gi4bWJcb"]
+[FEN "8/4k3/8/8/1r6/K3p3/6R1/8 b - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/4k3/8/8/1r6/K3p3/6R1/8_b_-_-_0_1"]
+
+{ His king is attacking your rook, and your own pawn needs a friend. One square does both. }
+1... Re4 { Behind your own pawn, and safe. Now the pawn can never be blocked. [%csl Ge4][%cal Ge3e1] } (1... e2 { The pawn is in a hurry and runs straight into a rook. } 2. Rxe2+ Kd7 3. Kxb4 { Your pawn went, and now your rook too. Lost. }) (1... Ra4+ { A check with a hanging rook. } 2. Kxa4 { The rook is gone and the game with it. Lost. }) (1... Rb3+ { The same idea, the same problem. } 2. Kxb3 { Lost. }) (1... Rb2 { Guarding the pawn from the side, right next to his king. } 2. Kxb2 { Lost. }) (1... Kd6 { The king comes, but the rook was hanging. } 2. Kxb4 { Lost. }) 2. Re2 { He blocks in front of the pawn. It cannot move, so who can? } 2... Kd6 { The king marches over to help. Nothing else can. [%csl Gd6] } (2... Ke6 { Also good. Any step towards the pawn does the job. } 3. Kb2 Ke5 { Still winning. The king arrives just the same. }) (2... Kf6 { Also fine, and only one square slower. } 3. Kb2 Ke5 { You are still winning. }) 3. Kb2 { His king runs back to help. Keep coming. } 3... Ke5 { Straight at the pawn. Your king gets there first. [%csl Ge5] } (3... Kd5 { Also towards the pawn, but one row too low. } 4. Kc3 { His king slips in front and the win is gone. }) (3... Rd4 { The rook wanders off and leaves your pawn alone. } 4. Rxe3 { It is simply eaten. Drawn. }) 0-1
+
+
+[Event "Rook endgames: build the wall"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/GhFJctMz/fdGo4RY7"]
+[FEN "8/k7/8/3P4/r7/3K4/6R1/8 w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/k7/8/3P4/r7/3K4/6R1/8_w_-_-_0_1"]
+
+{ A new word: cutting off. Build a wall with your rook and his king can never cross it. [%cal Yg2b2] }
+1. Rb2 { The wall is up on the b column. His king is locked on the wrong side. [%csl Gb2][%cal Gb2b8] } (1. d6 { The pawn is in a hurry, and now the checks begin. } 1... Ra3+ 2. Ke2 Ra2+ { They never stop. Drawn. }) (1. Rg7+ { A check that chases him nowhere useful. } 1... Ka6 2. d6 Ra1 { He gets behind the pawn and holds. Drawn. }) (1. Ra2 { A trade offer he is happy to take. } 1... Rxa2 { His rook is left and yours is not. You are lost. }) (1. Rg4 { The rook steps into the open. } 1... Rxg4 { You are lost. }) (1. Kc3 { You walk the king up, but the checks come first. } 1... Ra3+ 2. Kb2 Rd3 { He gets in front of the pawn. Drawn. }) 1... Rf4 { He shuffles about behind the wall. Now walk your king up. [%cal Yd3e3] } 2. Ke3 { The king climbs, the wall holds, and the pawn follows. [%csl Ge3] } (2. Kc3 { Also winning. The king can climb on either side. } 2... Rf3+ 3. Kc4 Rf4+ { You are still winning. }) (2. Rb1 { Also fine. The wall is a column, not a square. } 2... Rf3+ { The checks come, but the wall still holds. }) (2. Rb5 { Also winning. The wall can slide up the column. } 2... Ka6 { You are still winning. }) (2. d6 { Too soon. The pawn needs the king, not a head start. } 2... Rf6 3. d7 Rd6+ { He wins the pawn. Drawn. }) (2. Rb7+ { A check that gives the rook away. } 2... Kxb7 { You are lost. }) (2. Ra2+ { You give up the wall for one check. } 2... Kb6 3. d6 Rf1 { He is back in the game. Drawn. }) 1-0
+
+
+[Event "Rook endgames: a wall on the fifth rank"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/GhFJctMz/2jeUUw1L"]
+[FEN "4r3/1R6/8/4P3/8/8/k5K1/8 w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/4r3/1R6/8/4P3/8/8/k5K1/8_w_-_-_0_1"]
+
+{ His king is miles away in the corner. Build a wall and keep him there. }
+1. Rb5 { A wall along the fifth row. His king can never get above it. [%csl Gb5][%cal Ga5h5] } (1. e6 { The pawn runs and his rook is waiting. } 1... Rxe6 { The pawn is gone. Drawn. }) (1. Ra7+ { A check, and then the pawn falls anyway. } 1... Kb3 2. e6 Rxe6 { Drawn. }) (1. Kf3 { You bring the king, but the pawn was hanging. } 1... Rxe5 { Drawn. }) (1. Rb2+ { The rook steps next to his king. } 1... Kxb2 { You are lost. }) (1. Rb4 { One row short, and the wall leaks. } 1... Rxe5 { The pawn is gone. Drawn. }) 1... Ka3 { He walks along the bottom, going nowhere. } 2. Kf3 { Your king sets off, and the wall does the guarding. [%csl Gf3] } (2. Kg3 { Also winning. Any road towards the pawn is fine. } 2... Ka4 3. Rd5 { Still winning. }) (2. Rd5 { Also good, and you can do this later. } 2... Ka4 3. Kf3 { Still winning. }) (2. Kf2 { Also winning. Any road towards the pawn will do. } 2... Ka4 { Still winning. }) (2. e6 { The pawn cannot go alone. } 2... Rxe6 { Drawn. }) (2. Ra5+ { A check that throws away the wall. } 2... Kb4 3. Ra1 Rxe5 { Drawn. }) (2. Rb3+ { The rook is one step from his king. } 2... Kxb3 { You are lost. }) 2... Ka4 { He attacks your rook. Save it, but keep the wall. } 3. Rd5 { The rook is safe, the wall holds, and now it guards the pawn. [%csl Gd5] } (3. Rc5 { Also good. The wall just has to stay on the fifth row. } 3... Ka3 { You are still winning. }) (3. e6 { You push, and forget your rook was attacked. } 3... Kxb5 { The rook is gone. You are lost. }) (3. Rb4+ { You hand over the rook for a check. } 3... Kxb4 { Lost. }) 1-0
+
+
+[Event "Rook endgames: the defender builds one too"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/GhFJctMz/QrceVMS9"]
+[FEN "4R3/8/8/rp6/4P3/2K5/8/1k6 b - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/4R3/8/8/rp6/4P3/2K5/8/1k6_b_-_-_0_1"]
+
+{ His pawn wants to run and his king wants to eat yours. One rook move stops both. }
+1... Ra4 { A wall on the fourth row. It blocks the pawn and the king at once. [%csl Ga4][%cal Ga4h4] } (1... b4+ { Pushing with check feels great, and it loses. } 2. Kxb4 Ra7 3. Kc5 { Your pawn is gone and his runs. Lost. }) (1... Ra3+ { A check first, and the wall never gets built. } 2. Kb4 Ra7 3. e5 { His pawn is away. Lost. }) (1... Ra2 { Too low. The pawn simply walks past. } 2. e5 Ra4 3. Rb8 { Lost. }) (1... Ra8 { You offer the trade, and the pawn ending is lost. } 2. Rxa8 b4+ 3. Kb3 { Lost. }) (1... Kc1 { The king steps out and forgets the pawn. } 2. e5 Ra4 3. Rb8 { Lost. }) 2. e5 { The pawn walks up to your wall. Now hold it. } 2... Re4 { You slide along the wall and stand right in front of him. [%csl Ge4] } (2... b4+ { The check again, and again it costs everything. } 3. Kb3 Ra2 4. e6 { His pawn queens first. Lost. }) (2... Rc4+ { A check, but you gave up the wall. } 3. Kd3 Rc1 4. Rb8 { Lost. }) (2... Rb4 { Guarding your own pawn instead. } 3. Kxb4 { The rook is gone. Lost. }) (2... Ra3+ { Off the fourth row, and his pawn is free. } 3. Kb4 Re3 4. Ka5 { Lost. }) 3. e6 { He pushes past you. Now your own pawn saves you. } 3... b4+ { Now the check works: it drives his king away from everything. [%csl Gb4] } (3... Rxe6 { The free pawn, and his rook takes yours. } 4. Rxe6 { Your rook is gone and the pawn queens. Lost. }) (3... Re5 { You block in front of the pawn instead of checking. } 4. Kd4 { His king attacks your rook and the pawn goes through. Lost. }) (3... Rc4+ { The wrong check. His king simply steps up. } 4. Kd3 { Lost. }) 0-1
+
+
+[Event "Rook endgames: a busy rook beats a sleepy one"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/GhFJctMz/GCG0qpGy"]
+[FEN "8/8/2P5/2R5/kr6/8/6K1/8 b - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/8/2P5/2R5/kr6/8/6K1/8_b_-_-_0_1"]
+
+{ A new idea: a busy rook. Yours is huddled beside your king, doing nothing at all. [%cal Yb4b8] }
+1... Rb8 { It leaves the king and takes the only job that matters. [%csl Gb8] } (1... Rb2+ { A check, and then another, and none of them help. } 2. Kf3 Rb3+ 3. Ke4 { The pawn just walks. Lost. }) (1... Rb6 { Attacking the pawn from the side does not stop it. } 2. Rc4+ Kb5 3. c7 { It queens. Lost. }) (1... Rb7 { One row too high, and the pawn eats you. } 2. cxb7 { Lost. }) (1... Rc4 { You offer the trade, and the pawn wins the race. } 2. Rxc4+ { Lost. }) (1... Kb3 { The king wanders and the rook stays asleep. } 2. Kf3 Rb8 3. Ke4 { Too slow. Lost. }) 2. c7 { The pawn runs for the last row. Get in front of it. [%cal Yb8c8] } 2... Rc8 { The only square in the world that stops it. Frozen for ever. [%csl Gc8] } (2... Rg8+ { A check first, and it costs you the tempo. } 3. Kf3 Rc8 4. Ke4 { His king arrives in time. Lost. }) (2... Ra8 { The right row, the wrong column. } 3. Rc4+ Ka5 4. Rc5+ { Lost. }) (2... Rb7 { Behind the pawn is too late once it is on the seventh. } 3. Rc4+ { Lost. }) (2... Kb4 { The king comes, and you leave the rook where the pawn can eat it. } 3. cxb8=Q+ { A new queen, and your rook with it. Lost. }) 0-1
+
+
+[Event "Rook endgames: check him from far away"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/GhFJctMz/4sAAyheO"]
+[FEN "4k3/1R6/4PK2/8/8/8/8/r7 b - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/4k3/1R6/4PK2/8/8/8/8/r7_b_-_-_0_1"]
+
+{ He is one move from mating you on the back row, and blocking will not help. Find it. }
+1... Rf1+ { Down the f column, five squares from his king, where he can never chase you. [%csl Gf1] } (1... Ra7 { You guard the back row, and forget the other one. } 2. Rb8# { Mate. }) (1... Ra6 { The same idea, the same mate. } 2. Rb8# { Mate. }) (1... Ra8 { Blocking on the back row, and he simply steps aside. } 2. Rg7 Kd8 3. Rg8+ { You are lost. }) (1... Kd8 { The king runs, and the rook comes with him. } 2. Rb8+ Kc7 3. Rf8 { Lost. }) (1... Rd1 { A check would have saved you. This blocks nothing. } 2. Rb8+ Rd8 3. Rxd8+ { Lost. }) 0-1
+
+
+[Event "Rook endgames: give the pawn, free the rook"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/GhFJctMz/eDO2sKMh"]
+[FEN "3R4/8/7P/8/3p4/7k/r7/1K6 b - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/3R4/8/7P/8/3p4/7k/r7/1K6_b_-_-_0_1"]
+
+{ His h pawn is nearly home. Your rook is busy guarding your own pawn. Something must give. }
+1... Ra7 { Up to the seventh! Your pawn falls, but that h pawn can never pass you. [%csl Ga7][%cal Ga7h7] } (1... d3 { You push your own pawn and lose the rook. } 2. Kxa2 Kg4 3. Rxd3 { Both pawns gone, and lost. }) (1... Ra1+ { A check right next to his king. } 2. Kxa1 { Lost. }) (1... Ra8 { You offer a trade, and the h pawn queens. } 2. Rxa8 { Lost. }) (1... Ra6 { One row short, and he pushes past you. } 2. h7 Rb6+ 3. Kc2 { The pawn queens. Lost. }) (1... Rd2 { Guarding your pawn is exactly what you cannot afford. } 2. Kc1 Rf2 3. h7 { Lost. }) 0-1
+
+
+[Event "Rook endgames: the Philidor defence"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/GhFJctMz/iwpoPqvD"]
+[FEN "2k5/6R1/7r/1KP5/8/8/8/8 w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/2k5/6R1/7r/1KP5/8/8/8/8_w_-_-_0_1"]
+
+{ Now meet Philidor. Your king sits in front of the pawn and your rook waits on this row. }
+1. c6 { He has pushed past your rook. That is your signal: drop right down. [%cal Yh6h1] } 1... Rh1 { Now you check him from the bottom for ever, and he can never hide. [%csl Gh1][%cal Gh1h5] } (1... Rh2 { Also a draw. Any square down there gives the same endless checks. } 2. Rg8+ Kc7 { Still holding. }) (1... Rh3 { The same, and just as good. } 2. Rg8+ Kc7 { Drawn. }) (1... Rh4 { Also fine. Getting down is what matters, not how far. } 2. Rg8+ Kc7 { Drawn. }) (1... Rxc6 { A free pawn, and a lost ending. } 2. Kxc6 Kd8 3. Ra7 { King and rook against a bare king. Lost. }) (1... Rh5+ { A check from too close. His king simply walks at you. } 2. Kb6 Rd5 3. Rg8+ { Lost. }) (1... Kd8 { Your king leaves the pawn's square. } 2. Kb6 Ke8 3. Kb7 { The pawn queens. Lost. }) (1... Rh8 { The bottom row is right, but not that one. } 2. Kb6 Kb8 3. Rb7+ { Lost. }) (1... Rh7 { You offer the trade and he takes it. } 2. Rxh7 { Lost. }) 0-1
+
+
+[Event "Rook endgames: your king belongs in front"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/GhFJctMz/m3sJI5LK"]
+[FEN "4k3/8/6P1/6K1/8/8/3R4/r7 b - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/4k3/8/6P1/6K1/8/8/3R4/r7_b_-_-_0_1"]
+
+{ His pawn is one step from the last row. Where does your king have to be? }
+1... Kf8 { In front of the pawn. That single square is the whole defence. [%csl Gf8] } (1... Rg1+ { A check instead, and his king walks round it. } 2. Kf6 Rf1+ 3. Kg7 { The pawn queens. Lost. }) (1... Ke7 { One square out, and it is already too late. } 2. Kh6 Rh1+ 3. Kg7 { Lost. }) (1... Rf1 { Guarding the queening square from the side is not enough. } 2. Kh6 Rh1+ 3. Kg7 { Lost. }) (1... Ra5+ { A check that pushes him exactly where he wanted to go. } 2. Kh6 Ra6 3. Kh7 { Lost. }) (1... Ra7 { The seventh row does not help against a pawn on the sixth. } 2. Kh6 Kf8 3. Rd8+ { Lost. }) 2. g7+ { He pushes with check. Now help yourself. } 2... Kxg7 { The pawn is gone, and a lone rook can never mate you. [%csl Gg7] } (2... Kf7 { Also a draw. The pawn cannot run anywhere. } 3. Rd7+ Kg8 { You will eat the pawn next move. Drawn. }) (2... Kg8 { Also fine, and the pawn falls just the same. } 3. Rd8+ Kxg7 { Drawn. }) (2... Ke7 { You step away from the pawn. } 3. Kg6 { His king walks it home. Lost. }) (2... Ke8 { The same mistake. } 3. g8=Q+ { Lost. }) 0-1
+
+
+[Event "Rook endgames: drop back far enough"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/GhFJctMz/xQSoo5al"]
+[FEN "8/8/8/8/4k3/R2p4/7r/3K4 w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/8/8/8/4k3/R2p4/7r/3K4_w_-_-_0_1"]
+
+{ You are the one defending now. His pawn is close, and your rook is far too near it. }
+1. Ra5 { Far enough back to keep checking. Distance is what a rook lives on. [%csl Ga5] } (1. Ra6 { Also a draw. Further back is just as good. } 1... d2 2. Ra3 { You still hold. }) (1. Ra7 { The same idea again. Any of these squares holds. } 1... d2 2. Ra3 { Drawn. }) (1. Ra8 { All the way back, and also fine. } 1... d2 2. Ra3 { Drawn. }) (1. Rxd3 { The free pawn, and it costs you the rook. } 1... Kxd3 2. Ke1 Ra2 { You are lost. }) (1. Ra4+ { A check from right beside him. He just steps up. } 1... Ke3 2. Rg4 Rh1+ { Lost. }) (1. Ra1 { Too close to the bottom. Now his rook comes with check. } 1... Rh1+ 2. Kd2 Rxa1 { Lost. }) (1. Rb3 { Sideways, and it does nothing at all. } 1... Ke3 2. Kc1 Rh1+ { Lost. }) (1. Kc1 { The king runs and leaves the rook stranded. } 1... Ke3 2. Rb3 Rh1+ { Lost. }) 1-0
+
+
+[Event "Rook endgames: the Lucena bridge"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/GhFJctMz/DvfV31FU"]
+[FEN "8/5P1k/8/r2K4/4R3/8/8/8 w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/5P1k/8/r2K4/4R3/8/8/8_w_-_-_0_1"]
+
+{ The famous Lucena. He is checking you, so walk your king straight at the checks. [%cal Yd5e6] }
+1. Ke6 { Towards the checking rook, never away from it. [%csl Ge6] } (1. Kd6 { Away from the checks, and the pawn is left on its own. } 1... Kg7 2. f8=Q+ Kxf8 { The queen lived one move. Drawn. }) (1. Kc6 { The same problem, one square further off. } 1... Rf5 2. f8=Q Rxf8 { Drawn. }) (1. Kd4 { Backwards. The pawn cannot wait for you down there. } 1... Rf5 2. f8=Q Rxf8 { Drawn. }) (1. Kc4 { Too far from everything. } 1... Rf5 2. f8=Q Rxf8 { Drawn. }) 1... Ra6+ { He checks again. Keep walking at him. [%cal Ye6e7] } 2. Ke7 { Two steps up the ladder, and now your pawn is guarded. [%csl Ge7] } (2. Kf5 { Towards his rook, but away from your pawn. } 2... Kg7 3. f8=Q+ Kxf8 { Drawn. }) (2. Kd7 { Sideways, and the pawn is on its own again. } 2... Kg7 3. f8=Q+ Kxf8 { Drawn. }) (2. Kd5 { Back down the ladder, and all the work is undone. } 2... Rf6 3. f8=Q Rxf8 { Drawn. }) (2. Ke5 { Backwards again. } 2... Kg7 3. f8=Q+ Kxf8 { Drawn. }) 2... Ra7+ { Another check. Now step across beside the pawn. [%cal Ye7f6] } 3. Kf6 { Beside the pawn, guarding it, and ready to build. [%csl Gf6] } (3. Kf8 { Also winning, but the checks keep coming. } 3... Ra8+ { Still winning, just slower. }) (3. Ke6 { Also winning, though you have gone back a step. } 3... Ra6+ { Still winning, but here he comes again. }) (3. Ke8 { Also winning, but your king is drifting away. } 3... Ra8+ { Still winning, and still drifting. }) (3. Kd6 { Too far from the pawn now. } 3... Kg7 4. f8=Q+ Kxf8 { Drawn. }) (3. Kd8 { The same, and further still. } 3... Kg7 4. f8=Q+ Kxf8 { Drawn. }) 3... Ra6+ { The last check. Block it with the rook. [%cal Ye4e6] } 4. Re6 { The bridge! Your rook blocks the check and the pawn goes home. [%csl Ge6][%cal Gf7f8] } (4. Ke7 { Also winning: you step out instead of blocking. } 4... Ra7+ { Still winning, but the bridge was cleaner. }) (4. Kg5 { Running from the check leaves the pawn alone. } 4... Kg7 5. f8=Q+ Kxf8 { Drawn. }) (4. Ke5 { Backwards, and the whole climb is wasted. } 4... Kg7 5. f8=Q+ Kxf8 { Drawn. }) (4. Kf5 { The same. } 4... Kg7 5. f8=Q+ Kxf8 { Drawn. }) 1-0
+
+
+[Event "Rook endgames: check him out of the way"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/GhFJctMz/QezmK1sa"]
+[FEN "8/2R5/1KPk4/8/8/8/7r/8 w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/2R5/1KPk4/8/8/8/7r/8_w_-_-_0_1"]
+
+{ Your pawn wants to run, but his king is standing on its road. Move him off it. }
+1. Rd7+ { A check that shoves his king right off the pawn's column. [%csl Gd7][%cal Gc6c8] } (1. Kb7 { You walk the king out, and the checks start at once. } 1... Rb2+ 2. Kc8 Ra2 { He holds you. Drawn. }) (1. Rc8 { The rook goes in front of its own pawn and falls asleep. } 1... Rb2+ 2. Ka5 Rb1 { Drawn. }) (1. Re7 { The rook steps right next to his king. } 1... Kxe7 { It is simply eaten. You are lost. }) (1. Ra7 { The same trouble on the other side. } 1... Rb2+ 2. Ka5 Kc5 { Lost. }) (1. Kb5 { You walk away and leave the rook hanging. } 1... Kxc7 { The rook goes for free. You are lost. }) 1-0
+
+
+[Event "Rook endgames: block the last check"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/GhFJctMz/v1XtduA4"]
+[FEN "8/1k2P3/8/2K4r/3R4/8/8/8 w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/1k2P3/8/2K4r/3R4/8/8/8_w_-_-_0_1"]
+
+{ His rook is checking you and your pawn needs one more move. Four legal moves. Pick. }
+1. Rd5 { The rook steps in the way and offers a trade he cannot refuse. [%csl Gd5] } (1. Kd6 { Also winning: the king walks out of the check towards the pawn. } 1... Rh6+ { The checks go on, but you are still winning. }) (1. Kb4 { You run from the check and abandon the pawn. } 1... Re5 2. e8=Q Rxe8 { The queen lived one move. Drawn. }) (1. Kc4 { The same mistake, one square across. } 1... Re5 2. e8=Q Rxe8 { Drawn. }) 1... Rxd5+ { He takes with check. Take back. } 2. Kxd5 { And nothing on the board can stop the pawn now. [%csl Gd5][%cal Ge7e8] } 1-0

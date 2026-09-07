@@ -1,0 +1,358 @@
+[Event "Lasker plans: Free the queen bishop"]
+[Site "https://lichess.org/analysis/rnbqkbnr/pppp1ppp/8/8/3pP3/2P5/PP3PPP/RNBQKBNR_b_KQkq_-_0_3"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/eC6DaWpl"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppp1ppp/8/8/3pP3/2P5/PP3PPP/RNBQKBNR b KQkq - 0 3"]
+[ChapterId "S01"]
+[Domain "strategy"]
+[Role "teaching"]
+[Block "Central pawn breaks"]
+[Source "Edward Lasker, Chess Strategy (1915); Part I, Chapter IV, Danish gambit discussion"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ Lasker plans. Learn the central pawn break: push your pawn to d5. [%cal Yd7d5] } 3... d5 { Your queen bishop gets a diagonal. Development comes before pawn hunting. [%cal Gd7d5] } (3... Nc6 { Also playable. Your knight goes to c6. } 4. cxd4 { Playable, but our d5 break frees the queen bishop immediately. [%cal Bc3d4] }) (3... c5 { Also playable. Your c pawn supports the extra pawn on d4. } 4. Nf3 { He develops before taking d4. Our d5 break frees the bishop at once. [%cal Bg1f3] }) (3... dxc3 { Also sound. You accept the pawn and give White open lines. } 4. Nxc3 { This is a different bargain: extra material against quicker development. [%cal Bb1c3] }) (3... Qe7 { Also playable. Your queen goes to e7. } 4. cxd4 4... Qxe4+ 5. Ne2 { Playable, but our d5 break frees the queen bishop immediately. [%cal Bg1e2] }) (3... Ne7 { Also playable. Your knight goes to e7. } 4. Nf3 { He develops before taking d4. Our d5 break frees the bishop at once. [%cal Bg1f3] }) (3... Nf6 { A sound developing move, but the center can chase your knight. } 4. e5 4... Nd5 5. Qxd4 { White develops the queen while collecting d4. } 5... Nb6 { Your knight has spent several moves. Our central break frees more pieces. [%cal Bd5b6] }) 4. exd5 { He trades the pawn attacking e4, not the one on d4. Recapture with your queen. [%cal Yd8d5] } 4... Qxd5 { Your queen recaptures. The bishop has room to join the game. [%cal Gd8d5] } (4... dxc3 { Also playable. You exchange another pawn before developing. } 5. Nxc3 { The position stays playable, but our queen recapture opens the bishop directly. [%cal Bb1c3] }) (4... Bd6 { Also playable. Your bishop goes to d6. } 5. Nf3 { He develops before taking d4. Our line recaptures on d5 with the queen immediately. [%cal Bg1f3] }) (4... Be7 { Also playable. Your bishop goes to e7. } 5. Nf3 { He develops before taking d4. Our line recaptures on d5 with the queen immediately. [%cal Bg1f3] }) (4... Nf6 { Also sound. You develop before recovering the d pawn. } 5. Bb5+ { He develops with check before collecting d4. } 5... Nbd7 6. Qxd4 { The queen takes d4; the pawn can take too. Our line recovers the pawn immediately. [%cal Bd1d4] }) 0-1
+
+
+[Event "Lasker plans: Meet the Vienna in the center"]
+[Site "https://lichess.org/analysis/rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR_b_KQkq_f3_0_3"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/SkQoNJoi"]
+[SetUp "1"]
+[FEN "rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq f3 0 3"]
+[ChapterId "S02"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Central pawn breaks"]
+[Source "Edward Lasker, Chess Strategy (1915); Part I, Chapter IV, Vienna game"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ The Vienna pawn push attacks your center. Can you strike back and free your pieces? } 3... d5 { Your central break challenges his grip and opens your bishop. [%cal Gd7d5] } (3... Nc6 { The knight develops, but leaves his pawn center unchallenged. } 4. fxe5 4... Nxe5 5. d4 { White keeps more space. Our d pawn break attacks the center immediately. [%cal Rd2d4] }) (3... exf4 { You grab a pawn, but his center can gain time against your knight. } 4. e5 4... Ng8 5. Nf3 { The pawn grab gives White the easier development. Challenge the center first. [%cal Rg1f3] }) 4. fxe5 { White takes the e pawn instead. } 4... Nxe4 { Your knight gets a central post. The pawn grab did not stop your development. [%cal Gf6e4] } (4... dxe4 { The pawn recapture leaves your other knight under attack. } 5. exf6 5... Nc6 { He leaves f6 for now: a queen recapture would invite a knight attack. } 6. Nxe4 { White gains the better game. Recapturing with your knight keeps the pieces active. [%cal Rc3e4] }) 0-1
+
+
+[Event "Lasker plans: Attack the base of the French chain"]
+[Site "https://lichess.org/analysis/rnbqkbnr/ppp2ppp/4p3/3pP3/3P4/8/PPP2PPP/RNBQKBNR_b_KQkq_-_0_3"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/lLxesrCG"]
+[SetUp "1"]
+[FEN "rnbqkbnr/ppp2ppp/4p3/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3"]
+[ChapterId "S03"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Central pawn breaks"]
+[Source "Edward Lasker, Chess Strategy (1915); Part I, Chapter IV, French pawn chains"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ A pawn chain points at your king side. Can you attack the base instead of its tip? } 3... c5 { You attack d4, the support of the advanced e pawn. [%cal Gc7c5] } (3... a6 { Also playable. Your pawn goes to a6. } 4. c3 { A different setup. Our c pawn and knight work together against d4. [%cal Bc2c3] }) (3... Nc6 { This knight stands in the c pawn doorway. } 4. c3 { Playable, but less flexible. The c pawn wants to challenge d4 before the knight moves. [%cal Bc2c3] }) (3... Bd7 { Also playable. Your bishop goes to d7. } 4. Nf3 { A different setup. Our c pawn and knight work together against d4. [%cal Bg1f3] }) (3... Ne7 { Also playable. Your knight goes to e7. } 4. b4 { A different setup. Our c pawn and knight work together against d4. [%cal Bb2b4] }) (3... Nh6 { Also playable. Your knight goes to h6. } 4. c3 { A different setup. Our c pawn and knight work together against d4. [%cal Bc2c3] }) 4. c3 { White adds a pawn to defend the base. } 4... Nc6 { Your knight joins the pressure on d4. The chain needs constant care. [%cal Gb8c6] } (4... cxd4 { Also playable. Your pawn captures on d4. } 5. cxd4 { A different setup. Our c pawn and knight work together against d4. [%cal Bc3d4] }) (4... Bd7 { Also playable. Your bishop goes to d7. } 5. Nf3 { A different setup. Our c pawn and knight work together against d4. [%cal Bg1f3] }) (4... Qb6 { Also good. Your queen adds pressure on d4. } 5. Nf3 { A good alternative. We are learning to add the knight to that pressure first. [%cal Bg1f3] }) (4... Ne7 { Also playable. Your knight goes to e7. } 5. Nf3 { A different setup. Our c pawn and knight work together against d4. [%cal Bg1f3] }) (4... Nh6 { Also playable. Your knight goes to h6. } 5. Bb5+ 5... Bd7 6. Bxd7+ 6... Nxd7 { He develops the knight with the recapture, rather than moving his queen or king. } 7. Bxh6 7... gxh6 { A different setup. Our c pawn and knight work together against d4. [%cal Bg7h6] }) 0-1
+
+
+[Event "Lasker plans: Open the center against an uncastled king"]
+[Site "https://lichess.org/analysis/r1bqr1k1/ppppbppp/2n2n2/8/2B1P3/PQ5P/1PP2PP1/RNB1K1NR_b_KQ_-_0_8"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/gmvg116c"]
+[SetUp "1"]
+[FEN "r1bqr1k1/ppppbppp/2n2n2/8/2B1P3/PQ5P/1PP2PP1/RNB1K1NR b KQ - 0 8"]
+[ChapterId "S04"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Central pawn breaks"]
+[Source "Edward Lasker, Chess Strategy (1915); Part I, Chapter IV, Diagram 15"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ His queen went pawn hunting while his king stayed home. Can you open a route to that king? } 8... d5 { Your pawn break opens lines for the developed pieces. His king has no time to relax. [%cal Gd7d5] } (8... Na5 { You chase the queen instead of opening the center. } 9. Bxf7+ 9... Kf8 10. Qa2 { The bishop check steals a pawn and drives your king back. Break in the center first. [%cal Rb3a2] }) (8... Ne5 { Also strong. Your knight jumps in with threats. } 9. Nc3 9... Nxe4 10. Nxe4 10... Nxc4 11. Ne2 { He develops instead of taking c4: that capture would allow the d pawn fork. } 11... d5 { Your pawn guards c4 and attacks e4. This also gives you a strong central position. [%cal Gd5c4,Gd5e4] }) (8... d6 { This slow pawn move lets the bishop check and take your rook. } 9. Bxf7+ 9... Kh8 10. Bxe8 10... Qxe8 { White gets a rook and pawn for a bishop. The d5 break avoids that raid. [%cal Rd8e8] }) 0-1
+
+
+[Event "Lasker plans: Add a pawn to the pileup"]
+[Site "https://lichess.org/analysis/3r2k1/2qrbppp/pp1p4/2p5/2P1PB2/1P1R4/P2Q1PPP/3R2K1_w_-_-_0_1"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/z5yAL04N"]
+[SetUp "1"]
+[FEN "3r2k1/2qrbppp/pp1p4/2p5/2P1PB2/1P1R4/P2Q1PPP/3R2K1 w - - 0 1"]
+[ChapterId "S05"]
+[Domain "strategy"]
+[Role "teaching"]
+[Block "Fix and restrict"]
+[Source "Edward Lasker, Chess Strategy (1915); Part I, Chapter VI, Diagram 92"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ Now let us fix and restrict a weak pawn. Push to e5 so his backward pawn can never move. [%cal Ye4e5] } 1. e5 { The d6 pawn cannot escape to d5. Your pawn joins the attack without trading a rook for it. [%cal Ge4e5] } (1. Rxd6 { That spends a rook on a pawn before adding the extra attacker. } 1... Bxd6 2. Bxd6 2... Rxd6 3. Qd5 3... Rxd5 4. cxd5 { The exchanges leave you materially behind. Add the pawn attack before taking on d6. [%cal Rc4d5] }) 1-0
+
+
+[Event "Lasker plans: Fix the target before aiming at it"]
+[Site "https://lichess.org/analysis/r1bq1rk1/1p3ppp/p1nbpn2/3p4/1PP5/P1N1PN2/1B3PPP/R2QKB1R_w_KQ_-_0_10"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/UOjofg5a"]
+[SetUp "1"]
+[FEN "r1bq1rk1/1p3ppp/p1nbpn2/3p4/1PP5/P1N1PN2/1B3PPP/R2QKB1R w KQ - 0 10"]
+[ChapterId "S06"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Fix and restrict"]
+[Source "Edward Lasker, Chess Strategy (1915); Part II, Game 39, Diagram 155, note to move 10"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ You want to attack the d pawn. Can you fix the target before lining up your pieces? } 10. cxd5 { You exchange first, so his central pawn becomes a lasting target. [%cal Gc4d5] } (10. Rc1 { Also playable. Your rook goes to c1. } 10... dxc4 11. Bxc4 { You prepare first instead of fixing the d pawn with an exchange. [%cal Bf1c4] }) (10. Nxd5 { That pawn is defended. The knight capture loses material. } 10... exd5 11. cxd5 11... Nxd5 { He takes your knight. Fix the target with the c pawn instead. [%cal Rf6d5] }) (10. Qc2 { Also playable. Your queen goes to c2. } 10... dxc4 11. Bxc4 { You prepare first instead of fixing the d pawn with an exchange. [%cal Bf1c4] }) (10. Qd2 { Playable, but your queen aims at a pawn that can still move away. } 10... dxc4 { You develop before fixing the target. Our pawn exchange settles the structure first. [%cal Bd5c4] }) (10. Be2 { Also playable. Your bishop goes to e2. } 10... dxc4 11. Bxc4 { You prepare first instead of fixing the d pawn with an exchange. [%cal Be2c4] }) (10. h3 { Also playable. Your pawn goes to h3. } 10... dxc4 11. Bxc4 { You prepare first instead of fixing the d pawn with an exchange. [%cal Bf1c4] }) 10... exd5 { He recaptures and keeps material level. } 11. Be2 { Your bishop develops without stepping in front of the d column. [%cal Gf1e2] } (11. Rc1 { Also playable. Your rook goes to c1. } 11... Ne5 { You prepare differently. On e2 the bishop leaves the d column clear. [%cal Bc6e5] }) (11. Qd2 { Also playable. Your queen goes to d2. } 11... a5 { You prepare differently. On e2 the bishop leaves the d column clear. [%cal Ba6a5] }) (11. Bd3 { Also playable. The bishop develops onto the d column. } 11... Ne5 { Your bishop occupies a future rook road. On e2 it stays out of the way. [%cal Bc6e5] }) (11. h3 { Also playable. Your pawn goes to h3. } 11... Ne5 { You prepare differently. On e2 the bishop leaves the d column clear. [%cal Bc6e5] }) 1-0
+
+
+[Event "Lasker plans: Shut the bishop out"]
+[Site "https://lichess.org/analysis/r1b1r1k1/1pp1n1pp/p1pb1p2/8/4PP2/1NN5/PPP3PP/R1B2RK1_w_-_-_0_12"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/KgrMuNPO"]
+[SetUp "1"]
+[FEN "r1b1r1k1/1pp1n1pp/p1pb1p2/8/4PP2/1NN5/PPP3PP/R1B2RK1 w - - 0 12"]
+[ChapterId "S07"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Fix and restrict"]
+[Source "Edward Lasker, Chess Strategy (1915); Part II, Game 18, following Diagram 126"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ Your pieces have more room. Can a pawn move make his queen bishop even less comfortable? } 12. f5 { Your pawn takes e6 away from the bishop and frees f4 for your own bishop. [%cal Gf4f5] } (12. Be3 { You develop before restricting his bishop. } 12... Nd5 13. exd5 13... Rxe3 14. dxc6 14... bxc6 { He retains more freedom. The f5 pawn move denies his bishop e6. [%cal Rb7c6] }) 12... b6 { Black looks for another diagonal. } 13. Bf4 { Your bishop offers a useful trade. His cramped pieces still need room. [%cal Gc1f4] } (13. a3 { Also playable. Your pawn goes to a3. } 13... Bb7 { Our plan denies his bishop e6 and challenges the bishop on d6. [%cal Bc8b7] }) (13. Be3 { You retreat from the useful bishop trade. } 13... Nxf5 14. Bxb6 14... Ng3 { He leaves the bishop on b6 and attacks your rook with the knight. } 15. Bxc7 15... Bxc7 { He saves his attacked bishop by taking on c7 instead of taking your rook. } 16. hxg3 { This gives him the easier game. On f4 your bishop challenges his bishop on d6. [%cal Rh2g3] }) (13. Rf2 { Also playable. Your rook goes to f2. } 13... c5 { Our plan denies his bishop e6 and challenges the bishop on d6. [%cal Bc6c5] }) (13. g3 { Also playable. Your pawn goes to g3. } 13... Bb7 { Our plan denies his bishop e6 and challenges the bishop on d6. [%cal Bc8b7] }) (13. g4 { Also playable. Your pawn goes to g4. } 13... Bb7 { Our plan denies his bishop e6 and challenges the bishop on d6. [%cal Bc8b7] }) 1-0
+
+
+[Event "Lasker plans: Keep the doubled pawns stuck"]
+[Site "https://lichess.org/analysis/b5k1/4bppp/2p1p3/q1ppB1P1/5P2/1P1PPN2/2P1Q2P/6K1_w_-_-_1_20"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/AGOleUzC"]
+[SetUp "1"]
+[FEN "b5k1/4bppp/2p1p3/q1ppB1P1/5P2/1P1PPN2/2P1Q2P/6K1 w - - 1 20"]
+[ChapterId "S08"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Fix and restrict"]
+[Source "Edward Lasker, Chess Strategy (1915); Part II, Game 47, move 20"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ His bishop wants a diagonal. Can you keep the doubled c pawns from opening one? } 20. c4 { You stop the c5 pawn from advancing. The c6 pawn cannot follow it and free the bishop. [%cal Gc2c4] } (20. e4 { Also playable. Your pawn goes to e4. } 20... c4 21. dxc4 { You use the d pawn to make room on its file. The b pawn can recapture too. } 21... dxe4 22. Qxe4 { Playable too. Our c4 move stops his c pawn from freeing the bishop. [%cal Be2e4] }) (20. Bb2 { Also playable. Your bishop changes its diagonal. } 20... c4 21. dxc4 { You use the d pawn, not the b pawn. Our c4 move keeps the pawn chain fixed. [%cal Bd3c4] }) (20. Nd2 { Also playable. Your knight goes to d2. } 20... Bb7 { Playable too. Our c4 move stops his c pawn from freeing the bishop. [%cal Ba8b7] }) (20. Kf1 { Also playable. Your king goes to f1. } 20... Bb7 { Playable too. Our c4 move stops his c pawn from freeing the bishop. [%cal Ba8b7] }) (20. Kf2 { Also playable. Your king goes to f2. } 20... f6 { Playable too. Our c4 move stops his c pawn from freeing the bishop. [%cal Bf7f6] }) (20. Kg2 { Also playable. Your king goes to g2. } 20... c4 21. dxc4 { Playable too. Our c4 move stops his c pawn from freeing the bishop. [%cal Bd3c4] }) (20. h4 { Also playable. You gain ground on the king side. } 20... c4 21. dxc4 { You use the d pawn, not the b pawn. Our c4 move keeps the pawn chain fixed. [%cal Bd3c4] }) 1-0
+
+
+[Event "Lasker plans: Trade the fianchetto defender"]
+[Site "https://lichess.org/analysis/r2q1rk1/pbp1npbp/1pnpp1p1/4P3/3P4/2NBBN2/PPPQ1PPP/R4RK1_w_-_-_0_2"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/PDPcyN0p"]
+[SetUp "1"]
+[FEN "r2q1rk1/pbp1npbp/1pnpp1p1/4P3/3P4/2NBBN2/PPPQ1PPP/R4RK1 w - - 0 2"]
+[ChapterId "S09"]
+[Domain "strategy"]
+[Role "teaching"]
+[Block "Choose useful exchanges"]
+[Source "Edward Lasker, Chess Strategy (1915); Part I, Chapter VI, Diagram 95"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ Now let us choose a useful exchange. Trade off his fianchetto defender with Bh6. [%cal Ye3h6,Gh6g7] } 2. Bh6 { Your bishop offers to remove the guard of the dark squares. [%cal Ge3h6] } (2. Bf4 { Playable too, but this leaves the fianchetto bishop in place. } 2... dxe5 3. dxe5 { Our bishop on h6 offers the trade of his dark-square guard. [%cal Bd4e5] }) (2. exd6 { Also playable. Your pawn captures on d6. } 2... cxd6 { A different move order. Our line removes the bishop before restoring the center. [%cal Bc7d6] }) 2... dxe5 { Black takes a pawn. Take his bishop on g7 before restoring your center. [%cal Yh6g7] } 3. Bxg7 { The fianchetto bishop is gone. [%cal Gh6g7] } (3. dxe5 { Also playable. You restore the pawn center before trading bishops. } 3... Nb4 { A different move order. Our line completes the bishop trade first. [%cal Bc6b4] }) 3... Kxg7 { His king recaptures. Take the pawn on e5 with your d pawn. [%cal Yd4e5] } 4. dxe5 { You restore your center. His dark squares no longer have their bishop guard. [%cal Gd4e5] } (4. Nxe5 { The knight recapture leaves your pawn on d4 exposed. } 4... Nxd4 { He takes d4 with the knight, gaining a central post without exposing his queen. } 5. Rad1 5... c5 { Black takes d4. Recapturing with your d pawn keeps the center together. [%cal Rc7c5] }) 1-0
+
+
+[Event "Lasker plans: Give your cramped bishop a job"]
+[Site "https://lichess.org/analysis/rnbqk2r/pppnbppp/4p3/3pP1B1/3P4/2N5/PPP2PPP/R2QKBNR_w_KQkq_-_1_6"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/mZnq9IWp"]
+[SetUp "1"]
+[FEN "rnbqk2r/pppnbppp/4p3/3pP1B1/3P4/2N5/PPP2PPP/R2QKBNR w KQkq - 1 6"]
+[ChapterId "S10"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Choose useful exchanges"]
+[Source "Edward Lasker, Chess Strategy (1915); Part I, Chapter IV, Diagram 34 discussion"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ Your pawn chain cramps one bishop. Can you exchange it for a more useful enemy bishop? } 6. Bxe7 { You trade your cramped bishop for his active one. [%cal Gg5e7] } (6. Be3 { Also playable. Your bishop goes to e3. } 6... c5 { A sound alternative. Our line trades the cramped bishop, then supports e5 with f4. [%cal Bc7c5] }) (6. Bf4 { You keep the bishop behind your own pawn chain. } 6... c5 7. dxc5 7... Nc6 { He develops his other knight before taking c5. Your cramped bishop still needs a job. [%cal Rb8c6] }) (6. h4 { Also playable. Your pawn goes to h4. } 6... h6 { He attacks your bishop with a pawn instead of exchanging immediately on g5. } 7. Bxe7 7... Qxe7 { A sound alternative. Our line trades the cramped bishop, then supports e5 with f4. [%cal Bd8e7] }) 6... Qxe7 { The queen recaptures. } 7. f4 { Your f pawn reinforces e5 and leaves the knight free to choose its route. [%cal Gf2f4] } (7. Nb5 { Also sound. You clear c3 so the pawn can support d4. } 7... Nb6 { A different plan from the book: hold the base of the chain with the c pawn. [%cal Bd7b6] }) (7. Qd2 { Also sound. The queen prepares a knight retreat and c3. } 7... O-O { This prepares to support d4. Our line develops the king side and supports e5. [%cal Be8g8] }) (7. Bd3 { Also playable. Your bishop goes to d3. } 7... Qb4 { A sound alternative. Our line trades the cramped bishop, then supports e5 with f4. [%cal Be7b4] }) (7. Nf3 { Also playable. You develop the knight immediately. } 7... O-O { Your knight now blocks f4. Our line supports e5 with the pawn before developing it. [%cal Be8g8] }) (7. h4 { Also playable. Your pawn goes to h4. } 7... O-O { A sound alternative. Our line trades the cramped bishop, then supports e5 with f4. [%cal Be8g8] }) 1-0
+
+
+[Event "Lasker plans: Trade before attacking the backward pawn"]
+[Site "https://lichess.org/analysis/r1bqnrk1/pp2b1pp/2p1p3/4NpB1/3P4/2PB3Q/PP3PPP/R3K2R_w_KQ_f6_0_13"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/TaA8Dtm7"]
+[SetUp "1"]
+[FEN "r1bqnrk1/pp2b1pp/2p1p3/4NpB1/3P4/2PB3Q/PP3PPP/R3K2R w KQ f6 0 13"]
+[ChapterId "S11"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Choose useful exchanges"]
+[Source "Edward Lasker, Chess Strategy (1915); Part II, Game 26, moves 11-14"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ His f pawn has moved. Can you trade a defender before organizing pressure on e6? } 13. Bxe7 { You remove his bishop, then prepare to bring the rooks to the e column. [%cal Gg5e7] } (13. Be3 { Also playable. Your bishop goes to e3. } 13... Qd5 { A useful alternative. Our plan is to castle and put the rooks on the e column. [%cal Bd8d5] }) (13. Bf4 { Also playable. Your bishop goes to f4. } 13... Nf6 { A useful alternative. Our plan is to castle and put the rooks on the e column. [%cal Be8f6] }) 13... Qxe7 { His queen has to take over the bishop job. } 14. O-O { Your king is safe. The rooks can next gather on the e column. [%cal Ge1g1] } (14. Bc2 { Also playable. Your bishop goes to c2. } 14... Qg5 { A useful alternative. Our plan is to castle and put the rooks on the e column. [%cal Be7g5] }) (14. O-O-O { Also good. You put your king on the other wing. } 14... c5 { Both castling choices are sound here. Our king side choice frees the e rook quickly. [%cal Bc6c5] }) (14. f4 { Also playable. Your pawn reinforces e5. } 14... a5 { You support the center first. Our castling move connects the rooks sooner. [%cal Ba7a5] }) (14. g4 { Also playable. Your pawn goes to g4. } 14... c5 15. dxc5 15... Qxc5 { A useful alternative. Our plan is to castle and put the rooks on the e column. [%cal Be7c5] }) (14. Qe3 { Also playable. Your queen goes to e3. } 14... Nc7 { A useful alternative. Our plan is to castle and put the rooks on the e column. [%cal Be8c7] }) 1-0
+
+
+[Event "Lasker plans: Avoid helping the enemy pawn advance"]
+[Site "https://lichess.org/analysis/rnbqk2r/ppp1bppp/4p3/3p2B1/2PPn3/2N1P3/PP3PPP/R2QKBNR_w_KQkq_-_0_6"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/ip1xXRgJ"]
+[SetUp "1"]
+[FEN "rnbqk2r/ppp1bppp/4p3/3p2B1/2PPn3/2N1P3/PP3PPP/R2QKBNR w KQkq - 0 6"]
+[ChapterId "S12"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Choose useful exchanges"]
+[Source "Edward Lasker, Chess Strategy (1915); Part II, Game 37, Diagram 150 and note to move 6"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ You can exchange minor pieces. Which trade avoids helping a pawn chase your other knight? } 6. Bxe7 { You exchange bishops without drawing his d pawn onto e4. [%cal Gg5e7] } (6. Nxe4 { Also sound, despite the concern about the pawn landing on e4. } 6... dxe4 { He restores material with the d pawn rather than starting a bishop exchange. } 7. Bxe7 7... Qxe7 { The pawn controls f3, but your position remains playable. Our line trades bishops. [%cal Bd8e7] }) (6. Qa4+ { Also playable. Your queen goes to a4. } 6... Bd7 7. Bxe7 7... Qxe7 { Also sound. Our bishop trade keeps f3 clear for the king knight. [%cal Bd8e7] }) (6. Bf4 { Also playable. Your bishop goes to f4. } 6... c5 7. cxd5 7... Nxc3 { He trades knights before recovering the d5 pawn. } 8. bxc3 8... Qa5 { He pins c3 before recovering d5. Our bishop trade avoids this extra pressure. [%cal Bd8a5] }) (6. h4 { Also playable. Your pawn goes to h4. } 6... Bxg5 7. hxg5 7... Nxc3 { He exchanges knights before collecting the pawn on g5. } 8. bxc3 8... Qxg5 { Also sound. Our bishop trade keeps f3 clear for the king knight. [%cal Bd8g5] }) 6... Qxe7 { The queen recaptures. } 7. Qc2 { Your queen supports the center while your king knight still has f3 available. [%cal Gd1c2] } (7. Rc1 { Also playable. Your rook goes to c1. } 7... O-O { You organize your pieces differently. Our queen on c2 helps control the center. [%cal Be8g8] }) (7. Nxe4 { Also playable. You accept the pawn on e4. } 7... dxe4 { It controls f3, but this is not a tactical mistake. Our queen move keeps f3 free. [%cal Bd5e4] }) (7. cxd5 { Also good. You change the central pawn structure first. } 7... Nxc3 8. bxc3 8... exd5 { Another useful book plan. Our queen move keeps the pawn tension for now. [%cal Be6d5] }) (7. Qb3 { Also playable. Your queen goes to b3. } 7... dxc4 8. Bxc4 { You develop the bishop with the recapture instead of moving your queen again. } 8... Nxc3 9. Qxc3 { You take with the queen and keep your pawns together. Our queen route is c2. [%cal Bb3c3] }) (7. Bd3 { Also playable. Your bishop goes to d3. } 7... Nxc3 8. bxc3 8... dxc4 9. Bxc4 { You organize your pieces differently. Our queen on c2 helps control the center. [%cal Bd3c4] }) (7. Nge2 { Also playable. Your knight goes to e2. } 7... Nxc3 8. Nxc3 { You organize your pieces differently. Our queen on c2 helps control the center. [%cal Be2c3] }) (7. Nf3 { Also playable. Your knight goes to f3. } 7... Nxc3 8. bxc3 { You organize your pieces differently. Our queen on c2 helps control the center. [%cal Bb2c3] }) 1-0
+
+
+[Event "Lasker plans: A pawn for the open file"]
+[Site "https://lichess.org/analysis/r1b2rk1/p1p2ppp/2p5/8/8/5B2/P1P2PPP/R4RK1_b_-_-_0_1"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/aKDJBjuJ"]
+[SetUp "1"]
+[FEN "r1b2rk1/p1p2ppp/2p5/8/8/5B2/P1P2PPP/R4RK1 b - - 0 1"]
+[ChapterId "S13"]
+[Domain "strategy"]
+[Role "teaching"]
+[Block "Activate the rooks"]
+[Source "Edward Lasker, Chess Strategy (1915); Part I, Chapter VI, Lazard-Edward Lasker, Diagram 99"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ Now let us activate a rook. Move it to b8; the c pawn buys time for it to invade. [%cal Ya8b8] } 1... Rb8 { Your rook gets an open road instead of tying the bishop to a pawn. [%cal Ga8b8] } (1... a5 { Also playable. Your pawn goes to a5. } 2. Rfe1 { He claims the e column before taking c6. Our rook chooses the open b column. [%cal Bf1e1] }) (1... Bb7 { Also playable. Your bishop protects the c pawn. } 2. h3 { The bishop is developed, but the rook has not yet claimed the b column. [%cal Bh2h3] }) (1... Bd7 { Also playable. You develop the bishop and cover the pawn. } 2. Rfd1 { You defend first. Our rook move spends the pawn to gain time on the open b column. [%cal Bf1d1] }) (1... Be6 { Also playable. Your bishop goes to e6. } 2. Rfe1 { He claims the e column before taking c6. Our rook chooses the open b column. [%cal Bf1e1] }) (1... Bf5 { Also playable. Your bishop goes to f5. } 2. Bxc6 { Also playable. Our rook invasion uses the b column before developing the bishop. [%cal Bf3c6] }) (1... Rd8 { Also playable. Your rook goes to d8. } 2. Rfe1 { He claims the e column before taking c6. Our rook chooses the open b column. [%cal Bf1e1] }) 2. Bxc6 { White takes the pawn. Send your rook to b2 and make the open file count. [%cal Yb8b2] } 2... Rb2 { Your rook enters on b2 and attacks the pawns from the side. [%cal Gb8b2] } (2... Be6 { Also playable. You develop the bishop before invading. } 3. Be4 { Our rook move enters the second rank at once. This move order is playable too. [%cal Bc6e4] }) (2... Bf5 { Also playable. Your bishop goes to f5. } 3. Bd5 3... Bxc2 { Also playable. Our rook invasion uses the b column before developing the bishop. [%cal Bf5c2] }) (2... Rd8 { Also playable. Your rook goes to d8. } 3. Ba4 { Also playable. Our rook invasion uses the b column before developing the bishop. [%cal Bc6a4] }) (2... g6 { Also playable. Your pawn goes to g6. } 3. Bd5 { Also playable. Our rook invasion uses the b column before developing the bishop. [%cal Bc6d5] }) 0-1
+
+
+[Event "Lasker plans: Prepare to invade on the c column"]
+[Site "https://lichess.org/analysis/3r2k1/p5p1/r6p/qp6/4N3/1P1p1P2/PQnR2PP/1KR5_b_-_-_0_33"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/0yDnJdhO"]
+[SetUp "1"]
+[FEN "3r2k1/p5p1/r6p/qp6/4N3/1P1p1P2/PQnR2PP/1KR5 b - - 0 33"]
+[ChapterId "S14"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Activate the rooks"]
+[Source "Edward Lasker, Chess Strategy (1915); Part II, Game 38, Diagram 154"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ Your knight has broken in. Which rook move adds pressure along the open c column? } 33... Rc6 { Your rook claims the c column. Once the knight moves, c2 is an invasion square. [%cal Ga6c6] } (33... b4 { Also playable. Your pawn goes to b4. } 34. Rdxc2 34... dxc2+ 35. Qxc2 { This also keeps an advantage. The c column is our route into the second rank. [%cal Bb2c2] }) (33... Na3+ { Also playable. Your knight goes to a3. } 34. Ka1 { This also keeps an advantage. The c column is our route into the second rank. [%cal Bb1a1] }) (33... Rd4 { Also playable. Your rook goes to d4. } 34. Rdxc2 34... dxc2+ 35. Qxc2 { This also keeps an advantage. The c column is our route into the second rank. [%cal Bb2c2] }) (33... Kh8 { Also playable. Your king goes to h8. } 34. Rxd3 34... Rxd3 35. Qxc2 { This also keeps an advantage. The c column is our route into the second rank. [%cal Bb2c2] }) 0-1
+
+
+[Event "Lasker plans: Trade into control of the e column"]
+[Site "https://lichess.org/analysis/2r3k1/pp1qrpp1/7p/2p2Q1P/3pR3/3P4/PPP2PP1/4R1K1_w_-_-_0_1"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/bE2CkaWI"]
+[SetUp "1"]
+[FEN "2r3k1/pp1qrpp1/7p/2p2Q1P/3pR3/3P4/PPP2PP1/4R1K1 w - - 0 1"]
+[ChapterId "S15"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Activate the rooks"]
+[Source "Edward Lasker, Chess Strategy (1915); Part I, Chapter V, Charousek-Heinrichsen, Diagram 89"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ You own the only open file. Can you exchange pieces without giving up that road? } 1. Qxd7 { Your queen trade leaves the e column available. [%cal Gf5d7] } (1. Rxe7 { The rook capture leaves your queen hanging. } 1... Qxf5 2. R1e5 { You attack the queen before taking b7, but your material loss remains. } 2... Qg4 { You lose the queen for too little. Trade queens before trading rooks. [%cal Rf5g4] }) (1. Qf3 { Also playable. Your queen goes to f3. } 1... Rce8 { Also playable. Our checking exchange keeps the e column under control. [%cal Bc8e8] }) (1. g4 { Also playable. Your pawn goes to g4. } 1... Rxe4 2. Qxd7 { You take the queen on d7, not the rook on e4. The bigger prize comes first. } 2... Rxe1+ 3. Kg2 { You have a queen against two rooks. Our line keeps a simpler rook ending. [%cal Bg1g2] }) 1... Rxd7 { The rook recaptures. } 2. Re8+ { Your first rook offers another exchange with check. [%cal Ge4e8] } (2. a4 { Also playable. Your pawn goes to a4. } 2... b6 { Also playable. Our checking exchange keeps the e column under control. [%cal Bb7b6] }) (2. b3 { Also playable. Your pawn goes to b3. } 2... b6 { Also playable. Our checking exchange keeps the e column under control. [%cal Bb7b6] }) (2. Re7 { Also playable. Your rook enters the seventh rank without checking. } 2... Rcd8 { Your rook is active, but our checking exchange puts it on the eighth rank. [%cal Bc8d8] }) (2. g3 { Also playable. Your pawn goes to g3. } 2... f6 { Also playable. Our checking exchange keeps the e column under control. [%cal Bf7f6] }) (2. g4 { Also playable. Your pawn goes to g4. } 2... Kf8 { Also playable. Our checking exchange keeps the e column under control. [%cal Bg8f8] }) 2... Rxe8 { Black takes the checking rook. } 3. Rxe8+ { Your last rook keeps the open file. Fewer pieces, but the same useful road. [%cal Ge1e8] } (3. Kf1 { You leave the rook on e8 instead of taking it back. } 3... Rdd8 { Black has two rooks against your one. Recapture on e8 instead of moving your king. [%cal Rd7d8] }) 1-0
+
+
+[Event "Lasker plans: Clear the d column for the second rook"]
+[Site "https://lichess.org/analysis/3rkb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR3R_w_k_-_0_13"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/1eCdu36p"]
+[SetUp "1"]
+[FEN "3rkb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR3R w k - 0 13"]
+[ChapterId "S16"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Activate the rooks"]
+[Source "Edward Lasker, Chess Strategy (1915); Part I, Chapter IV, Morphy consultation game, Diagram 16"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ Can you trade the rook blocking the d column and bring its fresh partner into the attack? } 13. Rxd7 { Your rook removes a defender and clears d1 for its partner. [%cal Gd1d7] } (13. Qa4 { Also playable. Your queen goes to a4. } 13... Qe6 14. Bxf6 14... gxf6 { You still have an attack. Our rook trade clears d1 for its partner. [%cal Bg7f6] }) (13. Qh3 { Also playable. Your queen goes to h3. } 13... a6 { You still have an attack. Our rook trade clears d1 for its partner. [%cal Ba7a6] }) (13. Bxd7+ { You trade a bishop before bringing both rooks into the attack. } 13... Rxd7 14. Rxd7 14... Qxd7 { White stays better, but the attack is weaker. Keep the bishops and use the rooks. [%cal Re7d7] }) (13. Rd3 { Also playable. Your rook goes to d3. } 13... Qc5 14. Bxd7+ 14... Rxd7 15. Qb8+ { You check with the queen instead of exchanging the rooks on d7. } 15... Ke7 { His king steps out. You keep an attack, but our rook trade is the clearer plan. [%cal Be8e7] }) (13. Rd5 { Also playable. Your rook goes to d5. } 13... h6 14. Bxf6 14... Qxf6 { You still have an attack. Our rook trade clears d1 for its partner. [%cal Be7f6] }) 13... Rxd7 { He takes with the rook. That is a mistake: the knight recapture resists longer. } 14. Rd1 { Your fresh rook arrives on the open d column. The pinned knight still cannot help. [%cal Gh1d1] } (14. Qc3 { Also playable. Your queen goes to c3. } 14... Qd6 { You still have an attack. Our rook trade clears d1 for its partner. [%cal Be7d6] }) (14. Bxd7+ { This trades an attacking bishop instead of adding your rook. } 14... Qxd7 15. Qb8+ 15... Qd8 16. Qxe5+ { You take e5 with check instead of chasing the a7 pawn. } 16... Be7 { White remains better, but the attack loses force. The rook on h1 needs to join in. [%cal Rf8e7] }) (14. c3 { Also playable. Your pawn goes to c3. } 14... Kd8 15. Bxd7 { You still have an attack. Our rook trade clears d1 for its partner. [%cal Bb5d7] }) (14. Bxf6 { Less effective. Your bishop captures on f6. } 14... Qxf6 15. Rd1 { You keep the king attack rather than exchange your bishop for the rook on d7. } 15... Bd6 { You still have an attack. Our rook trade clears d1 for its partner. [%cal Rf8d6] }) 1-0
+
+
+[Event "Lasker plans: Use an advanced pawn as a hook"]
+[Site "https://lichess.org/analysis/r1bqr1k1/pppnppbp/3p1np1/8/3P1B1P/3BPN2/PPPN1PP1/R2QK2R_w_KQ_-_1_2"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/ZxjIh7tc"]
+[SetUp "1"]
+[FEN "r1bqr1k1/pppnppbp/3p1np1/8/3P1B1P/3BPN2/PPPN1PP1/R2QK2R w KQ - 1 2"]
+[ChapterId "S17"]
+[Domain "strategy"]
+[Role "teaching"]
+[Block "Open lines against the king"]
+[Source "Edward Lasker, Chess Strategy (1915); Part I, Chapter VI, Marshall-Burn, Diagram 94"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ Now let us open lines against his king. Push to h5 and use g6 as a hook. [%cal Yh4h5,Gh5g6,Gh1h7] } 2. h5 { Your pawn attacks the g6 hook. An exchange can open the h column for your rook. [%cal Gh4h5] } (2. c3 { Also playable. Your pawn goes to c3. } 2... h6 { Another plan. Our h5 push uses the g6 pawn to open a road for the rook on h1. [%cal Bh7h6] }) (2. O-O { Playable, but castling moves your rook away from the h column. } 2... e5 { A different plan. Our rook stays on h1 while the pawn opens its column. [%cal Be7e5] }) (2. e4 { Also playable. Your pawn goes to e4. } 2... c5 { Another plan. Our h5 push uses the g6 pawn to open a road for the rook on h1. [%cal Bc7c5] }) (2. Bg5 { Also playable. Your bishop goes to g5. } 2... c6 { Another plan. Our h5 push uses the g6 pawn to open a road for the rook on h1. [%cal Bc7c6] }) 1-0
+
+
+[Event "Lasker plans: Pull the pawn off the rook route"]
+[Site "https://lichess.org/analysis/r4rk1/3bqppp/2n5/p2pPp2/1ppP4/2P2NP1/PPBQ3P/4RRK1_w_-_-_0_18"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/1i84DzLm"]
+[SetUp "1"]
+[FEN "r4rk1/3bqppp/2n5/p2pPp2/1ppP4/2P2NP1/PPBQ3P/4RRK1 w - - 0 18"]
+[ChapterId "S18"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Open lines against the king"]
+[Source "Edward Lasker, Chess Strategy (1915); Part II, Game 22, Diagram 133"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ The f column is nearly open. Can you pull its last pawn away and make room for a rook? } 18. g4 { A second pawn lever pulls the f pawn off the rook route. [%cal Gg3g4] } (18. a3 { Also playable. Your pawn goes to a3. } 18... Ra6 { He lifts his rook instead of taking a3. Your pawn lever would clear the f column. [%cal Ba8a6] }) (18. Ng5 { You clear f3, but leave the black pawn on the f column. } 18... h6 19. Nh3 { Your knight retreats, but f5 still blocks the rook. Our pawn lever removes that blocker. [%cal Bg5h3] }) (18. Nh4 { Also playable. Your knight goes to h4. } 18... a4 19. Bxf5 { Your bishop takes, aiming at h7 while the knight supports f5. Both captures are sound. [%cal Bc2f5] }) (18. h3 { Also playable. Your pawn goes to h3. } 18... Rab8 { Our pawn lever clears the f column, and the knight then makes room for the rook. [%cal Ba8b8] }) 18... fxg4 { Black accepts the second sacrifice. } 19. Ng5 { Your knight clears f3. Your rook can now look toward f6. [%cal Gf3g5] } (19. Qf4 { The queen move leaves your knight on f3 under pawn attack. } 19... gxf3 20. Kh1 { You tuck the king away before collecting f3; a rook recapture is playable too. } 20... Rae8 21. Qxf3 { You recover a pawn for your knight. The queen recapture keeps your rooks together. [%cal Rf4f3] }) 1-0
+
+
+[Event "Lasker plans: Exploit the missing pawn guard"]
+[Site "https://lichess.org/analysis/r1b1k2r/bpp2ppp/p2p1n2/P3q3/2B1P3/2P4P/1P1N1PP1/R1BQ1RK1_b_kq_-_1_4"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/l7xMDRUz"]
+[SetUp "1"]
+[FEN "r1b1k2r/bpp2ppp/p2p1n2/P3q3/2B1P3/2P4P/1P1N1PP1/R1BQ1RK1 b kq - 1 4"]
+[ChapterId "S19"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Open lines against the king"]
+[Source "Edward Lasker, Chess Strategy (1915); Part I, Chapter VI, von Scheve-Teichmann, Diagram 93"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ His pawn move left a weak square beside the king. Can you remove the pawn shield? } 4... Bxh3 { Your bishop sacrifice pulls the g pawn away from its king. [%cal Gc8h3] } (4... O-O { Playable, but much less forcing. You secure your king instead of attacking. } 5. Nf3 { His knight joins the defense. Our sacrifice uses the opening beside his king at once. [%cal Bg1f3] }) 5. gxh3 { He takes, and that is a mistake. Taking on f7 with check resists longer. } 5... Qg3+ { Your queen enters with check. The bishop on a7 pins the f2 pawn. [%cal Ge5g3] } (5... Qxe4 { The pawn on e4 is not free: the knight can take your queen. } 6. Nxe4 6... Nxe4 7. Bxf7+ 7... Kxf7 8. Qd5+ 8... Kf6 9. Qxe4 { Your queen is lost for too little. The checking entry on g3 keeps the attack alive. [%cal Rd5e4] }) 0-1
+
+
+[Event "Lasker plans: Switch the attack to the king's new wing"]
+[Site "https://lichess.org/analysis/r1bknr2/2qn2bp/p4pp1/1ppPp3/4P1P1/2P1B1NP/PPB2QNK/R4R2_w_-_-_2_11"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/lwQ49VLO/90kESG5X"]
+[SetUp "1"]
+[FEN "r1bknr2/2qn2bp/p4pp1/1ppPp3/4P1P1/2P1B1NP/PPB2QNK/R4R2 w - - 2 11"]
+[ChapterId "S20"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Open lines against the king"]
+[Source "Edward Lasker, Chess Strategy (1915); Part I, Chapter VI, E. Cohn-Edward Lasker, Diagram 96"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ His king fled to the queen side. Can you open lines toward its new shelter? } 11. a4 { Your pawn break follows the king to its new wing. [%cal Ga2a4] } (11. Rad1 { Also playable. Your rook goes to d1. } 11... c4 { Another preparation. Our a pawn opens a file toward the king on d8. [%cal Bc5c4] }) (11. a3 { Also playable. Your pawn goes to a3. } 11... Rf7 { Another preparation. Our a pawn opens a file toward the king on d8. [%cal Bf8f7] }) (11. b3 { Also playable. Your pawn goes to b3. } 11... Rf7 { Another preparation. Our a pawn opens a file toward the king on d8. [%cal Bf8f7] }) (11. b4 { Also playable. Your pawn goes to b4. } 11... c4 { Another preparation. Our a pawn opens a file toward the king on d8. [%cal Bc5c4] }) (11. Bd1 { Also playable. Your bishop goes to d1. } 11... c4 { Another preparation. Our a pawn opens a file toward the king on d8. [%cal Bc5c4] }) (11. Ne1 { Also playable. Your knight goes to e1. } 11... Bb7 { Another preparation. Our a pawn opens a file toward the king on d8. [%cal Bc8b7] }) 11... Bb7 { Black places the bishop on the long diagonal. } 12. axb5 { You open the a column. [%cal Ga4b5] } (12. Ra2 { Also playable. Your rook goes to a2. } 12... Nd6 { Also playable. Our pawn exchange opens the a column immediately. [%cal Be8d6] }) (12. b3 { Also playable. Your pawn goes to b3. } 12... Nd6 { Also playable. Our pawn exchange opens the a column immediately. [%cal Be8d6] }) (12. b4 { Also playable. Your pawn goes to b4. } 12... Rc8 { Also playable. Our pawn exchange opens the a column immediately. [%cal Ba8c8] }) (12. Ne1 { Also playable. Your knight goes to e1. } 12... Nd6 { Also playable. Our pawn exchange opens the a column immediately. [%cal Be8d6] }) (12. h4 { Also playable. Your pawn goes to h4. } 12... c4 { Also playable. Our pawn exchange opens the a column immediately. [%cal Bc5c4] }) 12... axb5 { His pawn recaptures. } 13. Rxa8+ { You exchange the rooks on the new open file. [%cal Ga1a8] } (13. Rac1 { Also playable. Your rook goes to c1. } 13... c4 { Also playable. Our rook trade removes a defender before the next pawn break. [%cal Bc5c4] }) (13. b4 { Also playable. Your pawn goes to b4. } 13... Rxa1 14. Rxa1 14... cxb4 15. cxb4 { Also playable. Our rook trade removes a defender before the next pawn break. [%cal Bc3b4] }) (13. c4 { Also playable. Your pawn goes to c4. } 13... Rxa1 { He trades rooks on the open a column before taking the c4 pawn. } 14. Rxa1 14... bxc4 { Also playable. Our rook trade removes a defender before the next pawn break. [%cal Bb5c4] }) (13. h4 { Also playable. Your pawn goes to h4. } 13... Rxa1 14. Rxa1 { Also playable. Our rook trade removes a defender before the next pawn break. [%cal Bf1a1] }) 13... Bxa8 { His bishop recaptures. } 14. b4 { Your next pawn lever threatens to open a file or a diagonal toward the king. [%cal Gb2b4] } (14. b3 { Also playable. Your pawn goes to b3. } 14... Nd6 { Also playable. Our b4 lever asks the c5 pawn to move or be exchanged. [%cal Be8d6] }) (14. c4 { Also playable. Your pawn goes to c4. } 14... bxc4 { Also playable. Our b4 lever asks the c5 pawn to move or be exchanged. [%cal Bb5c4] }) (14. Ra1 { Also playable. Your rook goes to a1. } 14... Bb7 { Also playable. Our b4 lever asks the c5 pawn to move or be exchanged. [%cal Ba8b7] }) (14. Rd1 { Also playable. Your rook goes to d1. } 14... c4 { Also playable. Our b4 lever asks the c5 pawn to move or be exchanged. [%cal Bc5c4] }) (14. h4 { Also playable. Your pawn goes to h4. } 14... c4 { Also playable. Our b4 lever asks the c5 pawn to move or be exchanged. [%cal Bc5c4] }) 1-0

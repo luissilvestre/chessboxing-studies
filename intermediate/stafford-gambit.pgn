@@ -1,0 +1,104 @@
+[Event "Stafford Gambit: the gambit itself"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/6X11ftX9/I6bcI5Em"]
+[Site "https://lichess.org/study/whCVdUeM/1qG3NOtV"]
+
+{ Today we learn the Stafford Gambit. A pawn for fast pieces, and a pile of traps. }
+1. e4 { Answer right in the middle. Push your king pawn two squares. [%cal Ye7e5] } 1... e5 (1... c6 { A fine move, and a completely different game. } 2. d4 d5 { That is the Caro-Kann. Today we want the open one. }) 2. Nf3 { He hits your pawn. Do not defend it. Bring the king knight out. [%cal Yg8f6] } 2... Nf6 (2... Nc6 { Just as good, and the engine even prefers it. But it is not our line. } 3. Bb5 a6 { That is the Spanish, and a very long story. }) 3. Nxe5 { The Stafford move. Do not take back. Offer the knight on c6. [%cal Yb8c6] } 3... Nc6 (3... d6 { The sound move, and the engine's favourite. But that is the quiet Petrov. } 4. Nf3 Nxe4 5. d4 { Even, correct, and nobody falls for anything. }) (3... Nxe4 { Also perfectly good and perfectly calm. } 4. Qe2 Qe7 5. Qxe4 d6 { The queens come off. Sound, but not our adventure. }) 4. Nxc6 { He takes. Now recapture with the d pawn, not the b pawn. [%cal Yd7c6] } 4... dxc6 { The Stafford. Bishop and queen are free and the d file is open. [%csl Gc8,Gd8] } (4... bxc6 { Just as good by the numbers. But it walls your bishop in. [%csl Rc8] } 5. Nc3 Bb4 { Playable, and far less fun. }) 0-1
+
+
+[Event "Stafford Gambit: oh no, my queen"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/6X11ftX9/kZFfzTvW"]
+[FEN "r1bqkb1r/ppp2ppp/2p2n2/8/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 5"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/r1bqkb1r/ppp2ppp/2p2n2/8/4P3/8/PPPP1PPP/RNBQKB1R_w_KQkq_-_0_5"]
+
+{ Here is the Stafford position again. He has a pawn; you have quicker pieces. }
+5. d3 { He props the pawn up. Put your bishop where it stares at his weak square. [%cal Yf8c5] } 5... Bc5 { The bishop takes aim at f2, the square his king still guards alone. [%cal Gc5f2] } (5... Be6 { The engine's own pick, and perfectly solid. But we want the bishop hitting f2. } 6. Be2 Qe7 7. f4 { A sound game, and a much quieter one. }) (5... Qe7 { Also good, and it eyes the open file. But the bishop belongs on c5. } 6. Nc3 Be6 { Perfectly playable, with no trap in sight. }) 6. Bg5 { He pins your knight to the queen. Look again: is it really pinned? [%csl Rf6] } 6... Nxe4 { It never was. Now his bishop and your queen both hang. [%cal Ge4g5,Ge4f2] } (6... Bxf2+ { Also winning, and very tempting. } 7. Kxf2 Nxe4+ 8. Ke1 Nxg5 { A pawn and a bishop. Good. The queen was bigger. }) 7. Bxd8 { He took the queen, and that was his mistake. Check with the bishop. [%cal Yc5f2] } 7... Bxf2+ (7... Kxd8 { The natural take back, and it throws everything away. } 8. dxe4 Bd6 { You are simply a queen down. The check came first. }) (7... Nxf2 { The wrong piece. Now he has time. } 8. Qh5 b6 9. Qg5 { His queen escapes and you are lost. }) 8. Ke2 { Forced. Now bring the last piece out and finish it. [%cal Yc8g4] } 8... Bg4# (8... Bb6 { The bishop steps back to safety, and the mate is gone. } 9. h3 Ng3+ 10. Kf3 { He is a whole queen up and you had mate in one. }) 0-1
+
+
+[Event "Stafford Gambit: oh no, my knight"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/6X11ftX9/qiKryhNu"]
+[FEN "r1bqkb1r/ppp2ppp/2p2n2/8/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 5"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/r1bqkb1r/ppp2ppp/2p2n2/8/4P3/8/PPPP1PPP/RNBQKB1R_w_KQkq_-_0_5"]
+
+{ This time he pushes the pawn past your knight. Where does the knight go? }
+5. e5 { The pawn chases your knight. Jump forward, into the middle of his camp. [%cal Yf6e4] } 5... Ne4 { Straight to e4. Be honest: the engine likes d5 better, but e4 sets the trap. [%csl Ge4] } (5... Nd5 { The engine's choice, and objectively the best move on the board. } 6. d4 c5 7. c3 { A sound position for you. But no trap, and no fun. }) (5... Ng8 { All the way home. Safe, and you have thrown away two moves. } 6. Bc4 Qd4 { Playable, but he is simply better. }) 6. d3 { The natural kick. Your knight is attacked. Do not move it. [%csl Re4] } 6... Bc5 { Ignore the knight. The bishop joins the attack on f2. [%cal Gc5f2] } (6... Nc5 { The safe retreat, and White is simply better after it. } 7. d4 Nd7 { You saved the knight and lost the whole idea. }) 7. dxe4 { He grabbed the knight, and that was the blunder. Check with the bishop. [%cal Yc5f2] } 7... Bxf2+ (7... Qxd1+ { Taking the queen first, and it throws the whole thing away. } 8. Kxd1 Bxf2 9. Nd2 { You are simply a piece down. }) (7... Qh4 { It looks like a check, but it is not one. } 8. Qf3 Bd4 { He gets organised and you have nothing. }) 8. Kxf2 { The king must take, and now nobody is guarding his queen. [%cal Yd8d1] } 8... Qxd1 { Oh no, his queen. A knight given, a queen won. } (8... Qh4+ { A check, but it lets his king run and saves the queen. } 9. Kg1 Qxe4 10. Qe2 { A pawn instead of a queen. }) 0-1
+
+
+[Event "Stafford Gambit: he does not take the knight"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/6X11ftX9/4n6UwK64"]
+[FEN "r1bqk2r/ppp2ppp/2p5/2b1P3/4n3/3P4/PPP2PPP/RNBQKB1R w KQkq - 1 7"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/r1bqk2r/ppp2ppp/2p5/2b1P3/4n3/3P4/PPP2PPP/RNBQKB1R_w_KQkq_-_1_7"]
+
+{ Same position, but this time he sees the trap and does not touch your knight. }
+7. Be3 { His best try: trade off the bishop that is aiming at f2. Take it. [%cal Yc5e3] } 7... Bxe3 (7... Nxf2 { A wild sacrifice, but he just takes it. } 8. Kxf2 Bxe3+ 9. Kxe3 { Two pieces for nothing. }) 8. fxe3 { His king is bare on the f file now. Bring the queen with check. [%cal Yd8h4] } 8... Qh4+ (8... Nc5 { The knight finally moves, and the moment passes. } 9. Qh5 Qe7 { White is better again. The check was the point. }) 0-1
+
+
+[Event "Stafford Gambit: take the knight, lose the rook"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/6X11ftX9/OPZzl8KT"]
+[FEN "r1bqkb1r/ppp2ppp/2p5/4P3/4n3/8/PPPP1PPP/RNBQKB1R w KQkq - 1 6"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/r1bqkb1r/ppp2ppp/2p5/4P3/4n3/8/PPPP1PPP/RNBQKB1R_w_KQkq_-_1_6"]
+
+{ Your knight is on e4 again, the way you put it there last time. He builds a centre. }
+6. d4 { He grabs space instead of kicking you. Now the queen has a bold square. [%cal Yd8h4] } 6... Qh4 { The queen swings out and stares at f2. Nothing can chase her away. [%cal Gh4f2] } (6... Be6 { The engine likes this just as much. A calm developing move. } 7. c3 f5 { Solid, but the queen check is what sets the trap. }) (6... f5 { You prop the knight up with a pawn. Reasonable, and slow. } 7. Be2 Be7 { He gets to castle and you have no attack. }) 7. g3 { He blocks the check and attacks your queen. Give the knight away. [%csl Rh4] } 7... Nxg3 { A knight for a pawn, and his king has no cover left. [%cal Gh4h1] } (7... Qh3 { The queen steps aside and keeps watching. But nothing follows. } 8. Bg2 Nc5 { White is fine and the moment has gone. }) 8. fxg3 { He takes back. Now the fork, and the rook drops. [%cal Yh4e4] } 8... Qe4+ (8... Bb4+ { A check first looks clever, but it lets him tidy up. } 9. Kf2 Qe4 10. Bg2 { He has castled by hand and holds on. }) 0-1
+
+
+[Event "Stafford Gambit: the most common trap"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/6X11ftX9/rRL32xpq"]
+[FEN "r1bqkb1r/ppp2ppp/2p2n2/8/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 5"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/r1bqkb1r/ppp2ppp/2p2n2/8/4P3/8/PPPP1PPP/RNBQKB1R_w_KQkq_-_0_5"]
+
+{ He develops the knight this time. Your bishop still wants the same diagonal. }
+5. Nc3 { A normal developing move. Point your bishop at f2 again. [%cal Yf8c5] } 5... Bc5 { The bishop comes to c5, where it stares straight through to f2. [%cal Gc5f2] } (5... Be6 { A good square for the bishop, but c5 is where it bites. } 6. d3 Qe7 { Playable, and completely harmless. }) (5... Qe7 { Also fine. But the bishop is your best attacker here. } 6. d3 Be6 7. Be2 { You will want the bishop on c5 anyway. }) 6. d3 { The most natural move on the board, and the most common mistake. } 6... Ng4 { Two pieces hit f2 at once. He cannot guard it twice. [%cal Gg4f2,Gc5f2] } (6... O-O { Sensible, and White is simply a pawn up. } 7. Be2 Ng4 8. Bxg4 { He trades the knight off and you have nothing. }) 7. Be3 { His only real defence. Take with the knight, not the bishop. [%cal Yg4e3] } 7... Nxe3 (7... Bxe3 { The other capture. It looks the same and it is not. } 8. fxe3 Nxe3 9. Qd2 { His queen collects the knight and he is fine. }) 8. fxe3 { Now take the pawn back. His king will never castle. [%cal Yc5e3] } 8... Bxe3 (8... Qg5 { Also strong, and worth about the same. } 9. Qf3 Bxe3 { The same idea, one move later. }) (8... Qh4+ { A check first, also about equal. } 9. g3 Qg5 { Fine too. Taking on e3 is cleaner. }) 0-1
+
+
+[Event "Stafford Gambit: the knight comes back"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/6X11ftX9/BxXuPwWK"]
+[FEN "r1bqk2r/ppp2ppp/2p2n2/2b5/4P3/2N5/PPPP1PPP/R1BQKB1R w KQkq - 2 6"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/r1bqk2r/ppp2ppp/2p2n2/2b5/4P3/2N5/PPPP1PPP/R1BQKB1R_w_KQkq_-_2_6"]
+
+{ Same set up as last time: his knight out, your bishop on c5 aiming at f2. }
+6. Bc4 { He develops at you instead of playing d3. The jump to g4 still works. [%cal Yf6g4] } 6... Ng4 { Both your pieces hit f2 again, and this time his bishop is loose too. [%cal Gg4f2,Gc5f2] } (6... O-O { Safe and sensible, and the moment quietly passes. } 7. f3 b5 8. Bb3 { He is a pawn up and consolidating. }) (6... Bxf2+ { The greedy check. He steps across and you have given a bishop. } 7. Kxf2 Qd4+ 8. Ke1 { A bishop for one pawn. }) 7. Qf3 { The queen guards f2 and eyes f7. Your knight is loose. Where to? [%csl Rg4] } 7... Ne5 { Back it comes, hitting the queen, the bishop and f7 at once. [%cal Ge5f3,Ge5c4,Ge5f7] } (7... O-O { Safe, and he is only a little worse. } 8. h3 Nf6 { The knight goes home and the fun is over. }) (7... Bxf2+ { Tempting, but he simply steps across. } 8. Ke2 O-O { A bishop for one pawn. }) 8. Qe2 { The queen steps aside. Bring your own queen out and pile in. [%cal Yd8h4] } 8... Qh4 (8... a5 { A useful little move, and nearly as good. } 9. Qf1 b5 { You keep an edge, but the queen was faster. }) 0-1
+
+
+[Event "Stafford Gambit: the quiet moves are not safe"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/6X11ftX9/Ibwl11lm"]
+[FEN "r1bqk2r/ppp2ppp/2p2n2/2b5/4P3/2N5/PPPP1PPP/R1BQKB1R w KQkq - 2 6"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/r1bqk2r/ppp2ppp/2p2n2/2b5/4P3/2N5/PPPP1PPP/R1BQKB1R_w_KQkq_-_2_6"]
+
+{ He tucks the bishop away quietly this time and thinks he is out of the woods. }
+6. Be2 { A safe square, and no target. Throw the h pawn up the board at him. [%cal Yh7h5] } 6... h5 { The rook pawn walks, opening a road for the rook behind it. [%cal Gh8h5] } (6... Qd4 { Even stronger, and the engine's first choice: you can play it at once. } 7. O-O Nxe4 8. Bf3 { Also very good. But we want him to play h3 first. }) (6... Be6 { A normal developing move, and he is simply better. } 7. d3 Qd6 { Nothing is happening and he keeps the pawn. }) 7. h3 { Stopping your knight from g4. That frees a square for the queen. [%csl Gd4] } 7... Qd4 { Right into the middle. She hits e4 and f2 and cannot be chased off. [%cal Gd4e4,Gd4f2] } (7... Bd4 { The bishop wants the same square. But the queen belongs there. } 8. d3 Qe7 { Solid, and he keeps his extra pawn. }) (7... h4 { Pushing on. Far too slow, he just develops. } 8. d3 Be6 { Nothing is happening yet. }) 8. Rf1 { His one saving move. Play d3 or f3 there and you mate him. [%csl Rf2] } 8... Nxe4 { The knight joins in and he is very uncomfortable. } (8... Bb4 { Pinning the knight, but it lets him breathe. } 9. d3 Bxc3+ 10. bxc3 { He unwinds and stands better. }) 0-1
+
+
+[Event "Stafford Gambit: everyone falls for this one"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/6X11ftX9/tWZBMLsI"]
+[FEN "r1bqk2r/ppp2ppp/2p2n2/2b5/4P3/3P4/PPP2PPP/RNBQKB1R w KQkq - 1 6"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/r1bqk2r/ppp2ppp/2p2n2/2b5/4P3/3P4/PPP2PPP/RNBQKB1R_w_KQkq_-_1_6"]
+
+{ Back to the d3 line, bishop already on c5. Now the whole king side comes at him. }
+6. Be2 { He hides the bishop. Send the rook pawn forward: this one is our trap. [%cal Yh7h5] } 6... h5 { The engine prefers the knight to g4. We push the pawn, because he will grab it. [%cal Gh8h5] } (6... Ng4 { The engine's pick, and a good move. But the h pawn is our idea. } 7. Bxg4 Qh4 8. Qf3 { You win the pawn back, and there is no attack. }) (6... a6 { A slow pawn move while you are a pawn down. } 7. c3 Qe7 { He is comfortable and you have nothing. }) 7. O-O { He castles into it. Now the knight jumps, and the pawn is bait. [%cal Yf6g4] } 7... Ng4 { The knight offers itself on g4, right in front of the open h file. [%cal Gh5g4] } (7... h4 { Pushing on without the knight. Far too slow. } 8. c3 Be6 { He has time to organise and you are worse. }) 8. h3 { He asks the question. Do not move the knight: bring the queen instead. [%cal Yd8d6] } 8... Qd6 { Queen, bishop, knight and rook now all point at his king. [%cal Gd6h2] } (8... Ne5 { You save the knight, and the whole attack disappears. } 9. Qd2 Be6 { A pawn down with nothing to show. }) 9. hxg4 { He took, and that was the mistake. Take back with the h pawn. [%cal Yh5g4] } 9... hxg4 { The h file is open and there is no defence to the mate. [%cal Gd6h2] } (9... Bxg4 { The natural recapture, and it throws the whole attack away. } 10. Nd2 O-O-O 11. Nc4 { He trades pieces off and stands much better. }) 10. e5 { A desperate block. Take it. [%cal Yd6e5] } 10... Qxe5 (10... Bxf2+ { Also crushing, but the queen was already on her way. } 11. Rxf2 Qxe5 { The same place, one move slower. }) 11. Bh6 { He throws the bishop in the way. Take it with the rook. [%cal Yh8h6] } 11... Rxh6 (11... gxh6 { The pawn takes, and the whole win vanishes. } 12. Bxg4 Be6 13. Bxe6 { Your rook never gets to the h file. The position is level. }) 12. Re1 { Nothing helps him now. Check on h2. [%cal Ye5h2] } 12... Qh2+ { And it is mate next move on h1. } (12... Bxf2+ { This mates too, just more slowly. } 13. Kf1 Qe3 { Also winning. The check on h2 was quicker. }) 0-1

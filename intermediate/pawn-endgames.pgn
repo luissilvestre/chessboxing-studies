@@ -1,0 +1,202 @@
+[Event "Pawn endgames: the opposition"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/CJM4mA13"]
+[FEN "8/4k3/8/4K3/4P3/8/8/8 b - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/4k3/8/4K3/4P3/8/8/8_b_-_-_0_1"]
+
+{ Time to learn pawn endings. Our first word is opposition. }
+1... Kd7 { Kings nose to nose, and he had to move. He steps left, so you step right. [%cal Ye5f6] } 2. Kf6 { That is outflanking. Your king gets past him and heads for the queening square. [%csl Ge8] } (2. Kd5 { Opposition again, and it also wins. But stepping across was quicker. } 2... Ke7 { He faces you once more and all the work is still to come. }) (2. Kf5 { Also winning, but sideways is slow. Your king wants to go forwards. } 2... Ke7 { He is back in front of the pawn and you have spent a move. }) (2. Kd4 { Never step backwards in front of your own pawn. } 2... Kd6 { He takes the opposition and your king can never get past. The win is gone. }) (2. Kf4 { The same retreat, the same trouble. } 2... Ke6 { He stands in front of the pawn and holds it forever. Only a draw. }) 2... Kd8 { Straight back is his best defence. Now take the square beside him. [%cal Yf6f7] } 3. Kf7 { The queening square is yours. The pawn simply walks home now. [%csl Ge8][%cal Ge4e8] } (3. e5 { The pawn is in a hurry. It still wins, but let the king lead. } 3... Ke8 { He sits in front of it and you must find the king moves anyway. }) (3. Ke6 { Also winning. But f7 grabs the queening square at once. } 3... Kc7 { He runs to the other wing and you have more walking to do. }) (3. Kf5 { Still winning, but you have undone your own good move. } 3... Ke7 { He is in front of the pawn again. Start over. }) (3. Ke5 { In front of your own pawn, and the win is gone. } 3... Ke7 { He has the opposition and holds the draw. }) 1-0
+
+
+[Event "Pawn endgames: do not push too soon"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/rquahaDY"]
+[FEN "5k2/8/5K2/6P1/8/8/8/8 b - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/5k2/8/5K2/6P1/8/8/8/8_b_-_-_0_1"]
+
+{ King in front, pawn behind, and it is his move. Exactly one move wins. }
+1... Kg8 { He hides in the corner. Take your time with this one. } 2. Kg6 { Opposition. Now he must give way and your king walks in. [%csl Gg6,Gg8] } (2. g6 { The pawn runs first, and that throws the whole win away. } 2... Kf8 3. g7+ Kg8 { His king sits in front of the pawn forever. Drawn. [%csl Rg8] }) (2. Ke6 { Stepping across worked last time. It does not work with a knight pawn. } 2... Kg7 { He gets in front of the pawn and it can never pass. Drawn. }) (2. Ke7 { Same idea, same problem: you have left the g column. } 2... Kg7 { His king blocks the pawn and the win is gone. }) (2. Ke5 { Backwards, and the pawn is left on its own. } 2... Kf7 { He walks straight at it and holds the draw. }) (2. Kf5 { A step back and the opposition goes with it. } 2... Kf7 { He faces you, and your pawn will never queen. }) 2... Kf8 { He steps aside. Where does your king want to be? } 3. Kh7 { Perfect. The g pawn walks home and nobody can stop it. [%csl Gg8][%cal Gg5g8] } (3. Kf6 { Also winning, but you have walked in a circle. } 3... Kg8 { Back where you started. The corner square was the one. }) (3. Kh6 { Also winning, just slower. } 3... Kg8 { He is in the corner again and you still have to find h7. }) (3. Kf5 { Your king lets go, and the win goes with it. } 3... Kf7 { He faces you and the pawn can never pass. Drawn. }) (3. Kh5 { Backwards again, and now he simply blocks. } 3... Kg7 { In front of the pawn, and it is a draw. }) 1-0
+
+
+[Event "Pawn endgames: go the long way round"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/f9IbrZAY"]
+[FEN "8/8/5k2/2P5/2K5/8/8/8 b - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/8/5k2/2P5/2K5/8/8/8_b_-_-_0_1"]
+
+{ His king is racing back to stop your pawn. Only one road wins. }
+1... Ke7 { He hurries home. Now find the square your king needs. } 2. Kb5 { Round the side! The pawn waits and the king goes first. [%csl Gb5] } (2. c6 { The pawn sets off alone, and that throws the win away. } 2... Kd6 { He steps in front on d6 and your king can never help. Drawn. }) (2. Kd5 { Straight ahead, and he simply takes the opposition. } 2... Kd7 { Now you cannot get past him. Only a draw. }) (2. Kb4 { The right idea, one square short. } 2... Kd7 { He is back in time and the win has slipped away. }) (2. Kd4 { A step backwards and the win is gone. } 2... Ke6 { He walks up to the pawn and holds it. Drawn. }) 2... Kd7 { He gets in front of the pawn. What now? } 3. Kb6 { The key square. Your pawn cannot be stopped any more. [%csl Gb6][%cal Gc5c8] } (3. c6+ { A check, and it costs you the win. } 3... Kc7 { He blocks on c7 and your pawn never moves again. Drawn. }) (3. Ka6 { Too far round, and the pawn is on its own. } 3... Kc6 { He walks up and the pawn falls. Drawn. }) (3. Ka5 { Sideways instead of forwards, and the win is gone. } 3... Kc6 { He reaches the pawn first. Drawn. }) (3. Kc4 { Backwards. He simply comes to the pawn. } 3... Kc6 { In front again, and you have nothing left. }) 1-0
+
+
+[Event "Pawn endgames: the moment to push"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/Mqbt5bP4"]
+[FEN "8/8/8/8/2p1k3/8/5K2/8 w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/8/8/8/2p1k3/8/5K2/8_w_-_-_0_1"]
+
+{ You are black now, a pawn up, and his king is coming. One move wins. }
+1. Ke2 { He steps in front of your pawn. This move decides the game. } 1... c3 { Push! Now his king can never use the square in front of your pawn. [%csl Gc2] } (1... Kd4 { The king first, and that hands him the time he needs. } 2. Kd2 { His king sits in front of the pawn and it can never move. Drawn. }) (1... Kf4 { You walk away from your own pawn. } 2. Kd2 { He blocks it, and your pawn is stuck there forever. }) (1... Kd5 { Too slow. Here the pawn has to lead. } 2. Kd2 { Straight in front of the pawn, and there is nothing left to play for. }) (1... Ke5 { Backwards, and the moment is gone. } 2. Kd2 { He takes c2 away from your pawn. Drawn. }) 2. Ke1 { He drops back to the last rank. Which square do you want? } 2... Ke3 { Opposition, and now his king has to let your pawn through. [%csl Ge3,Ge1][%cal Gc3c1] } (2... Kd4 { Also winning, but you have given him a free move. } 3. Ke2 { He is still fighting. The opposition on e3 was quicker. }) 0-1
+
+
+[Event "Pawn endgames: the rule of the square"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/nG3HbTy0"]
+[FEN "7K/8/8/8/P3k3/8/8/8 w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/7K/8/8/8/P3k3/8/8/8_w_-_-_0_1"]
+
+{ A new word: the square. His pawn will run, and your king must stay inside the box it draws. [%cal Ga4a8,Ga8e8,Ge8e4,Ge4a4] }
+1. a5 { The pawn is off. The box runs a5 to a8 and across to d5 and d8. Step inside it. [%cal Ga5a8,Ga8d8,Gd8d5,Gd5a5][%cal Ye4d5] } 1... Kd5 { Inside the square, and now every push he makes keeps you there. [%csl Gd5] } (1... Kd4 { You are chasing the pawn instead of cutting it off. Count again. } 2. a6 Kc3 3. a7 { The box was one rank higher. That pawn queens and you are lost. [%csl Rc3][%cal Ra7a8,Ra8b8,Rb8b7,Rb7a7] }) (1... Ke5 { Sideways does nothing: the box does not move with you. [%csl Re5][%cal Ra5a8,Ra8d8,Rd8d5,Rd5a5] } 2. a6 Kd4 3. a7 { Two squares short. He queens next move. }) (1... Kd3 { Backwards, and the pawn is out of reach. } 2. a6 Kc2 3. a7 { It queens and you can only watch. }) 2. a6 { He pushes again and the box shrinks with him. Keep following. [%cal Ga6a8,Ga8c8,Gc8c6,Gc6a6][%cal Yd5c6] } 2... Kc6 { Still inside. Your king is walking the diagonal home. } (2... Kd6 { One step too slow, and you have left the box. [%csl Rd6][%cal Ra6a8,Ra8c8,Rc8c6,Rc6a6] } 3. a7 Kc5 4. a8=Q { The new queen arrives. You are lost. }) (2... Kc5 { The right column, the wrong rank. } 3. a7 Kb4 4. a8=Q { A move too late. }) (2... Kc4 { Down instead of across, and the box leaves you behind. [%csl Rc4][%cal Ra6a8,Ra8c8,Rc8c6,Rc6a6] } 3. a7 Kb3 4. a8=Q { Too slow by one move. }) 3. a7 { The last push. One more step and you meet the pawn at the corner. [%cal Ga7a8,Ga8b8,Gb8b7,Gb7a7][%cal Yc6b7] } 3... Kb7 { Caught it. The pawn can never queen and the game is drawn. [%csl Gb7][%cal Ga7a8,Ga8b8,Gb8b7,Gb7a7] } (3... Kb6 { So close. But b7 is the square that meets the pawn. } 4. a8=Q Kb5 { A whole queen against a bare king. Lost. }) (3... Kc7 { You need to stand right in front of it, on b7. } 4. a8=Q Kb6 { The pawn made it home. }) 0-1
+
+
+[Event "Pawn endgames: run for the corner"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/s69UVI17"]
+[FEN "8/1K5p/8/8/8/8/8/k7 w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/1K5p/8/8/8/8/8/k7_w_-_-_0_1"]
+
+{ His pawn has not moved yet, so it can jump two squares. Count the box from h6, not h7. [%csl Gh6] }
+1. Kc6 { Diagonally, and it must be now. From h6 the box reaches only as far as c6. [%csl Gc6][%cal Gh6h1,Gh1c1,Gc1c6,Gc6h6] } (1. Kb6 { Sideways, and you have lost a step you cannot get back. } 1... h5 2. Kc5 h4 { The pawn is outside the box and queens. You are lost. [%csl Rc5][%cal Rh4h1,Rh1e1,Re1e4,Re4h4] }) (1. Kc7 { Along the rank instead of the diagonal, and it costs a whole move. } 1... h5 2. Kd6 h4 { Too slow. That pawn cannot be caught. }) (1. Kb8 { The wrong way entirely, and there is no time to spare. } 1... h5 2. Kc7 h4 { The pawn is long gone. }) 1... h5 { There it is, two squares in one move. Good thing you counted. } 2. Kd5 { Still on the diagonal, still shrinking his head start. [%cal Gh5h1,Gh1d1,Gd1d5,Gd5h5] } (2. Kd6 { One rank too high and the diagonal is broken. } 2... h4 3. Kc5 h3 { The pawn queens. Lost. }) (2. Kc5 { You went down instead of across. } 2... h4 3. Kb4 h3 { Nowhere near it now. }) (2. Kd7 { Backwards. Every step matters in a race. } 2... h4 3. Kc6 h3 { The pawn is gone. }) 2... h4 { He keeps running. One more step for you. } 3. Ke4 { Now your king is inside the box and the pawn is caught. Drawn. [%csl Ge4][%cal Gh4h1,Gh1e1,Ge1e4,Ge4h4] } (3. Kd4 { The wrong diagonal, and the pawn slips by. } 3... h3 4. Kc3 h2 { It queens next move. }) (3. Ke5 { Too high. Count the squares again. } 3... h3 4. Kd4 h2 { One move short. }) (3. Ke6 { Further away, not closer. } 3... h3 4. Kd5 h2 { The pawn queens and you are lost. }) 1-0
+
+
+[Event "Pawn endgames: two jobs at once"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/ibEe7Um6"]
+[FEN "7K/8/k1P5/7p/8/8/8/8 w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/7K/8/k1P5/7p/8/8/8/8_w_-_-_0_1"]
+
+{ His pawn runs and your king looks miles away. One square saves the game. Take your time. }
+1. Kg7 { Towards both at once. This king chases the h pawn and walks home to help your own. } (1. c7 { Too quick. Your pawn runs straight into his king. } 1... Kb7 2. c8=Q+ Kxc8 { You gave the pawn away and his walks home. Lost. }) (1. Kh7 { Straight at the pawn, and that is one step too slow. } 1... Kb6 2. Kg6 h4 { He wins the race and your own pawn has nobody to help it. }) (1. Kg8 { Down the wrong road. The diagonal was the one. } 1... Kb6 2. Kf7 Kxc6 { His king eats your pawn and then his own runs home. }) 1... h4 { He runs. Stay on the diagonal. } 2. Kf6 { Both jobs again. His pawn is still in front of you and yours is getting closer. } (2. c7 { The same rush, the same result. } 2... Kb7 3. c8=Q+ Kxc8 { A pawn for nothing, and his queens. }) (2. Kg6 { Sideways, and the diagonal is gone. } 2... Kb6 3. Kf5 h3 { You can catch the pawn or help your own, but not both. }) (2. Kf7 { Off the diagonal. Now you only do one job. } 2... Kb6 3. Ke6 Kxc6 { Your pawn falls and his runs. Lost. }) 2... h3 { Still running. Now your king turns for home. } 3. Ke6 { Beside your own pawn at last. Whatever he does now, you hold the draw. [%csl Gd7,Ge6] } (3. Ke7 { Just as good: the pawn gets its escort either way. } 3... h2 4. c7 h1=Q { Both queen and the game is level. }) (3. c7 { Once more too early, and once more his king is waiting. } 3... Kb7 4. c8=Q+ Kxc8 { Lost. }) (3. Kf5 { Chasing the pawn only. Your own is left alone. } 3... Kb6 4. Ke4 h2 { You cannot do both from there. }) 1-0
+
+
+[Event "Pawn endgames: locked pawns"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/3sg6k7bw"]
+[FEN "8/2K5/4p3/4P3/3k4/8/8/8 w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/2K5/4p3/4P3/3k4/8/8/8_w_-_-_0_1"]
+
+{ Locked pawns. The king that gets beside them first wins the ending. One square does it. [%cal Yc7d6] }
+1. Kd6 { d6. You attack his pawn and shut his king out with the same move. [%csl Ge6,Rd4] } (1. Kc6 { One square out, and now you are the one who loses. } 1... Kxe5 2. Kc5 Ke4 { His king ate the pawn and his own runs. You are lost. }) (1. Kd7 { Too far back to stop him. } 1... Kxe5 2. Ke7 Kd5 { The pawn is gone and so is the game. }) (1. Kb6 { The wrong direction completely. } 1... Kxe5 2. Kc5 Ke4 { A pawn down and losing. }) 1... Kc4 { He runs for the queen side. Now collect. [%cal Yd6e6] } 2. Kxe6 { The pawn is yours, and from here it is the opposition you already know. [%csl Ge5] } (2. Kc6 { Also winning, but why leave a free pawn behind? } 2... Kb4 3. Kd6 Kb5 { You have to come back for it anyway. }) (2. Ke7 { Also winning, just slower. } 2... Kd5 3. Kf6 Kc5 { You get there in the end, but the pawn was free. }) (2. Kc7 { Backwards, and the whole game turns around. } 2... Kd5 3. Kb6 Kxe5 { He wins the pawn and you are lost. }) (2. Kd7 { The same mistake: his king comes straight back in. } 2... Kd5 3. Kd8 Kxe5 { Lost. }) 1-0
+
+
+[Event "Pawn endgames: whose pawn falls first"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/shBBBw8V"]
+[FEN "8/8/8/8/3Kp3/4P3/4k3/8 b - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/8/8/8/3Kp3/4P3/4k3/8_b_-_-_0_1"]
+
+{ You are black. The pawns are locked and one of them is going to fall. Make sure it is his. }
+1... Kf3 { Beside the pawns. Now his pawn has no guard at all. [%csl Ge3] } (1... Kd2 { That lets his king walk in. } 2. Kxe4 { Your pawn is gone and with it the game. }) (1... Kf2 { One square too far to the side. } 2. Kxe4 Ke2 3. Kd4 { A pawn down and lost. }) (1... Ke1 { Backwards, and your own pawn is left undefended. } 2. Kxe4 { Gone. }) (1... Kd1 { Too far from everything. } 2. Kxe4 { He simply takes it. }) (1... Kf1 { Also too far away to defend. } 2. Kxe4 { The pawn falls. }) 2. Kd5 { He goes after your pawn instead. Look again before you rush to defend it. } 2... Kxe3 { Take his one! Your own pawn does not need defending, it needs a friend. [%csl Ge4] } (2... Ke2 { You step back to guard, and the moment is gone. } 3. Kxe4 { His king wins the pawn and the game is level. }) (2... Kf2 { The same idea, the same problem. } 3. Kxe4 { Nothing left to play for. }) (2... Kg3 { Sideways, and his king walks in behind you. } 3. Kxe4 { Drawn at best. }) 0-1
+
+
+[Event "Pawn endgames: the stalemate trap"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/W4daEO0o"]
+[FEN "1k6/1P6/8/K7/8/8/8/8 w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/1k6/1P6/8/K7/8/8/8/8_w_-_-_0_1"]
+
+{ A pawn on the seventh and his king in front of it. Careful: one natural move is stalemate. [%cal Ya5a6] }
+1. Ka6 { a6, never b6. Now he has exactly one square left and must give up the corner. [%csl Rb6] } (1. Kb6 { Look at his king: nothing to move and no check. Stalemate, and the win is gone. [%csl Rb8] }) (1. Kb5 { You stepped away and left the pawn hanging. } 1... Kxb7 { King against king. Drawn. }) (1. Kb4 { Same problem: nobody is guarding b7 now. } 1... Kxb7 { The pawn is gone. }) (1. Ka4 { Wandering off. The pawn cannot defend itself. } 1... Kxb7 { Drawn. }) 1... Kc7 { Forced. He has nothing else at all. [%cal Ya6a7] } 2. Ka7 { Your king takes the queening square. The pawn goes in next move. [%csl Gb8] } (2. b8=Q+ { A queen, with check! And he simply takes it. } 2... Kxb8 { Two bare kings. Drawn. }) (2. Ka5 { You let go of the pawn. } 2... Kxb7 { It just falls. Drawn. }) (2. Kb5 { The same thing: nobody is guarding b7. } 2... Kxb7 { Drawn. }) 1-0
+
+
+[Event "Pawn endgames: the corner saves you"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/1PNnyGJa"]
+[FEN "8/3k4/8/1K6/P7/8/8/8 w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/3k4/8/1K6/P7/8/8/8_w_-_-_0_1"]
+
+{ A pawn down, and his king is in front of it. There is a corner here that saves you. }
+1. Kb6 { He comes round the side. Now choose your square very carefully. } 1... Kc8 { The only one. You are heading for the corner in front of his pawn. [%csl Ga8] } (1... Kd6 { You go for the pawn, but you are one move short. } 2. a5 Kd5 3. a6 { It queens and you are lost. }) (1... Kd8 { The wrong corner, and that one is far too far away. } 2. Kb7 Kd7 3. a5 { His king guards the road and the pawn walks in. }) (1... Ke7 { Away from the action, and the pawn simply runs. } 2. a5 Kd6 3. a6 { You cannot catch it now. }) 2. a5 { He pushes. Stay on plan. } 2... Kb8 { Straight in front of the pawn. } (2... Kd7 { You have stepped out of the corner. } 3. a6 Kd6 4. a7 { The pawn queens. }) (2... Kd8 { The corner you want is b8, not this one. } 3. a6 Kd7 4. a7 { Too far away now. }) 3. a6 { One more push. Last step. } 3... Ka8 { The corner. He can never push you out of it, so the game is drawn. [%csl Ga8][%csl Gb8] } (3... Kc8 { One square out of the corner and the pawn goes straight past you. } 4. a7 Kd7 5. a8=Q { A queen, and the game is over. }) 0-1
+
+
+[Event "Pawn endgames: the breakthrough"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/eeC8ZYaf"]
+[FEN "7k/ppp5/8/PPP5/8/8/8/7K w - - 0 1"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/7k/ppp5/8/PPP5/8/8/8/7K_w_-_-_0_1"]
+
+{ Three against three and nothing is passed. Now learn the breakthrough: the middle pawn goes first. [%cal Yb5b6] }
+1. b6 { The spearhead. Whichever pawn takes it, a road opens for one of the others. [%csl Ga5,Gc5] } (1. Kg2 { Also winning: the break does not run away. But there is no reason to wait. } 1... Kg7 2. b6 axb6 3. c6 { The same idea, two moves later. }) (1. Kh2 { A quiet move, and he gets the one move he needs. } 1... b6 { Now the pawns are locked and nothing can break through. Drawn. }) (1. Kg1 { The same wait, the same answer. } 1... b6 { He blocks it and the break is gone forever. }) (1. c6 { The wrong pawn: this one has no friends behind it. } 1... bxc6 2. bxc6 Kg8 { Your pawns are stuck and his king strolls up to eat them. You are losing. }) (1. a6 { The outside pawn cannot do it alone. } 1... bxa6 2. bxa6 Kg7 { Same story: frozen pawns and a lost game. }) 1... cxb6 { He takes with the c pawn. Now the far one goes. [%cal Ya5a6] } 2. a6 { Look at c5 now. After he takes again there is nothing in its way. [%csl Gc5] } (2. axb6 { You take back, and that is exactly what he wanted. } 2... axb6 3. cxb6 Kg7 { Nothing is passed any more. Drawn. }) (2. cxb6 { The other recapture, the same problem. } 2... axb6 3. axb6 Kg7 { All the pawns come off and it is level. }) (2. c6 { The wrong runner. He takes and your last pawn is stuck. } 2... bxc6 3. axb6 axb6 { Your last pawn is stuck and his two run home. You are lost. }) (2. Kg2 { A quiet move here loses on the spot. } 2... bxa5 { His pawn is off and running and you can never catch it. Lost. }) 2... bxa6 { He had to take again. Now run. [%cal Yc5c6] } 3. c6 { And the pawn walks in. His king is five squares too far away. [%cal Gc6c8] } (3. cxb6 { You grab a pawn and give up the runner. } 3... axb6 4. Kg2 a5 { His pawns run and yours has gone. Lost. }) (3. Kg2 { The pawn had to go now. } 3... bxc5 { His pawns are healthy, yours has gone, and you are losing. }) 1-0
+
+
+[Event "Pawn endgames: find the breakthrough"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/LQJp8rLq"]
+[FEN "8/8/1p6/pP5p/P1P1p1k1/8/5K2/8 b - - 0 42"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/8/1p6/pP5p/P1P1p1k1/8/5K2/8_b_-_-_0_42"]
+
+{ From a real game. His king is walking over to your pawns. One pawn move settles it. }
+42... Kf5 { He comes closer. Take your time here: only one move wins. } 43. c5 { The break! It looks like a free pawn for him, but look at b5 afterwards. [%csl Gb5] } (43. Ke3 { One quiet move and the whole thing collapses. } 43... Ke5 44. Kf2 Kd4 45. Kg3 Kxc4 { His king walks in and eats everything. You are lost. }) (43. Kg3 { Chasing his h pawn while his king eats yours. } 43... Ke5 44. Kh4 Kd6 { He is through on the queen side and you are lost. }) (43. Kg2 { Backwards, and the moment has gone. } 43... Ke6 44. Kh3 Kd6 { His king arrives first. Lost. }) (43. Ke2 { Waiting is losing here. } 43... Ke6 44. Kf2 Kd6 { He walks up and takes the c pawn and the game. }) 43... bxc5 { He took, and that was the mistake. Now the road is open. } 44. b6 { Nothing can stop it. His king is three columns too far away. [%cal Gb6b8] } (44. Ke3 { You waited one move and the pawn gets caught. } 44... Ke5 45. b6 Kd6 46. b7 Kc7 { His king got there in time. Lost. }) (44. Kg3 { The same wasted move. } 44... Ke5 45. b6 Kd6 { Too late now. }) 1-0
+
+
+[Event "Pawn endgames: count the race"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/D83WpSkT"]
+[FEN "8/5p2/1p1k2p1/6Pp/p1PK1P1P/P7/8/8 b - - 2 40"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/5p2/1p1k2p1/6Pp/p1PK1P1P/P7/8/8_b_-_-_2_40"]
+
+{ Four from real games now, and no hints. First one: your c pawn is attacked. Count before you defend. }
+40... Kc6 { He steps up to win the c pawn. Is that pawn really the important thing? } 41. Ke5 { Let him have it. Your king is running for his pawns and it is faster. [%csl Rc4] } (41. Kd3 { You defend the pawn and the game with it. } 41... Kd6 42. Kd4 Ke6 { Nobody can make progress. Drawn. }) (41. Ke4 { Keeping the king in the middle, but the race needed starting now. } 41... Kc5 42. Kd3 Kc6 { He shuffles and holds. Drawn. }) (41. Ke3 { Backwards, and the race is over before it began. } 41... Kc5 42. Kd3 Kc6 { Nothing to do. Drawn. }) (41. Kc3 { The same waiting move on the other side. } 41... Kc5 42. Kd3 Kc6 { A draw. }) (41. f5 { Breaking on the wing first, and his king walks over. } 41... Kd6 42. f6 Kc6 { He holds everything. The win is gone. }) (41. c5 { Pushing the pawn he was about to take anyway. } 41... b5 42. Kd3 Kxc5 { He is a pawn up and you are losing. }) 41... Kc5 { He goes for the pawn. Keep running. } 42. Kf6 { His king is on the wrong side of the board now. } (42. f5 { A trade, and it hands everything back. } 42... Kxc4 43. fxg6 fxg6 { The pawns come off and it is a draw. }) (42. Ke4 { Turning back to defend. Far too slow. } 42... Kxc4 43. Kf3 b5 { His pawn runs and yours never queens. Lost. }) 42... Kxc4 { He has his pawn. You are about to take two. } 43. Kxf7 { One given, two taken, and the g pawn is next. That is how you count a race. [%csl Gg6] } (43. f5 { A trade at the wrong moment. } 43... gxf5 44. Kxf7 f4 { Both sides queen. Dead level. }) (43. Kg7 { Round the other way, and it costs the tempo you needed. } 43... b5 44. Kxf7 b4 { Both sides queen now. The win has gone. }) (43. Ke7 { The same move too many. } 43... b5 44. Kxf7 b4 { One move too slow, and it is only a draw. }) (43. Ke5 { Back towards his king, and the race turns against you. } 43... b5 44. Kf6 b4 { His pawn queens and you are lost. }) 1-0
+
+
+[Event "Pawn endgames: trade into the win"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/RigoYrBd"]
+[FEN "8/8/8/6p1/7p/5KPP/8/5k2 w - - 1 53"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/8/8/6p1/7p/5KPP/8/5k2_w_-_-_1_53"]
+
+{ Two pawns each, and his king is a long way from all of them. One capture wins this. }
+53. gxh4 { Take. It leaves one pawn each, and yours is the one with a king beside it. } (53. Kg4 { You walk round them, but the trade was the whole point. } 53... hxg3 54. Kxg3 Kg1 { One pawn each and neither can queen. Drawn. }) (53. g4 { Pushing past locks your own pawns up. } 53... Kg1 54. Ke2 Kg2 { His h pawn is the runner now and you are lost. }) (53. Ke4 { The king wanders off and the pawns are left alone. } 53... hxg3 54. Kf5 g2 { That pawn queens. You are lost. }) (53. Ke3 { Same problem: the trade was the whole idea. } 53... hxg3 54. Kd2 g2 { It queens next move. }) 53... gxh4 { He takes back. Now go and get it. } 54. Kg4 { Straight at the pawn. You take it next move and your own walks home. [%cal Gg4h4,Gh3h8] } (54. Kf4 { One square out, and his king arrives in time. } 54... Ke2 55. Ke4 Kd1 { He gets back to help and it is only a draw. }) (54. Ke3 { Backwards, and the h pawn is safe. } 54... Ke1 55. Kd3 Kd1 { Drawn. }) (54. Ke4 { Away from the pawn entirely. } 54... Ke1 55. Kd3 Kd1 { His king holds. Drawn. }) 1-0
+
+
+[Event "Pawn endgames: the rook pawn needs the corner"]
+[Result "1-0"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/1LhCNokF"]
+[FEN "8/3k4/5K2/8/7P/8/8/8 b - - 0 56"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/3k4/5K2/8/7P/8/8/8_b_-_-_0_56"]
+
+{ Last one. A rook pawn is the fussy kind: your king must own the corner before the pawn runs. }
+56... Ke8 { He is running for h8. If he ever gets there this is a draw. } 57. Kg7 { g7. The corner is yours now and his king can never come near it. [%csl Gh8] } (57. h5 { The pawn runs alone and he strolls into the corner. } 57... Kf8 58. h6 Kg8 { He sits on h8 and you can never push him out. Drawn. }) (57. Kg6 { One square short, and he still slips in. } 57... Kf8 58. h5 Kg8 { The corner is his and the game is drawn. }) (57. Kf5 { Backwards, and the road to h8 is wide open. } 57... Ke7 58. h5 Kf7 { He is in front of the pawn. Drawn. }) (57. Ke6 { Chasing his king instead of taking the corner. } 57... Kf8 58. h5 Kg7 { He blocks the pawn forever. }) 57... Ke7 { He tries to come back. Too late for that. } 58. h5 { Now the pawn runs, with your king already sitting on the queening corner. [%cal Gh5h8] } (58. Kg6 { You let go of the corner and he runs straight for it. } 58... Kf8 59. h5 Kg8 { Drawn. }) (58. Kh6 { Sideways, and now his king has time. } 58... Kf6 59. h5 Kf7 { He walks back in. Drawn. }) (58. Kh7 { The wrong corner square, and it lets his king back. } 58... Kf6 59. h5 Kf7 { A draw. }) (58. Kg8 { Backwards, when your king was already perfect. } 58... Kf6 59. h5 Kg5 { He picks up the pawn. Drawn. }) 1-0
+
+
+[Event "Pawn endgames: the king walks in"]
+[Result "0-1"]
+[Variant "Standard"]
+[ChapterURL "https://lichess.org/study/J7JDkozw/35hddu04"]
+[FEN "8/2p3p1/5k1p/p1p5/P2pP3/1P6/2P2KPP/8 w - - 5 44"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/8/2p3p1/5k1p/p1p5/P2pP3/1P6/2P2KPP/8_w_-_-_5_44"]
+
+{ One more real game, and you are black. Every pawn move looks useful. Only one move wins. }
+44. h4 { He grabs a little space on the wing. Now find the move. } 44... Ke5 { The king marches in. That e pawn cannot be defended twice. [%csl Ge4] } (44... c4 { You break on the queen side, and he just takes it. } 45. bxc4 h5 46. Kg3 Ke5 { Level. The king was the piece that had to move. }) (44... g5 { A pawn break when you have no time for one. } 45. hxg5+ Kxg5 46. Kf3 { His king reaches e4 and yours never does. You are losing. }) (44... d3 { Pushing your best pawn straight into his hands. } 45. cxd3 Ke5 46. Ke3 { The passer is gone and he holds everything. Lost. }) (44... h5 { A useful looking move, but the king had to go now. } 45. Ke2 c4 46. b4 { He gets his own passer running and you are losing. }) 45. Ke2 { He hurries across to hold the pawn. } 45... Kxe4 { Too late. The pawn falls and your d pawn becomes a monster. [%csl Gd4] } (45... c4 { Now this only helps him. } 46. bxc4 Kxe4 47. h5 { His h pawn runs and the win has gone. }) (45... g5 { Too late for pawn moves. } 46. hxg5 hxg5 47. Kd3 { His king reaches c4 and eats the queen side. Lost. }) (45... Kf4 { Walking past the pawn instead of taking it. } 46. Kd3 g6 47. Kc4 { He is into your pawns and you are the one losing. }) 0-1

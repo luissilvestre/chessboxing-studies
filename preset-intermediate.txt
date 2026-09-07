@@ -1,0 +1,19 @@
+# The INTERMEDIATE tile on the opening screen: exactly these entries, in
+# exactly this order. Edit this file to change what an intermediate player is
+# taught and when. See preset-beginner.txt for the line format.
+
+tactics-intermediate.pgn
+stafford-gambit.pgn
+kings-gambit-intermediate.pgn
+scotch-gambit-intermediate.pgn
+french-intermediate.pgn
+sicilian-intermediate.pgn
+pawn-endgames-intermediate.pgn
+rook-endgames-intermediate.pgn
+strategy-pieces-intermediate.pgn
+lasker-endgames-intermediate.pgn
+lasker-plans-intermediate.pgn
+capablanca-endgames-intermediate.pgn
+capablanca-plans-intermediate.pgn
+
+lichess:intermediate

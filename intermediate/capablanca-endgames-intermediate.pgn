@@ -1,0 +1,321 @@
+[Event "Capablanca endings: Spend a reserve pawn move"]
+[Site "https://lichess.org/analysis/8/8/4k3/8/4K3/8/4P3/8_w_-_-_2_2"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/3rgJ8AAv"]
+[SetUp "1"]
+[FEN "8/8/4k3/8/4K3/8/4P3/8 w - - 2 2"]
+[ChapterId "E01"]
+[Domain "endgame"]
+[Role "teaching"]
+[Block "King and tempo"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 6, critical-position extract"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "win"]
+
+{ Capablanca endings. Use a reserve pawn move: push your pawn to e3. [%cal Ye2e3] } 2. e3 { Your pawn move gives Black the turn. Your king can then step past his. [%cal Ge2e3] } (2. Kf4 { This also keeps the result. Your king takes a different route. } 2... Kf6 { Also winning. Our pawn move hands the turn to his king. [%cal Be6f6] }) (2. Kd4 { This also keeps the result. Your king takes a different route. } 2... Kd6 { Also winning. Our pawn move hands the turn to his king. [%cal Be6d6] }) (2. Kf3 { This changes the result. Your king takes a different route. } 2... Kf5 3. Ke3 3... Ke5 4. Kf3 4... Kf5 { The result has changed. Our pawn move hands the turn to his king. [%cal Re5f5] }) (2. Ke3 { This changes the result. Your king takes a different route. } 2... Ke5 3. Kf3 3... Kf5 4. Ke3 4... Ke5 { The result has changed. Our pawn move hands the turn to his king. [%cal Rf5e5] }) 2... Kf6 { His king moves aside. Bring your king to d5. [%cal Ye4d5] } 3. Kd5 { Your king leads. Keep it ahead of the pawn on the way to promotion. [%cal Ge4d5] } (3. Kd4 { This also keeps the result. Your king takes a different route. } 3... Ke6 { Also winning. Our pawn move hands the turn to his king. [%cal Bf6e6] }) (3. Kf4 { This also keeps the result. Your king takes a different route. } 3... Kg7 { Also winning. Our pawn move hands the turn to his king. [%cal Bf6g7] }) (3. Kd3 { This changes the result. Your king takes a different route. } 3... Ke5 4. Kd2 4... Kf6 5. Ke2 5... Ke6 { The result has changed. Our pawn move hands the turn to his king. [%cal Rf6e6] }) (3. Kf3 { This changes the result. Your king takes a different route. } 3... Ke7 4. Ke4 4... Ke6 5. Kf4 5... Kf6 { The result has changed. Our pawn move hands the turn to his king. [%cal Re6f6] }) 1-0
+
+
+[Event "Capablanca endings: Walk around the pawn wall"]
+[Site "https://lichess.org/analysis/5k2/6p1/4K1P1/5P2/8/8/8/8_w_-_-_0_1"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/pYjRyno6"]
+[SetUp "1"]
+[FEN "5k2/6p1/4K1P1/5P2/8/8/8/8 w - - 0 1"]
+[ChapterId "E02"]
+[Domain "endgame"]
+[Role "exercise"]
+[Block "King and tempo"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 7, critical-position extract"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "win"]
+
+{ The pawn push looks tempting. Can your king prepare a better route first? } 1. Kd7 { Your king takes a detour. It can enter e7 without losing the g6 pawn. [%cal Ge6d7] } (1. Kd6 { This also keeps the result. Your king takes a different route. } 1... Ke8 { Also winning. Our king goes around the pawn wall first. [%cal Bf8e8] }) (1. Kd5 { This also keeps the result. Your king takes a different route. } 1... Ke7 { Also winning. Our king goes around the pawn wall first. [%cal Bf8e7] }) (1. Ke5 { This also keeps the result. Your king takes a different route. } 1... Ke7 { Also winning. Our king goes around the pawn wall first. [%cal Bf8e7] }) (1. f6 { The pawn advances before your king has reached the useful squares. } 1... Kg8 2. f7+ 2... Kf8 3. Ke5 3... Ke7 { The result has changed. Our king goes around the pawn wall first. [%cal Rf8e7] }) 1... Kg8 { His king steps back. Where can yours take the next important square? } 2. Ke7 { Your king reaches e7. Now the f pawn can help open a route to promotion. [%cal Gd7e7] } (2. Ke8 { This also keeps the result. Your king takes a different route. } 2... Kh8 { Also winning. Our king goes around the pawn wall first. [%cal Bg8h8] }) (2. Kd6 { This also keeps the result. Your king takes a different route. } 2... Kf8 { Also winning. Our king goes around the pawn wall first. [%cal Bg8f8] }) (2. Kd8 { This also keeps the result. Your king takes a different route. } 2... Kh8 { Also winning. Our king goes around the pawn wall first. [%cal Bg8h8] }) (2. Ke6 { This also keeps the result. Your king takes a different route. } 2... Kf8 { Also winning. Our king goes around the pawn wall first. [%cal Bg8f8] }) (2. Kc6 { This also keeps the result. Your king takes a different route. } 2... Kh8 { Also winning. Our king goes around the pawn wall first. [%cal Bg8h8] }) (2. Kc7 { This also keeps the result. Your king takes a different route. } 2... Kf8 { Also winning. Our king goes around the pawn wall first. [%cal Bg8f8] }) (2. Kc8 { This also keeps the result. Your king takes a different route. } 2... Kh8 { Also winning. Our king goes around the pawn wall first. [%cal Bg8h8] }) 1-0
+
+
+[Event "Capablanca endings: Keep the king from passing"]
+[Site "https://lichess.org/analysis/8/8/5k2/1p5p/1P2K2P/8/8/8_w_-_-_6_4"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/Pepez0hu"]
+[SetUp "1"]
+[FEN "8/8/5k2/1p5p/1P2K2P/8/8/8 w - - 6 4"]
+[ChapterId "E03"]
+[Domain "endgame"]
+[Role "exercise"]
+[Block "King and tempo"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 27, first variation, move 4"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "win"]
+
+{ You could rush toward the b pawn. Can you stop his king from taking your h pawn first? } 4. Kf4 { You keep the opposition. Racing past his king would let him attack your h pawn. [%cal Ge4f4] } (4. Kd4 { Your king steps away from the h pawn. Black can get around you. } 4... Kf5 5. Kc5 5... Kg4 6. Kxb5 6... Kxh4 { The result has changed. Our king stops the opposing king from passing. [%cal Rg4h4] }) (4. Kd5 { You race for the b pawn, but his king can race toward your h pawn. } 4... Kf5 5. Kc6 5... Kg4 6. Kxb5 6... Kxh4 { The result has changed. Our king stops the opposing king from passing. [%cal Rg4h4] }) (4. Kd3 { Your king retreats and gives up the useful opposition. } 4... Kf5 5. Kd4 5... Kg4 6. Kc5 6... Kxh4 { The result has changed. Our king stops the opposing king from passing. [%cal Rg4h4] }) (4. Ke3 { His king can take the opposition and push yours away. } 4... Ke5 5. Kf3 5... Kf5 6. Ke3 6... Ke5 { The result has changed. Our king stops the opposing king from passing. [%cal Rf5e5] }) 1-0
+
+
+[Event "Capablanca endings: King before the promotion pawn"]
+[Site "https://lichess.org/analysis/4k3/8/5K2/4P3/8/8/8/8_w_-_-_1_8"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/n7pm51Jc"]
+[SetUp "1"]
+[FEN "4k3/8/5K2/4P3/8/8/8/8 w - - 1 8"]
+[ChapterId "E04"]
+[Domain "endgame"]
+[Role "exercise"]
+[Block "King and tempo"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 6, critical-position extract"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "win"]
+
+{ The pawn is close to promotion. Which must lead now: your king or your pawn? } 8. Ke6 { Your king takes the key square. Pushing the pawn first would give away the win. [%cal Gf6e6] } (8. e6 { The pawn gets ahead of your king. The opposing king can stay in its way. } 8... Kf8 9. Kg6 9... Ke8 10. Kf5 10... Ke7 { The king blocks the pawn. You needed to lead with your king. [%cal Re8e7] }) (8. Kf5 { This changes the result. Your king takes a different route. } 8... Kf7 9. Kg4 9... Kg6 10. Kf4 10... Kf7 { The result has changed. Our king controls the promotion route first. [%cal Rg6f7] }) (8. Kg6 { This changes the result. Your king takes a different route. } 8... Ke7 9. Kg5 9... Ke6 10. Kf4 10... Kd7 { The result has changed. Our king controls the promotion route first. [%cal Re6d7] }) (8. Kg5 { This changes the result. Your king takes a different route. } 8... Kf7 9. Kf4 9... Kg6 10. Kg4 10... Kg7 { The result has changed. Our king controls the promotion route first. [%cal Rg6g7] }) 8... Kf8 { His king yields a square. Keep the promotion route under your control. } 9. Kd7 { Your king controls the way forward. Bring the pawn up behind it. [%cal Ge6d7] } (9. Kf6 { This also keeps the result. Your king takes a different route. } 9... Ke8 { Also winning. Our king controls the promotion route first. [%cal Bf8e8] }) (9. Kd6 { This also keeps the result. Your king takes a different route. } 9... Kf7 { Also winning. Our king controls the promotion route first. [%cal Bf8f7] }) (9. Kd5 { This changes the result. Your king takes a different route. } 9... Ke7 10. Ke4 10... Kf7 11. Ke3 11... Ke6 { The result has changed. Our king controls the promotion route first. [%cal Rf7e6] }) (9. Kf5 { This changes the result. Your king takes a different route. } 9... Kf7 10. Kg4 10... Kg6 11. Kf4 11... Kf7 { The result has changed. Our king controls the promotion route first. [%cal Rg6f7] }) 1-0
+
+
+[Event "Capablanca endings: Time the two-square pawn advance"]
+[Site "https://lichess.org/analysis/8/6p1/8/8/7p/7k/7P/7K_b_-_-_1_8"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/qtmFvp4T"]
+[SetUp "1"]
+[FEN "8/6p1/8/8/7p/7k/7P/7K b - - 1 8"]
+[ChapterId "E05"]
+[Domain "endgame"]
+[Role "exercise"]
+[Block "King and tempo"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 23, critical-position extract"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "win"]
+
+{ Your g pawn has two starting speeds. Choose the one that gets the timing right. } 8... g5 { Two squares! You need to reach g3 while his king is on h1. [%cal Gg7g5] } (8... Kg4 { This changes the result. Your king takes a different route. } 9. Kg2 9... h3+ 10. Kf2 10... Kh4 11. Ke1 { The result has changed. Our pawn needs the correct arrival time on g3. [%cal Rf2e1] }) (8... g6 { One square gives the wrong timing. Watch where his king can wait. } 9. Kg1 9... g5 10. Kh1 10... Kg4 11. Kg2 11... Kf5 12. Kf3 { The pawn timing is wrong. His king can wait without allowing the breakthrough. [%cal Rg2f3] }) 9. Kg1 { His king has only this move. Keep the pawn coming. } 9... g4 { One more step sets up the final push. [%cal Gg5g4] } (9... Kg4 { This changes the result. Your king takes a different route. } 10. Kg2 10... Kf5 11. Kf3 11... g4+ 12. Ke2 { The result has changed. Our pawn needs the correct arrival time on g3. [%cal Rf3e2] }) 10. Kh1 { His king is in the corner. This is the moment to break through. } 10... g3 { Your pawn forces a capture or makes its own way to g2. [%cal Gg4g3] } 11. hxg3 { His pawn takes. Which pawn keeps your promotion route alive? } 11... hxg3 { Your new g pawn has the king beside it. Promotion follows. [%cal Gh4g3] } (11... Kxg3 { This changes the result. Your king takes a different route. } 12. Kg1 12... Kh3 13. Kf2 13... Kh2 14. Kf3 { The result has changed. Our pawn needs the correct arrival time on g3. [%cal Rf2f3] }) (11... Kg4 { Moving the king abandons your last pawn. That gives away the win. } 12. gxh4 12... Kxh4 { Your pawn is gone. Bare kings draw; recapture with the pawn instead. [%cal Rg4h4] }) 0-1
+
+
+[Event "Capablanca endings: Bring the king up to the majority"]
+[Site "https://lichess.org/analysis/8/4k1pp/8/5P2/3K2PP/8/8/8_w_-_-_1_2"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/HkP8CPyI"]
+[SetUp "1"]
+[FEN "8/4k1pp/8/5P2/3K2PP/8/8/8 w - - 1 2"]
+[ChapterId "E06"]
+[Domain "endgame"]
+[Role "exercise"]
+[Block "King and tempo"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 9, move 2"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "win"]
+
+{ Your f pawn has advanced. Bring your king close enough to help the majority. } 2. Ke5 { Your king supports the advance. The g and h pawns can join in. [%cal Gd4e5] } (2. g5 { This also keeps the result. Your pawn takes a different route. } 2... Kd6 { Also winning. Our king moves forward to support the majority. [%cal Be7d6] }) (2. Kd3 { This also keeps the result. Your king takes a different route. } 2... Kf6 { Also winning. Our king moves forward to support the majority. [%cal Be7f6] }) (2. Kd5 { This also keeps the result. Your king takes a different route. } 2... Kf6 { Also winning. Our king moves forward to support the majority. [%cal Be7f6] }) (2. Ke4 { This also keeps the result. Your king takes a different route. } 2... Kd6 { Also winning. Our king moves forward to support the majority. [%cal Be7d6] }) (2. f6+ { This changes the result. Your pawn takes a different route. } 2... Kxf6 { His king takes, keeping the pawns connected. Your extra pawn is gone. The ending draws. [%cal Re7f6] }) (2. h5 { This changes the result. Your pawn takes a different route. } 2... Kf6 3. Ke4 3... h6 4. Kf3 4... Kf7 { The result has changed. Our king moves forward to support the majority. [%cal Rf6f7] }) 1-0
+
+
+[Event "Capablanca endings: Sacrifice to break through"]
+[Site "https://lichess.org/analysis/8/ppp4k/8/PPP5/8/8/8/7K_w_-_-_0_1"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/61QL2bYU"]
+[SetUp "1"]
+[FEN "8/ppp4k/8/PPP5/8/8/8/7K w - - 0 1"]
+[ChapterId "E09"]
+[Domain "endgame"]
+[Role "teaching"]
+[Block "Passed pawns"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 24, critical-position extract"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "win"]
+
+{ A pawn breakthrough creates a passed pawn. Push to b6 and sacrifice to make one run. [%cal Yb5b6] } 1. b6 { The middle pawn breaks the chain. One neighboring pawn will get through. [%cal Gb5b6] } (1. Kg2 { This also keeps the result. Your king takes a different route. } 1... Kg6 { Also winning. Our sacrifices clear the a column. [%cal Bh7g6] }) (1. Kh2 { This changes the result. Your king takes a different route. } 1... b6 2. cxb6 2... cxb6 3. axb6 3... axb6 { The result has changed. Our sacrifices clear the a column. [%cal Ra7b6] }) (1. Kg1 { This changes the result. Your king takes a different route. } 1... b6 2. axb6 2... axb6 { Your pawns remain blocked. Waiting gave Black time to stop the breakthrough. [%cal Ra7b6] }) (1. c6 { A wing pawn goes first. The middle pawn cannot open a path in time. } 1... bxc6 2. Kg2 2... cxb5 3. Kf3 3... a6 { The result has changed. Our sacrifices clear the a column. [%cal Ra7a6] }) (1. a6 { This pawn goes first, but it cannot remove both neighboring guards. } 1... bxa6 2. b6 2... axb6 3. c6 3... b5 { The result has changed. Our sacrifices clear the a column. [%cal Rb6b5] }) 1... axb6 { He takes with the a pawn. Push your c pawn to c6 and remove the last guard. [%cal Yc5c6] } 2. c6 { Your second sacrifice pulls the b pawn away from the a column. [%cal Gc5c6] } (2. cxb6 { This changes the result. Your pawn takes a different route. } 2... cxb6 3. axb6 3... Kg8 4. Kg2 4... Kf7 { The result has changed. Our sacrifices clear the a column. [%cal Rg8f7] }) (2. axb6 { This changes the result. Your pawn takes a different route. } 2... c6 3. Kg1 3... Kg6 4. Kg2 4... Kf6 { The result has changed. Our sacrifices clear the a column. [%cal Rg6f6] }) (2. a6 { This changes the result. Your pawn takes a different route. } 2... bxa6 3. c6 3... b5 4. Kg1 4... b4 { The result has changed. Our sacrifices clear the a column. [%cal Rb5b4] }) (2. Kg2 { This changes the result. Your king takes a different route. } 2... bxa5 { Either wing pawn can be taken. He chooses the a pawn and keeps his c pawn. } 3. Kf3 3... a4 4. Ke4 4... Kg6 { The result has changed. Our sacrifices clear the a column. [%cal Rh7g6] }) 2... bxc6 { He takes again. Push your a pawn to a6 and let it run. [%cal Ya5a6] } 3. a6 { The a column is clear. Your pawn reaches promotion before his pawns can. [%cal Ga5a6] } (3. Kg1 { This changes the result. Your king takes a different route. } 3... bxa5 4. Kh1 4... a4 5. Kh2 5... Kg7 { The result has changed. Our sacrifices clear the a column. [%cal Rh7g7] }) (3. Kh2 { This changes the result. Your king takes a different route. } 3... bxa5 4. Kh3 4... Kh6 5. Kg4 5... Kg6 { The result has changed. Our sacrifices clear the a column. [%cal Rh6g6] }) (3. Kg2 { This changes the result. Your king takes a different route. } 3... bxa5 4. Kf2 4... a4 5. Ke3 5... a3 { The result has changed. Our sacrifices clear the a column. [%cal Ra4a3] }) (3. axb6 { This changes the result. Your pawn takes a different route. } 3... cxb6 4. Kg2 4... Kg6 5. Kf1 5... Kf6 { The result has changed. Our sacrifices clear the a column. [%cal Rg6f6] }) 1-0
+
+
+[Event "Capablanca endings: Race along the right file"]
+[Site "https://lichess.org/analysis/8/6k1/1p6/P7/7p/1K6/8/8_w_-_-_0_4"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/85BGFr8S"]
+[SetUp "1"]
+[FEN "8/6k1/1p6/P7/7p/1K6/8/8 w - - 0 4"]
+[ChapterId "E10"]
+[Domain "endgame"]
+[Role "exercise"]
+[Block "Passed pawns"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 25, critical-position extract"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "win"]
+
+{ Both sides want a queen. Choose the file that will control his promotion square. } 4. a6 { You ignore the pawn and stay on the a column. A queen on a8 will guard h1. [%cal Ga5a6] } (4. axb6 { You take the pawn, but change the square where your new queen will appear. } 4... h3 5. b7 5... h2 6. b8=Q 6... h1=Q { Both pawns promote. Your queen no longer controls his promotion square. [%cal Rh2h1] }) (4. Ka4 { This changes the result. Your king takes a different route. } 4... bxa5 5. Kxa5 5... Kg6 6. Kb4 6... h3 { The result has changed. Our new queen on a8 would guard h1. [%cal Rh4h3] }) (4. Kb4 { This changes the result. Your king takes a different route. } 4... bxa5+ 5. Kxa5 5... Kg6 6. Kb4 6... h3 { The result has changed. Our new queen on a8 would guard h1. [%cal Rh4h3] }) (4. Kc4 { This changes the result. Your king takes a different route. } 4... bxa5 5. Kb5 5... Kf6 6. Kxa5 6... Ke5 { The result has changed. Our new queen on a8 would guard h1. [%cal Rf6e5] }) 4... h3 { He races his pawn. Moving his king would only delay your win. } 5. a7 { Your pawn is one step away. Keep the promotion diagonal in mind. [%cal Ga6a7] } (5. Kc4 { This changes the result. Your king takes a different route. } 5... h2 6. a7 6... h1=Q 7. Kb5 7... Qa8 { The result has changed. Our new queen on a8 would guard h1. [%cal Rh1a8] }) (5. Ka3 { This changes the result. Your king takes a different route. } 5... h2 6. Ka4 6... Kf7 7. Kb5 7... h1=Q { The result has changed. Our new queen on a8 would guard h1. [%cal Rh2h1] }) (5. Kb4 { This changes the result. Your king takes a different route. } 5... h2 6. Kb5 6... Kf6 7. Kxb6 7... h1=Q { The result has changed. Our new queen on a8 would guard h1. [%cal Rh2h1] }) (5. Ka4 { This changes the result. Your king takes a different route. } 5... h2 6. Kb5 6... Kf6 7. Kxb6 7... h1=Q { The result has changed. Our new queen on a8 would guard h1. [%cal Rh2h1] }) 5... h2 { He keeps racing. Which promotion controls his queening square? } 6. a8=Q { Queen! From a8 she guards h1, so his pawn cannot promote safely. [%cal Ga7a8] } (6. Kc4 { This changes the result. Your king takes a different route. } 6... h1=Q 7. Kb5 7... Qa8 8. Kxb6 8... Kh6 { The result has changed. Our new queen on a8 would guard h1. [%cal Rg7h6] }) 1-0
+
+
+[Event "Capablanca endings: Use the squares the king abandons"]
+[Site "https://lichess.org/analysis/5k2/5P2/6p1/4K1P1/8/8/8/8_b_-_-_0_8"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/Iw3kpSAr"]
+[SetUp "1"]
+[FEN "5k2/5P2/6p1/4K1P1/8/8/8/8 b - - 0 8"]
+[ChapterId "E11"]
+[Domain "endgame"]
+[Role "exercise"]
+[Block "Passed pawns"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 8, critical-position extract"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "win"]
+
+{ Your f pawn has offered itself. Find a route for your king after the capture. } 8... Kxf7 { He takes the pawn. Can your king use the squares he left behind? } 9. Kd6 { Your king can circle toward g6. The pawn sacrifice bought that route. [%cal Ge5d6] } (9. Kd5 { This also keeps the result. Your king takes a different route. } 9... Ke7 { Also winning. Our f pawn draws the king away from g6. [%cal Bf7e7] }) (9. Kf4 { This changes the result. Your king takes a different route. } 9... Kf8 10. Ke5 10... Ke7 11. Kd5 11... Kd7 { The result has changed. Our f pawn draws the king away from g6. [%cal Re7d7] }) (9. Kd4 { This changes the result. Your king takes a different route. } 9... Ke6 10. Ke4 10... Kd6 11. Kd4 11... Ke6 { The result has changed. Our f pawn draws the king away from g6. [%cal Rd6e6] }) (9. Ke4 { This changes the result. Your king takes a different route. } 9... Ke6 10. Kf4 10... Kd5 11. Kg4 11... Ke5 { The result has changed. Our f pawn draws the king away from g6. [%cal Rd5e5] }) 1-0
+
+
+[Event "Capablanca endings: Answer the rook check actively"]
+[Site "https://lichess.org/analysis/4k3/P7/4K1r1/R7/8/8/8/8_w_-_-_1_61"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/ucWYcKvL"]
+[SetUp "1"]
+[FEN "4k3/P7/4K1r1/R7/8/8/8/8 w - - 1 61"]
+[ChapterId "E12"]
+[Domain "endgame"]
+[Role "exercise"]
+[Block "Passed pawns"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part II, Game 10, move 61"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "win"]
+
+{ His rook checks while your pawn waits on a7. Can your king answer with a threat? } 61. Kf5 { Your king attacks the checking rook. The a pawn still threatens promotion. [%cal Ge6f5] } (61. Kd5 { This changes the result. Your king takes a different route. } 61... Rg5+ 62. Kc6 62... Rxa5 63. Kb7 63... Kd8 { The result has changed. Our king attacks the checking rook. [%cal Re8d8] }) (61. Ke5 { This changes the result. Your king takes a different route. } 61... Rg5+ 62. Kd6 62... Rxa5 63. Kc6 63... Rxa7 { The result has changed. Our king attacks the checking rook. [%cal Ra5a7] }) 1-0
+
+
+[Event "Capablanca endings: Stay in front of the king"]
+[Site "https://lichess.org/analysis/8/8/8/4k3/8/3KP3/8/8_b_-_-_2_2"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/FR67fkHP"]
+[SetUp "1"]
+[FEN "8/8/8/4k3/8/3KP3/8/8 b - - 2 2"]
+[ChapterId "E13"]
+[Domain "endgame"]
+[Role "teaching"]
+[Block "Opposition"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 5, critical-position extract"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "draw"]
+
+{ Defend with opposition. Move your king to d5 and stay in front of his king. [%cal Ye5d5] } 2... Kd5 { Your king blocks his king. Do not retreat before the pawn makes you move. [%cal Ge5d5] } (2... Kd6 { Your king retreats instead of standing directly in front of his. } 3. Kd4 3... Ke7 4. Ke5 4... Kf7 5. Kd6 { The result has changed. Our king stays directly in front. [%cal Re5d6] }) (2... Ke6 { This changes the result. Your king takes a different route. } 3. Ke4 3... Kf6 4. Kf4 4... Ke6 5. Ke4 { The result has changed. Our king stays directly in front. [%cal Rf4e4] }) (2... Kf5 { This changes the result. Your king takes a different route. } 3. Kd4 3... Kf6 4. Kd5 4... Ke7 5. Ke5 { The result has changed. Our king stays directly in front. [%cal Rd5e5] }) (2... Kf6 { This changes the result. Your king takes a different route. } 3. Kd4 3... Kg6 4. Kc4 4... Kf7 5. Kd5 { The result has changed. Our king stays directly in front. [%cal Rc4d5] }) 3. e4+ { The pawn checks. Return your king to e5 and keep it in front of the pawn. [%cal Yd5e5] } 3... Ke5 { You are back in front. White cannot force your king aside. [%cal Gd5e5] } (3... Kc6 { This also keeps the result. Your king takes a different route. } 4. Ke3 { Also drawing. Our king stays directly in front. [%cal Bd3e3] }) (3... Ke6 { This also keeps the result. Your king takes a different route. } 4. Ke3 { Also drawing. Our king stays directly in front. [%cal Bd3e3] }) (3... Kc5 { This also keeps the result. Your king takes a different route. } 4. Ke3 { Also drawing. Our king stays directly in front. [%cal Bd3e3] }) (3... Kd6 { This also keeps the result. Your king takes a different route. } 4. Kd2 { Also drawing. Our king stays directly in front. [%cal Bd3d2] }) 0-1
+
+
+[Event "Capablanca endings: Answer the distant waiting move"]
+[Site "https://lichess.org/analysis/3k4/8/8/1p5p/1P5P/8/4K3/8_w_-_-_2_2"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/KXO4fE6p"]
+[SetUp "1"]
+[FEN "3k4/8/8/1p5p/1P5P/8/4K3/8 w - - 2 2"]
+[ChapterId "E14"]
+[Domain "endgame"]
+[Role "exercise"]
+[Block "Opposition"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 27, critical-position extract"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "win"]
+
+{ His king has made a waiting move. Find the route that keeps the opposition. } 2. Kf3 { You leave a file between the kings. Copying his move would lose the timing. [%cal Ge2f3] } (2. Kd2 { This also keeps the result. Your king takes a different route. } 2... Ke7 { Also winning. Our king preserves the distant opposition. [%cal Bd8e7] }) (2. Kf2 { This changes the result. Your king takes a different route. } 2... Kd7 3. Kf3 3... Kd6 4. Kf4 4... Kd5 { The result has changed. Our king preserves the distant opposition. [%cal Rd6d5] }) (2. Kd3 { You follow his king, but he can take the opposition. } 2... Kd7 3. Ke3 3... Ke7 4. Kd3 4... Kd7 { The result has changed. Our king preserves the distant opposition. [%cal Re7d7] }) (2. Ke3 { You walk straight up, but Black can take the opposition. } 2... Ke7 3. Kf3 3... Kf7 4. Ke3 4... Ke7 { The result has changed. Our king preserves the distant opposition. [%cal Rf7e7] }) 2... Ke7 { His king returns. How can you restore the direct opposition? } 3. Ke3 { Your king takes e3. When his king advances, you can claim the opposition. [%cal Gf3e3] } (3. Kg3 { This changes the result. Your king takes a different route. } 3... Ke6 4. Kf4 4... Kf6 5. Ke4 5... Ke6 { The result has changed. Our king preserves the distant opposition. [%cal Rf6e6] }) (3. Ke4 { This changes the result. Your king takes a different route. } 3... Ke6 4. Kd4 4... Kd6 5. Ke4 5... Ke6 { The result has changed. Our king preserves the distant opposition. [%cal Rd6e6] }) (3. Kf4 { This changes the result. Your king takes a different route. } 3... Kf6 4. Ke4 4... Ke6 5. Kd4 5... Kd6 { The result has changed. Our king preserves the distant opposition. [%cal Re6d6] }) (3. Kg2 { This changes the result. Your king takes a different route. } 3... Ke6 4. Kf2 4... Kd5 5. Kf3 5... Kc4 { The result has changed. Our king preserves the distant opposition. [%cal Rd5c4] }) 1-0
+
+
+[Event "Capablanca endings: Keep distant lateral opposition"]
+[Site "https://lichess.org/analysis/8/8/8/4p1p1/8/5P2/6K1/3k4_w_-_-_0_1"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/RjLZ4QgY"]
+[SetUp "1"]
+[FEN "8/8/8/4p1p1/8/5P2/6K1/3k4 w - - 0 1"]
+[ChapterId "E15"]
+[Domain "endgame"]
+[Role "exercise"]
+[Block "Opposition"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 28, critical-position extract"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "draw"]
+
+{ Your pawn blocks the close route. Find a distant way to keep the kings opposed. } 1. Kh1 { The corner gives you distant opposition. Your pawn no longer blocks your route. [%cal Gg2h1] } (1. Kh3 { This changes the result. Your king takes a different route. } 1... Ke1 2. Kg3 2... Kf1 3. Kg4 3... Ke2 { The result has changed. Our king uses the h column for distant opposition. [%cal Rf1e2] }) (1. Kf1 { Close opposition looks right. Your own pawn will block the next step. } 1... Kd2 2. Kg1 2... Kd3 3. Kf1 3... Ke3 { Your pawn blocks the lateral route. The close opposition does not hold. [%cal Rd3e3] }) (1. Kf2 { This changes the result. Your king takes a different route. } 1... Kd2 2. Kf1 2... Ke3 3. Kg2 3... Ke2 { The result has changed. Our king uses the h column for distant opposition. [%cal Re3e2] }) (1. Kg3 { This changes the result. Your king takes a different route. } 1... Ke1 2. Kh3 2... Kf2 3. Kg4 3... Kg2 { The result has changed. Our king uses the h column for distant opposition. [%cal Rf2g2] }) 1... Kd2 { His king moves up. Can you keep the same spacing? } 2. Kh2 { Your king follows on the h column, leaving room beside your pawn. [%cal Gh1h2] } (2. Kg1 { This changes the result. Your king takes a different route. } 2... Kd3 3. Kf1 3... Ke3 4. Kg2 4... Ke2 { The result has changed. Our king uses the h column for distant opposition. [%cal Re3e2] }) (2. Kg2 { This changes the result. Your king takes a different route. } 2... Ke2 3. Kg3 3... Kd1 4. Kh3 4... Ke1 { The result has changed. Our king uses the h column for distant opposition. [%cal Rd1e1] }) (2. f4 { This changes the result. Your pawn takes a different route. } 2... exf4 3. Kh2 3... Ke2 4. Kh3 4... Kf3 { The result has changed. Our king uses the h column for distant opposition. [%cal Re2f3] }) 2... Kd3 { He advances again. Keep the lateral opposition. } 3. Kh3 { You still face him from a distance. His extra pawn has not forced a way through. [%cal Gh2h3] } (3. Kg3 { This changes the result. Your king takes a different route. } 3... Ke3 4. Kg2 4... Ke2 5. Kg3 5... Kf1 { The result has changed. Our king uses the h column for distant opposition. [%cal Re2f1] }) (3. Kg1 { This changes the result. Your king takes a different route. } 3... Kc3 4. Kg2 4... Kc2 5. Kg3 5... Kd1 { The result has changed. Our king uses the h column for distant opposition. [%cal Rc2d1] }) (3. Kh1 { This changes the result. Your king takes a different route. } 3... Kc3 4. Kg2 4... Kc2 5. Kg3 5... Kd1 { The result has changed. Our king uses the h column for distant opposition. [%cal Rc2d1] }) (3. Kg2 { This changes the result. Your king takes a different route. } 3... Ke2 4. Kg3 4... Kd1 5. Kf2 5... Kd2 { The result has changed. Our king uses the h column for distant opposition. [%cal Rd1d2] }) 1-0
+
+
+[Event "Capablanca endings: Improve the king before capturing"]
+[Site "https://lichess.org/analysis/8/8/8/4p3/6p1/5P2/8/3k3K_w_-_-_0_2"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/j7omKLhM"]
+[SetUp "1"]
+[FEN "8/8/8/4p3/6p1/5P2/8/3k3K w - - 0 2"]
+[ChapterId "E16"]
+[Domain "endgame"]
+[Role "exercise"]
+[Block "Opposition"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 28, critical-position extract"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "draw"]
+
+{ That pawn can be captured. First make sure your king will not lose the race. } 2. Kg2 { Your king steps closer before taking. The timing, not the free pawn, comes first. [%cal Gh1g2] } (2. f4 { This changes the result. Your pawn takes a different route. } 2... exf4 3. Kh2 3... g3+ 4. Kh3 4... Kd2 { The result has changed. Our king moves closer before the pawn race. [%cal Rd1d2] }) (2. fxg4 { A free pawn is tempting. Your king has not gained the move it needs. } 2... e4 3. Kg2 3... e3 4. Kf3 4... Kd2 { The e pawn wins the race. Move your king closer before capturing. [%cal Rd1d2] }) (2. Kg1 { This changes the result. Your king takes a different route. } 2... gxf3 3. Kf2 3... e4 4. Ke3 4... Ke1 { The result has changed. Our king moves closer before the pawn race. [%cal Rd1e1] }) (2. Kh2 { This changes the result. Your king takes a different route. } 2... gxf3 3. Kg3 3... Ke2 4. Kg4 4... e4 { The result has changed. Our king moves closer before the pawn race. [%cal Re5e4] }) 2... Kd2 { His king steps away. Can you now take without falling behind? } 3. fxg4 { Now both sides can run their pawns. The race is level. [%cal Gf3g4] } (3. Kf2 { This changes the result. Your king takes a different route. } 3... gxf3 4. Kxf3 4... Kd3 5. Kf2 5... e4 { The result has changed. Our king moves closer before the pawn race. [%cal Re5e4] }) (3. Kg3 { This changes the result. Your king takes a different route. } 3... gxf3 4. Kxf3 4... Kd3 5. Kf2 5... e4 { The result has changed. Our king moves closer before the pawn race. [%cal Re5e4] }) (3. f4 { This changes the result. Your pawn takes a different route. } 3... exf4 4. Kf2 4... Kc1 5. Ke2 5... Kc2 { The result has changed. Our king moves closer before the pawn race. [%cal Rc1c2] }) (3. Kg1 { This changes the result. Your king takes a different route. } 3... gxf3 4. Kf2 4... e4 5. Kg3 5... Ke2 { The result has changed. Our king moves closer before the pawn race. [%cal Rd2e2] }) 1-0
+
+
+[Event "Capablanca endings: Stop the promotion from behind"]
+[Site "https://lichess.org/analysis/8/7R/5P2/2k5/1p6/3r4/5PKP/8_b_-_-_0_1"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/dItxqAWr"]
+[SetUp "1"]
+[FEN "8/7R/5P2/2k5/1p6/3r4/5PKP/8 b - - 0 1"]
+[ChapterId "E18"]
+[Domain "endgame"]
+[Role "teaching"]
+[Block "Rook activity"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 59, critical-position extract"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "draw"]
+
+{ Now let us keep the rook active. Play it to d6 so it can reach d8 first. [%cal Yd3d6] } 1... Rd6 { Your rook takes the d column. It can reach the back rank before the pawn queens. [%cal Gd3d6] } (1... Rd5 { This also keeps the result. Your rook takes a different route. } 2. Rb7 { Also drawing. Our rook reaches d8 and guards promotion. [%cal Bh7b7] }) (1... Kd6 { This also keeps the result. Your king takes a different route. } 2. Rb7 { Also drawing. Our rook reaches d8 and guards promotion. [%cal Bh7b7] }) (1... Kc6 { This changes the result. Your king takes a different route. } 2. Re7 2... Rd5 3. Re4 3... b3 4. h4 { The result has changed. Our rook reaches d8 and guards promotion. [%cal Rh2h4] }) (1... Rd4 { This changes the result. Your rook takes a different route. } 2. Rb7 2... Rg4+ 3. Kf3 3... Rg6 4. f7 { The result has changed. Our rook reaches d8 and guards promotion. [%cal Rf6f7] }) (1... Rd2 { Your rook moves away from the back-rank defense. } 2. Rb7 2... Rd8 3. f7 3... Kd6 4. h4 { The result has changed. Our rook reaches d8 and guards promotion. [%cal Rh2h4] }) 2. f7 { His pawn advances. Move your rook to d8 and guard the promotion square. [%cal Yd6d8] } 2... Rd8 { Your rook reaches d8. It guards f8 while your own passed pawn keeps White busy. [%cal Gd6d8] } (2... Rf6 { This also keeps the result. Your rook takes a different route. } 3. Rg7 { Also drawing. Our rook reaches d8 and guards promotion. [%cal Bh7g7] }) (2... Rg6+ { This changes the result. Your rook takes a different route. } 3. Kf1 3... Rf6 4. Ke2 4... Kd6 5. Rh6 { The result has changed. Our rook reaches d8 and guards promotion. [%cal Rh7h6] }) (2... Kd5 { This changes the result. Your king takes a different route. } 3. f8=Q 3... Rg6+ 4. Kh1 4... Rd6 5. Rh5+ { The result has changed. Our rook reaches d8 and guards promotion. [%cal Rh7h5] }) (2... Kc6 { This changes the result. Your king takes a different route. } 3. f8=Q 3... Rg6+ 4. Kf3 4... Rd6 5. Qa8+ { The result has changed. Our rook reaches d8 and guards promotion. [%cal Rf8a8] }) 0-1
+
+
+[Event "Capablanca endings: Keep the king active"]
+[Site "https://lichess.org/analysis/8/2R5/3r1P2/2k5/1p6/8/5PKP/8_b_-_-_2_2"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/Zby9SyaQ"]
+[SetUp "1"]
+[FEN "8/2R5/3r1P2/2k5/1p6/8/5PKP/8 b - - 2 2"]
+[ChapterId "E19"]
+[Domain "endgame"]
+[Role "exercise"]
+[Block "Rook activity"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 59, critical-position extract"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "draw"]
+
+{ The rook checks. Which king move keeps your counterplay alive? } 2... Kd4 { Your king stays close to the b pawn. Stepping back would lose that counterplay. [%cal Gc5d4] } (2... Kd5 { This also keeps the result. Your king takes a different route. } 3. f7 { Also drawing. Our king stays close to the passed b pawn. [%cal Bf6f7] }) (2... Kb6 { Your king retreats too far from the passed b pawn. } 3. f7 3... Rg6+ 4. Kf1 4... Rf6 5. Rc4 { Your king has lost contact with the b pawn. The active king was essential. [%cal Rc7c4] }) (2... Kb5 { This changes the result. Your king takes a different route. } 3. Rb7+ 3... Kc5 4. f7 4... Rg6+ 5. Kf3 { The result has changed. Our king stays close to the passed b pawn. [%cal Rg2f3] }) (2... Rc6 { This changes the result. Your rook takes a different route. } 3. Rxc6+ 3... Kxc6 4. f7 4... Kb5 5. Kg3 { The result has changed. Our king stays close to the passed b pawn. [%cal Rg2g3] }) 3. f7 { His pawn advances. Find a check that gains a useful move before stopping it. } 3... Rg6+ { The check gains time. Your rook can then attack the f pawn from f6. [%cal Gd6g6] } (3... Rf6 { This also keeps the result. Your rook takes a different route. } 4. Rb7 { Also drawing. Our king stays close to the passed b pawn. [%cal Bc7b7] }) (3... Rd8 { This changes the result. Your rook takes a different route. } 4. Rd7+ 4... Rxd7 5. f8=Q { Your rook remains, but White has a queen. The drawing defense was lost. [%cal Rf7f8] }) (3... Ke5 { This changes the result. Your king takes a different route. } 4. f8=Q 4... Re6 5. Qg7+ 5... Kd5 6. Qd7+ { The result has changed. Our king stays close to the passed b pawn. [%cal Rg7d7] }) (3... Rd5 { This changes the result. Your rook takes a different route. } 4. f8=Q 4... Ke4 5. Qf6 5... Re5 6. Rd7 { The result has changed. Our king stays close to the passed b pawn. [%cal Rc7d7] }) 0-1
+
+
+[Event "Capablanca endings: Clear the road for the passer"]
+[Site "https://lichess.org/analysis/8/8/4p1k1/P7/1r6/2R5/6PK/8_w_-_-_0_49"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/LBFxVY8V/kEKU5SEw"]
+[SetUp "1"]
+[FEN "8/8/4p1k1/P7/1r6/2R5/6PK/8 w - - 0 49"]
+[ChapterId "E20"]
+[Domain "endgame"]
+[Role "exercise"]
+[Block "Rook activity"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part II, Game 10, move 49"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+[IntendedResult "win"]
+
+{ Your rook is in your passer's road. Find a square that supports the advance. } 49. Ra3 { Your rook steps behind the a pawn. The pawn can advance with protection. [%cal Gc3a3] } (49. Rg3+ { This also keeps the result. Your rook takes a different route. } 49... Kf5 { Also winning. Our rook supports the a pawn from behind. [%cal Bg6f5] }) (49. Re3 { This also keeps the result. Your rook takes a different route. } 49... Ra4 { Also winning. Our rook supports the a pawn from behind. [%cal Bb4a4] }) (49. Rc6 { This changes the result. Your rook takes a different route. } 49... Kf5 50. Rc7 50... Ra4 51. Rf7+ 51... Kg6 { The result has changed. Our rook supports the a pawn from behind. [%cal Rf5g6] }) (49. Rc8 { This changes the result. Your rook takes a different route. } 49... e5 50. Kh3 50... Rd4 51. g4 51... Ra4 { The result has changed. Our rook supports the a pawn from behind. [%cal Rd4a4] }) (49. Rc4 { This changes the result. Your rook takes a different route. } 49... Rxc4 50. Kg3 50... Kf5 51. a6 51... Ra4 { The result has changed. Our rook supports the a pawn from behind. [%cal Rc4a4] }) 1-0

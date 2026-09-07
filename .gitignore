@@ -1,0 +1,16 @@
+/*
+!/beginners
+!/intermediate
+!/advanced
+!/preset-beginner.txt
+!/preset-intermediate.txt
+!/.gitignore
+
+/beginners/*
+!/beginners/*.pgn
+
+/intermediate/*
+!/intermediate/*.pgn
+
+/advanced/*
+!/advanced/*.pgn

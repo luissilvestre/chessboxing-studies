@@ -1,0 +1,358 @@
+[Event "Capablanca plans: Develop with a pin"]
+[Site "https://lichess.org/analysis/r1bq1rk1/ppp2ppp/2np1n2/1B2p3/1b2P3/2NP1N2/PPP2PPP/R1BQ1RK1_w_-_-_0_7"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/KJDr6hau"]
+[SetUp "1"]
+[FEN "r1bq1rk1/ppp2ppp/2np1n2/1B2p3/1b2P3/2NP1N2/PPP2PPP/R1BQ1RK1 w - - 0 7"]
+[ChapterId "S01"]
+[Domain "strategy"]
+[Role "teaching"]
+[Block "Development"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 17, move 7"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ Capablanca plans. Finish development with a pin: bishop to g5. [%cal Yc1g5] } 7. Bg5 { You develop your last minor piece and pin the knight to the queen. [%cal Gc1g5] } (7. Ne2 { Also sound. Your knight clears c3 for a useful pawn advance. } 7... Ne7 { Also playable. Our pin develops the bishop and pressures f6. [%cal Bc6e7] }) (7. Bxc6 { Also sound. You trade bishop for knight and change his pawn structure. } 7... bxc6 { Also playable. Our pin develops the bishop and pressures f6. [%cal Bb7c6] }) (7. Ba4 { Also sound. You keep the bishop, but leave the other bishop at home. } 7... Bxc3 { Also playable. Our pin develops the bishop and pressures f6. [%cal Bb4c3] }) (7. h3 { A useful waiting move. It does not develop your last bishop. } 7... Ne7 { Also playable. Our pin develops the bishop and pressures f6. [%cal Bc6e7] }) 1-0
+
+
+[Event "Capablanca plans: Claim room in the center"]
+[Site "https://lichess.org/analysis/rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R_w_KQkq_-_0_3"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/la0vFFtA"]
+[SetUp "1"]
+[FEN "rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"]
+[ChapterId "S02"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Development"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 18, move 3"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ Black has played quietly. Can you claim room for your pieces? } 3. d4 { Your two central pawns give your pieces room and challenge his e pawn. [%cal Gd2d4] } (3. Bc4 { Also sound. Your bishop develops with an eye on f7. } 3... Nf6 { Also playable. Our pawn move claims the center immediately. [%cal Bg8f6] }) (3. Nc3 { Also sound. Your knight supports the center before you change the pawns. } 3... c5 { Also playable. Our pawn move claims the center immediately. [%cal Bc7c5] }) (3. a4 { Playable. You gain space on the wing rather than challenge the center. } 3... Nf6 { Also playable. Our pawn move claims the center immediately. [%cal Bg8f6] }) (3. h3 { Playable. You prevent a pin, but your central advance can come first. } 3... c5 { Also playable. Our pawn move claims the center immediately. [%cal Bc7c5] }) 1-0
+
+
+[Event "Capablanca plans: Castle away from the prepared attack"]
+[Site "https://lichess.org/analysis/r3k2r/pbpn1p1p/1p2pp2/5q2/2PP4/5N2/P1PQBPPP/R3K2R_w_KQkq_-_1_12"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/PeikIAQq"]
+[SetUp "1"]
+[FEN "r3k2r/pbpn1p1p/1p2pp2/5q2/2PP4/5N2/P1PQBPPP/R3K2R w KQkq - 1 12"]
+[ChapterId "S03"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Development"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part II, Game 4, move 12"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ His pieces face your king side. Where can your king find a safer home? } 12. O-O-O { Your king leaves the g column and your rook enters the game in one move. [%cal Ge1c1] } (12. Rf1 { Also sound. Your rook helps defend, but your king remains in the center. } 12... O-O-O { Also playable. Our king leaves the g column and the rook develops. [%cal Be8c8] }) (12. Rg1 { Also sound. Your rook contests the g column instead of castling away. } 12... O-O-O { Also playable. Our king leaves the g column and the rook develops. [%cal Be8c8] }) (12. Nh4 { Also sound. Your knight asks the queen to move before you settle your king. } 12... Qg5 { Also playable. Our king leaves the g column and the rook develops. [%cal Bf5g5] }) (12. Qc3 { Also sound. Your queen chooses a different task. } 12... Rg8 { Also playable. Our king leaves the g column and the rook develops. [%cal Bh8g8] }) (12. O-O { The king heads toward the side where Black has prepared his attack. } 12... Rg8 { Also playable. Our king leaves the g column and the rook develops. [%cal Bh8g8] }) 1-0
+
+
+[Event "Capablanca plans: Open a route for the bishop"]
+[Site "https://lichess.org/analysis/r5k1/pp1q1ppp/2pp4/2b2P2/4Q3/2P5/PP1R2PP/2K1R3_b_-_-_1_24"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/P6IgYsDk"]
+[SetUp "1"]
+[FEN "r5k1/pp1q1ppp/2pp4/2b2P2/4Q3/2P5/PP1R2PP/2K1R3 b - - 1 24"]
+[ChapterId "S04"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Development"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part II, Game 8, move 24"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ You gave up the exchange. Can your pawns help your bishop join the fight? } 24... d5 { You clear d6 for the bishop. It can reach f6 and help your pawn majority. [%cal Gd6d5] } (24... Qd8 { The queen steps back, but the bishop still needs a route into the game. } 25. Rde2 25... Qg5+ 26. Kc2 { This gives up some pressure. Our break clears a route for the bishop to f6. [%cal Rc1c2] }) (24... h6 { You protect the king side while the bishop remains cut off. } 25. f6 25... a5 26. fxg7 { This gives up some pressure. Our break clears a route for the bishop to f6. [%cal Rf6g7] }) (24... h5 { The pawn gains space, but it does not free your bishop. } 25. f6 25... d5 26. fxg7 { This gives up some pressure. Our break clears a route for the bishop to f6. [%cal Rf6g7] }) (24... Rd8 { This gives too much away. Your rook chooses a different task. } 25. Qe7 25... Qxe7 26. Rxe7 { This leaves you worse off. Our break clears a route for the bishop to f6. [%cal Re1e7] }) 0-1
+
+
+[Event "Capablanca plans: Shut the bishop out"]
+[Site "https://lichess.org/analysis/r4rk1/ppp2p2/3b3p/2p1p1p1/4P3/3P1PBP/PPP2P2/R4RK1_b_-_-_0_15"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/Y1pH9J2T"]
+[SetUp "1"]
+[FEN "r4rk1/ppp2p2/3b3p/2p1p1p1/4P3/3P1PBP/PPP2P2/R4RK1 b - - 0 15"]
+[ChapterId "S05"]
+[Domain "strategy"]
+[Role "teaching"]
+[Block "Restrict"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 54, move 15"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ Restrict a piece. Play your pawn to f6 and keep his bishop behind its pawns. [%cal Yf7f6] } 15... f6 { Your e5 pawn stays put. His bishop on g3 has no useful path into the game. [%cal Gf7f6] } (15... a5 { Also sound. You begin queen-side play before closing the bishop in. } 16. a4 { Also playable. Our f pawn keeps the bishop on g3 shut out. [%cal Ba2a4] }) (15... h5 { Also sound. You gain space, but do not secure the e5 pawn with f6 yet. } 16. h4 { Also playable. Our f pawn keeps the bishop on g3 shut out. [%cal Bh3h4] }) (15... Kh7 { Also sound. You move the king first rather than fix the pawn chain. } 16. Kh2 { Also playable. Our f pawn keeps the bishop on g3 shut out. [%cal Bg1h2] }) (15... Kg7 { Also sound. Your king approaches the center before you fix the pawn chain. } 16. Kg2 { Also playable. Our f pawn keeps the bishop on g3 shut out. [%cal Bg1g2] }) (15... g4 { Your pawn advances, but it gives his bishop a diagonal. } 16. fxg4 { His f pawn takes, keeping the h pawn for an advance. } 16... Rae8 17. h4 { This leaves you worse off. Our f pawn keeps the bishop on g3 shut out. [%cal Rh3h4] }) 0-1
+
+
+[Event "Capablanca plans: Occupy the hole"]
+[Site "https://lichess.org/analysis/r3brk1/pp2q1pp/1np1p3/2Nn1p2/3P4/3BPN2/PP3PPP/2RQ1RK1_w_-_-_2_15"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/48bZwnwF"]
+[SetUp "1"]
+[FEN "r3brk1/pp2q1pp/1np1p3/2Nn1p2/3P4/3BPN2/PP3PPP/2RQ1RK1 w - - 2 15"]
+[ChapterId "S06"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Restrict"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 67, move 15"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ Black has left a hole in the center. Give your knight a permanent home. } 15. Ne5 { Your knight occupies e5. Neither neighboring pawn can chase it away. [%cal Gf3e5] } (15. Qb3 { Also strong. Your queen attacks from the flank rather than occupying e5. } 15... Rb8 { Also playable. Our knight occupies the lasting hole on e5. [%cal Ba8b8] }) (15. Qc2 { Also strong. Your queen adds central pressure while the knight waits. } 15... Nb4 { Also playable. Our knight occupies the lasting hole on e5. [%cal Bd5b4] }) (15. Qd2 { Also sound. You connect your pieces before occupying the hole. } 15... Rd8 { Also playable. Our knight occupies the lasting hole on e5. [%cal Ba8d8] }) (15. Qe1 { Also sound. Your queen changes route; our knight occupies the hole at once. } 15... Nc8 { Also playable. Our knight occupies the lasting hole on e5. [%cal Bb6c8] }) (15. Nxb7 { A pawn looks free, but your knight leaves its strong central post. } 15... Qxb7 16. Qd2 16... Nd7 { This leaves you worse off. Our knight occupies the lasting hole on e5. [%cal Rb6d7] }) 1-0
+
+
+[Event "Capablanca plans: Challenge the advanced knight"]
+[Site "https://lichess.org/analysis/4r1k1/1b1rn1pp/ppppNp2/5P2/4P3/2N5/PPP3PP/3R1RK1_b_-_-_5_17"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/j9LnhvvZ"]
+[SetUp "1"]
+[FEN "4r1k1/1b1rn1pp/ppppNp2/5P2/4P3/2N5/PPP3PP/3R1RK1 b - - 5 17"]
+[ChapterId "S07"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Restrict"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part II, Game 5, move 17 (annotated improvement)"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ That white knight cramps your rooks. Can a pawn break give them room? } 17... c5 { You prepare d5. Attack the center instead of waiting behind the knight. [%cal Gc6c5] } (17... d5 { Also active. You challenge the center immediately rather than prepare c5. } 18. Na4 { Also playable. Our c pawn prepares a central break with d5. [%cal Bc3a4] }) (17... Kf7 { Also sound. Your king chooses a different task. } 18. Rf3 { Also playable. Our c pawn prepares a central break with d5. [%cal Bf1f3] }) (17... Nc8 { Also sound. Your knight chooses a different task. } 18. g4 { Also playable. Our c pawn prepares a central break with d5. [%cal Bg2g4] }) (17... a5 { Also sound. Your pawn chooses a different task. } 18. Rf3 { Also playable. Our c pawn prepares a central break with d5. [%cal Bf1f3] }) 0-1
+
+
+[Event "Capablanca plans: Use the central knight"]
+[Site "https://lichess.org/analysis/rn2rk2/2p2p2/p2b3p/3Pp3/P6N/8/1PB2PPP/R4RK1_w_-_-_0_24"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/PdZmbIg5"]
+[SetUp "1"]
+[FEN "rn2rk2/2p2p2/p2b3p/3Pp3/P6N/8/1PB2PPP/R4RK1 w - - 0 24"]
+[ChapterId "S08"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Restrict"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part II, Game 7, move 24"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ The queens are gone. Where can your knight attack while staying active? } 24. Nf5 { Your knight eyes d6 and h6. It joins the attack without another pawn move. [%cal Gh4f5] } (24. b3 { Also sound. You secure the queen side before bringing the knight forward. } 24... Nd7 { Also playable. Our knight attacks the bishop and the h6 pawn. [%cal Bb8d7] }) (24. Rab1 { Also sound. Your rook gains activity while the knight stays on h4. } 24... Nd7 { Also playable. Our knight attacks the bishop and the h6 pawn. [%cal Bb8d7] }) (24. a5 { Also sound. Your pawn chooses a different task. } 24... Nd7 { Also playable. Our knight attacks the bishop and the h6 pawn. [%cal Bb8d7] }) (24. Rfd1 { Also sound. Your rook chooses a different task. } 24... Nd7 { Also playable. Our knight attacks the bishop and the h6 pawn. [%cal Bb8d7] }) (24. Bd1 { Less accurate. Your bishop chooses a different task. } 24... Nd7 25. Rc1 25... Rab8 { This gives up some pressure. Our knight attacks the bishop and the h6 pawn. [%cal Ra8b8] }) 1-0
+
+
+[Event "Capablanca plans: Give back the exchange"]
+[Site "https://lichess.org/analysis/5qk1/pb5p/3br3/2p1p2Q/2Pp1p2/1P3P2/P3R1PP/4RNK1_w_-_-_3_29"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/ShZWXTJL"]
+[SetUp "1"]
+[FEN "5qk1/pb5p/3br3/2p1p2Q/2Pp1p2/1P3P2/P3R1PP/4RNK1 w - - 3 29"]
+[ChapterId "S09"]
+[Domain "strategy"]
+[Role "teaching"]
+[Block "Trades"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 53, move 29"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ Now let us trade. Give back material and capture the e5 pawn with your rook. [%cal Ye2e5] } 29. Rxe5 { You return the exchange to remove the center of his attack. [%cal Ge2e5] } (29. Nd2 { Also strong. Your knight joins the defense without returning material yet. } 29... Kh8 { Also playable. Our rook trade removes the center of his attack. [%cal Bg8h8] }) (29. Kh1 { Less accurate. Your king chooses a different task. } 29... Qf7 30. Qh3 30... Kg7 { This gives up some pressure. Our rook trade removes the center of his attack. [%cal Rg8g7] }) (29. Qh3 { Less accurate. Your queen chooses a different task. } 29... Bc8 30. Qh4 30... Bc7 { This gives up some pressure. Our rook trade removes the center of his attack. [%cal Rd6c7] }) (29. Kf2 { This gives too much away. Your king chooses a different task. } 29... Rh6 30. Qg4+ 30... Rg6 { This leaves you worse off. Our rook trade removes the center of his attack. [%cal Rh6g6] }) 29... Bxe5 { His bishop takes. Use your other rook to take the bishop on e5. [%cal Ye1e5] } 30. Rxe5 { The dangerous bishop and central pawn are gone. Your rook is active. [%cal Ge1e5] } (30. Ng3 { This gives too much away. Your knight chooses a different task. } 30... Qf6 31. Ne4 31... Bxe4 { This leaves you worse off. Our rook trade removes the center of his attack. [%cal Rb7e4] }) (30. Nd2 { This gives too much away. Your knight chooses a different task. } 30... Qf6 31. Kf1 31... Bc6 { This leaves you worse off. Our rook trade removes the center of his attack. [%cal Rb7c6] }) (30. a4 { This gives too much away. Your pawn chooses a different task. } 30... Qe7 31. Qg4+ 31... Kh8 { This leaves you worse off. Our rook trade removes the center of his attack. [%cal Rg8h8] }) (30. Qg5+ { This gives too much away. Your queen chooses a different task. } 30... Qg7 31. Qf5 31... Re7 { This leaves you worse off. Our rook trade removes the center of his attack. [%cal Re6e7] }) 1-0
+
+
+[Event "Capablanca plans: Exchange the important defender"]
+[Site "https://lichess.org/analysis/2rqk1nr/pp3ppp/2n1b3/2bp4/8/2N2NP1/PP2PPBP/R1BQ1RK1_w_k_-_0_10"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/ivfPvM94"]
+[SetUp "1"]
+[FEN "2rqk1nr/pp3ppp/2n1b3/2bp4/8/2N2NP1/PP2PPBP/R1BQ1RK1 w k - 0 10"]
+[ChapterId "S10"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Trades"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part II, Game 2, move 10"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ Can your knight challenge the bishop that holds his center together? } 10. Ng5 { You attack e6. Trading that bishop will expose his pawn structure. [%cal Gf3g5] } (10. e4 { Also strong. You challenge the center rather than exchange its defender. } 10... Nf6 { Also playable. Our knight removes the bishop defending e6. [%cal Bg8f6] }) (10. Qb3 { Also sound. Your queen chooses a different task. } 10... Nf6 { Also playable. Our knight removes the bishop defending e6. [%cal Bg8f6] }) (10. Qd3 { Also sound. Your queen chooses a different task. } 10... h6 { Also playable. Our knight removes the bishop defending e6. [%cal Bh7h6] }) (10. a3 { Also sound. Your pawn chooses a different task. } 10... Nf6 { Also playable. Our knight removes the bishop defending e6. [%cal Bg8f6] }) (10. Bg5 { Also sound. The bishop develops, but your knight does not challenge e6 yet. } 10... Nge7 { Also playable. Our knight removes the bishop defending e6. [%cal Bg8e7] }) 10... Nf6 { He develops, but the bishop is still available to exchange. } 11. Nxe6 { You remove the defender. A pawn recapture opens the diagonal from a3. [%cal Gg5e6] } (11. Bf4 { Also sound. Your bishop chooses a different task. } 11... O-O { Also playable. Our knight removes the bishop defending e6. [%cal Be8g8] }) (11. Na4 { Also sound. Your knight chooses a different task. } 11... Bb4 { Also playable. Our knight removes the bishop defending e6. [%cal Bc5b4] }) (11. a3 { Also sound. Your pawn chooses a different task. } 11... O-O { Also playable. Our knight removes the bishop defending e6. [%cal Be8g8] }) (11. Qb3 { Also sound. Your queen chooses a different task. } 11... O-O { Also playable. Our knight removes the bishop defending e6. [%cal Be8g8] }) 1-0
+
+
+[Event "Capablanca plans: Remove the king defender"]
+[Site "https://lichess.org/analysis/1k1r2r1/pbpn1pqp/1p2pp2/8/2PP1P1N/3RQ1P1/P1P1B2P/2KR4_w_-_-_1_19"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/KoKjF3XM"]
+[SetUp "1"]
+[FEN "1k1r2r1/pbpn1pqp/1p2pp2/8/2PP1P1N/3RQ1P1/P1P1B2P/2KR4 w - - 1 19"]
+[ChapterId "S11"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Trades"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part II, Game 4, move 19"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ His bishop guards the light squares near his king. Can you challenge it? } 19. Bf3 { Your bishop offers a trade. His king will miss that light-squared guard. [%cal Ge2f3] } (19. c5 { Also strong. Your pawn attacks the king position before exchanging bishops. } 19... f5 { Also playable. Our bishop trade removes a guard near his king. [%cal Bf6f5] }) (19. a4 { Also sound. Your pawn chooses a different task. } 19... Qf8 { Also playable. Our bishop trade removes a guard near his king. [%cal Bg7f8] }) (19. Nf3 { Less accurate. Your knight chooses a different task. } 19... Rde8 20. c5 20... e5 { This gives up some pressure. Our bishop trade removes a guard near his king. [%cal Re6e5] }) (19. Bh5 { Less accurate. Your bishop chooses a different task. } 19... Ba6 20. Bf3 20... f5 { This gives up some pressure. Our bishop trade removes a guard near his king. [%cal Rf6f5] }) 19... Rge8 { His rook move is a mistake. Can you finish the useful exchange? } 20. Bxb7 { His light-squared defender is gone. Your c pawn can help open the attack. [%cal Gf3b7] } (20. c5 { Also sound. Your pawn chooses a different task. } 20... c6 { Also playable. Our bishop trade removes a guard near his king. [%cal Bc7c6] }) (20. a4 { Also sound. Your pawn chooses a different task. } 20... Qf8 { Also playable. Our bishop trade removes a guard near his king. [%cal Bg7f8] }) (20. Ra3 { Also sound. Your rook chooses a different task. } 20... c5 { Also playable. Our bishop trade removes a guard near his king. [%cal Bc7c5] }) (20. Rb3 { Less accurate. Your rook chooses a different task. } 20... Qf8 21. c5 21... e5 { This gives up some pressure. Our bishop trade removes a guard near his king. [%cal Re6e5] }) 1-0
+
+
+[Event "Capablanca plans: Trade queens without losing activity"]
+[Site "https://lichess.org/analysis/5rk1/1b2bppp/p4n2/1p1p2B1/2q5/2N1PN2/PP2QPPP/3R2K1_w_-_-_2_18"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/ig7lP9ZA"]
+[SetUp "1"]
+[FEN "5rk1/1b2bppp/p4n2/1p1p2B1/2q5/2N1PN2/PP2QPPP/3R2K1 w - - 2 18"]
+[ChapterId "S12"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Trades"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part II, Game 9, move 18"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ The queens can come off. Keep your knights working together. } 18. Nd4 { You centralize first, leaving the other knight ready to take the queen. [%cal Gf3d4] } (18. a3 { Also sound. Your pawn chooses a different task. } 18... h6 { Also playable. Our knights stay connected through the queen trade. [%cal Bh7h6] }) (18. Nd2 { Also sound. Your knight chooses a different task. } 18... Qxe2 { Also playable. Our knights stay connected through the queen trade. [%cal Bc4e2] }) (18. Ne5 { Also sound. Your knight chooses a different task. } 18... Qc7 { Also playable. Our knights stay connected through the queen trade. [%cal Bc4c7] }) (18. Qd2 { Also sound. Your queen chooses a different task. } 18... b4 { Also playable. Our knights stay connected through the queen trade. [%cal Bb5b4] }) (18. Rd4 { The rook attacks the queen, but it changes how your pieces can recapture. } 18... Qxe2 { Also playable. Our knights stay connected through the queen trade. [%cal Bc4e2] }) 18... Qxe2 { He trades queens too soon. Which knight keeps your pieces connected? } 19. Ncxe2 { One knight holds d4 and the other supports it. Your pieces stay connected. [%cal Gc3e2] } (19. Ndxe2 { Less accurate. Your knight chooses a different task. } 19... h6 20. Bh4 20... b4 { This gives up some pressure. Our knights stay connected through the queen trade. [%cal Rb5b4] }) (19. Nf5 { This gives too much away. Your knight chooses a different task. } 19... Qxd1+ 20. Nxd1 20... Re8 { This leaves you worse off. Our knights stay connected through the queen trade. [%cal Rf8e8] }) (19. e4 { This gives too much away. Your pawn chooses a different task. } 19... Qg4 20. Nf5 20... Qxg5 { His queen takes your bishop, not just the e pawn. Your attack has cost a piece. [%cal Rg4g5] }) (19. Bxf6 { This gives too much away. Your bishop chooses a different task. } 19... Qxd1+ 20. Nxd1 20... Bxf6 { This leaves you worse off. Our knights stay connected through the queen trade. [%cal Re7f6] }) 1-0
+
+
+[Event "Capablanca plans: Break against the fixed pawn"]
+[Site "https://lichess.org/analysis/4r1k1/pp1bqnpp/2p1pr2/4Np2/2PP4/3B3Q/PP2RPPP/4R1K1_w_-_-_1_19"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/DqfMomWg"]
+[SetUp "1"]
+[FEN "4r1k1/pp1bqnpp/2p1pr2/4Np2/2PP4/3B3Q/PP2RPPP/4R1K1 w - - 1 19"]
+[ChapterId "S13"]
+[Domain "strategy"]
+[Role "teaching"]
+[Block "Pawns"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part I, Example 52, move 19"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ A central pawn break. Push to d5 and attack the pawn holding his pieces back. [%cal Yd4d5] } 19. d5 { You challenge e6 while your rooks and bishop are ready to use the open lines. [%cal Gd4d5] } (19. c5 { Also strong. You gain space and restrict the bishop instead of opening the center. } 19... Rh6 { Also playable. Our d pawn attacks the fixed pawn on e6. [%cal Bf6h6] }) (19. Nxf7 { Also strong. You exchange the central knight rather than break with the pawn. } 19... Rxf7 { His rook takes, keeping queen and king in place. This trade is also playable. [%cal Bf6f7] }) (19. Rd2 { Also sound. Your rook chooses a different task. } 19... Rd8 { Also playable. Our d pawn attacks the fixed pawn on e6. [%cal Be8d8] }) (19. Qe3 { Also sound. Your queen chooses a different task. } 19... Rd8 { Also playable. Our d pawn attacks the fixed pawn on e6. [%cal Be8d8] }) (19. Qg3 { Also sound. Your queen chooses a different task. } 19... Bc8 { Also playable. Our d pawn attacks the fixed pawn on e6. [%cal Bd7c8] }) (19. Nxd7 { You remove the bishop, but your own knight leaves its powerful post. } 19... Qxd7 20. Qe3 20... f4 { This leaves you worse off. Our d pawn attacks the fixed pawn on e6. [%cal Rf5f4] }) 19... Nxe5 { Taking d5 invites your bishop to c4. He trades knights. Use your rook on e5. [%cal Ye2e5] } 20. Rxe5 { Your rook stays active on e5. His e6 pawn still ties down his pieces. [%cal Ge2e5] } (20. d6 { This gives too much away. Your pawn chooses a different task. } 20... Qxd6 21. Rxe5 21... c5 { This leaves you worse off. Our d pawn attacks the fixed pawn on e6. [%cal Rc6c5] }) (20. dxe6 { This gives too much away. Your pawn chooses a different task. } 20... Rxe6 21. Bxf5 21... Rh6 { This leaves you worse off. Our d pawn attacks the fixed pawn on e6. [%cal Re6h6] }) (20. Bc2 { This gives too much away. Your bishop chooses a different task. } 20... Ng6 21. dxe6 21... Nf4 { This leaves you worse off. Our d pawn attacks the fixed pawn on e6. [%cal Rg6f4] }) (20. Bb1 { This gives too much away. Your bishop chooses a different task. } 20... Ng6 21. dxe6 21... Nf4 { This leaves you worse off. Our d pawn attacks the fixed pawn on e6. [%cal Rg6f4] }) 1-0
+
+
+[Event "Capablanca plans: Mobilize the king-side majority"]
+[Site "https://lichess.org/analysis/r2r1k2/2p2p2/p2b4/4pN2/P1B2n2/8/1P3PPP/R2R2K1_w_-_-_4_30"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/1mKIMZOp"]
+[SetUp "1"]
+[FEN "r2r1k2/2p2p2/p2b4/4pN2/P1B2n2/8/1P3PPP/R2R2K1 w - - 4 30"]
+[ChapterId "S14"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Pawns"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part II, Game 7, move 30"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ You have more king-side pawns. Can you start putting that majority to work? } 30. h4 { Your h pawn takes space. You can follow with g3 and make a passed pawn. [%cal Gh2h4] } (30. g3 { Also winning. Your g pawn prepares the majority in a different order. } 30... Ne6 { Also playable. Our h pawn helps mobilize the king-side majority. [%cal Bf4e6] }) (30. b3 { Also sound. Your pawn chooses a different task. } 30... Bc5 { Also playable. Our h pawn helps mobilize the king-side majority. [%cal Bd6c5] }) (30. Rac1 { Also sound. Your rook chooses a different task. } 30... Bc5 { Also playable. Our h pawn helps mobilize the king-side majority. [%cal Bd6c5] }) (30. Kf1 { Also sound. Your king chooses a different task. } 30... a5 { Also playable. Our h pawn helps mobilize the king-side majority. [%cal Ba6a5] }) 1-0
+
+
+[Event "Capablanca plans: Open the exposed king position"]
+[Site "https://lichess.org/analysis/3n4/ppq2pp1/2p2k2/4p1p1/1PP1Q3/4PN1P/P4PP1/6K1_w_-_-_0_24"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/5DOOE7NA"]
+[SetUp "1"]
+[FEN "3n4/ppq2pp1/2p2k2/4p1p1/1PP1Q3/4PN1P/P4PP1/6K1 w - - 0 24"]
+[ChapterId "S15"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Pawns"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part II, Game 3, move 24"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ His king must help defend the pawns. Can you give your queen a way in? } 24. h4 { Your h pawn challenges g5. A capture opens the h column for your queen. [%cal Gh3h4] } (24. c5 { Less accurate. Your pawn chooses a different task. } 24... g6 25. h4 25... gxh4 { This gives up some pressure. Our h pawn opens a path for the queen. [%cal Rg5h4] }) (24. Qg4 { The queen moves first, but the pawn break can open lines more directly. } 24... Ne6 25. h4 25... gxh4 { This gives up some pressure. Our h pawn opens a path for the queen. [%cal Rg5h4] }) (24. a3 { Less accurate. Your pawn chooses a different task. } 24... g6 25. h4 25... gxh4 { This gives up some pressure. Our h pawn opens a path for the queen. [%cal Rg5h4] }) (24. Qh7 { Less accurate. Your queen chooses a different task. } 24... Ne6 25. h4 25... g4 { This gives up some pressure. Our h pawn opens a path for the queen. [%cal Rg5g4] }) 1-0
+
+
+[Event "Capablanca plans: Stop the freeing pawn advance"]
+[Site "https://lichess.org/analysis/4r1k1/pb3ppp/1pN5/4P3/8/2R5/PP1r1PPP/1R4K1_b_-_-_0_22"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/2AaXOwLn"]
+[SetUp "1"]
+[FEN "4r1k1/pb3ppp/1pN5/4P3/8/2R5/PP1r1PPP/1R4K1 b - - 0 22"]
+[ChapterId "S16"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Pawns"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part II, Game 14, move 22"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ White would like to play f4 and free his pieces. Can a pawn stop it? } 22... g5 { Your g pawn takes f4 away. The pressure on e5 keeps his knight tied down. [%cal Gg7g5] } (22... g6 { Also sound. You support the pawn chain instead of advancing it at once. } 23. a3 { Also playable. Our g pawn stops the freeing move f4. [%cal Ba2a3] }) (22... Bxc6 { Also sound. Your bishop chooses a different task. } 23. Rxc6 { Also playable. Our g pawn stops the freeing move f4. [%cal Bc3c6] }) (22... h6 { Also sound. Your pawn chooses a different task. } 23. a3 { Also playable. Our g pawn stops the freeing move f4. [%cal Ba2a3] }) (22... h5 { Also sound. Your pawn chooses a different task. } 23. a4 { Also playable. Our g pawn stops the freeing move f4. [%cal Ba2a4] }) (22... Rxe5 { That pawn is defended by the knight. Taking it loses a rook. } 23. Nxe5 23... g6 24. Nf3 { This leaves you worse off. Our g pawn stops the freeing move f4. [%cal Re5f3] }) 0-1
+
+
+[Event "Capablanca plans: Lift the rook before doubling"]
+[Site "https://lichess.org/analysis/2kr2r1/pbpn1p1p/1p2pp2/q7/2PP4/4QNP1/P1P1BP1P/2KR3R_w_-_-_1_15"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/5zkAS7iL"]
+[SetUp "1"]
+[FEN "2kr2r1/pbpn1p1p/1p2pp2/q7/2PP4/4QNP1/P1P1BP1P/2KR3R w - - 1 15"]
+[ChapterId "S17"]
+[Domain "strategy"]
+[Role "teaching"]
+[Block "Rooks"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part II, Game 4, move 15"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ A rook lift. Move your rook to d3 so the other rook can join it on d1. [%cal Yd1d3] } 15. Rd3 { Your rook leaves room on d1. The pair can challenge the center together. [%cal Gd1d3] } (15. Kb2 { Also sound. Your king chooses a different task. } 15... c5 { Also playable. Our rook lift makes room for the second rook. [%cal Bc7c5] }) (15. a3 { Also sound. Your pawn chooses a different task. } 15... c5 { Also playable. Our rook lift makes room for the second rook. [%cal Bc7c5] }) (15. Qb3 { Less accurate. Your queen chooses a different task. } 15... e5 16. Rhe1 16... exd4 { This gives up some pressure. Our rook lift makes room for the second rook. [%cal Re5d4] }) (15. Kb1 { Less accurate. Your king chooses a different task. } 15... f5 16. Rd3 16... Nf6 { This gives up some pressure. Our rook lift makes room for the second rook. [%cal Rd7f6] }) (15. Nh4 { This gives too much away. Your knight chooses a different task. } 15... Bxh1 { His bishop takes a rook, not just a pawn. Your knight left the diagonal open. } 16. Rxh1 16... Qxa2 { This leaves you worse off. Our rook lift makes room for the second rook. [%cal Ra5a2] }) 15... Kb8 { He steps back too soon. That is a mistake. Bring your h rook to d1. [%cal Yh1d1] } 16. Rhd1 { Both rooks face the center. Your lift made room without blocking the queen. [%cal Gh1d1] } (16. Ra3 { Also sound. The rook changes fronts instead of doubling on the d column. } 16... Qb4 { Also playable. Our rook lift makes room for the second rook. [%cal Ba5b4] }) (16. Re1 { Also sound. Your rook chooses a different task. } 16... e5 { Also playable. Our rook lift makes room for the second rook. [%cal Be6e5] }) (16. a3 { Less accurate. Your pawn chooses a different task. } 16... e5 17. dxe5 17... Nc5 { This gives up some pressure. Our rook lift makes room for the second rook. [%cal Rd7c5] }) (16. Kb2 { Less accurate. Your king chooses a different task. } 16... e5 17. Rhd1 17... e4 { This gives up some pressure. Our rook lift makes room for the second rook. [%cal Re5e4] }) 1-0
+
+
+[Event "Capablanca plans: Transfer the rook across"]
+[Site "https://lichess.org/analysis/4r1k1/pb3p1p/1pN5/4P3/7p/2R5/PP1r1PP1/4R1K1_b_-_-_1_24"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/09T6o5fd"]
+[SetUp "1"]
+[FEN "4r1k1/pb3p1p/1pN5/4P3/7p/2R5/PP1r1PP1/4R1K1 b - - 1 24"]
+[ChapterId "S18"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Rooks"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part II, Game 14, move 24"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ Your first rook is already active. Find a route across for the second one. } 24... Re6 { The sixth rank is your bridge to g6. Both rooks can attack the king side. [%cal Ge8e6] } (24... Rxb2 { Also sound. You collect a pawn, but the second rook has not joined the attack. } 25. Nd4 { His knight stays central instead of taking your a pawn. This is also playable. [%cal Bc6d4] }) (24... a5 { Also sound. Your pawn chooses a different task. } 25. b4 { Also playable. Our rook uses the sixth rank to reach g6. [%cal Bb2b4] }) (24... a6 { Also sound. Your pawn chooses a different task. } 25. Re4 { Also playable. Our rook uses the sixth rank to reach g6. [%cal Be1e4] }) (24... h3 { Also sound. Your pawn chooses a different task. } 25. gxh3 { Also playable. Our rook uses the sixth rank to reach g6. [%cal Bg2h3] }) 0-1
+
+
+[Event "Capablanca plans: Choose activity over a recapture"]
+[Site "https://lichess.org/analysis/3r4/p4ppk/5b1p/2pR1P2/q5P1/P7/1P4QP/1K1R4_b_-_-_0_38"]
+[White "Opponent"]
+[Black "Student"]
+[Result "0-1"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/cKdnpmDm"]
+[SetUp "1"]
+[FEN "3r4/p4ppk/5b1p/2pR1P2/q5P1/P7/1P4QP/1K1R4 b - - 0 38"]
+[ChapterId "S19"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Rooks"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part II, Game 8, move 38"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ His rook has taken a pawn. Can your own rook create a stronger threat? } 38... Rb8 { Your rook takes the open b column. His king, not the lost pawn, is the target. [%cal Gd8b8] } (38... Re8 { This gives too much away. Your rook chooses a different task. } 39. h4 39... Bxh4 40. Rd7 { His rook reaches d7. The direct b-column attack would have kept him defending. [%cal Rd5d7] }) (38... Rc8 { This gives too much away. Your rook chooses a different task. } 39. h4 39... Rb8 { Your rook targets the king instead of collecting the h pawn. } 40. R1d2 { White gets time to coordinate. Going straight to b8 would keep the initiative. [%cal Rd1d2] }) (38... Qc6 { This gives too much away. Your queen chooses a different task. } 39. g5 39... Bxg5 40. f6 { His f pawn keeps advancing. The direct rook invasion was more forcing. [%cal Rf5f6] }) (38... Rf8 { This gives too much away. Your rook chooses a different task. } 39. g5 39... hxg5 40. Qc2 { White has time to organize. Your rook belonged on the attacking b column. [%cal Rg2c2] }) (38... Qxd1+ { You give up your queen for both rooks, but your attack loses force. } 39. Rxd1 39... Rxd1+ 40. Kc2 { Your attack loses force. Keeping the queen makes the b-column attack stronger. [%cal Rb1c2] }) 0-1
+
+
+[Event "Capablanca plans: Prepare to take the open file"]
+[Site "https://lichess.org/analysis/2r5/1b3p2/p3k1p1/1p1p4/5B1P/4PP2/PP4P1/3R2K1_w_-_-_0_28"]
+[White "Student"]
+[Black "Opponent"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/eP0XZTt6/y0U7ll5x"]
+[SetUp "1"]
+[FEN "2r5/1b3p2/p3k1p1/1p1p4/5B1P/4PP2/PP4P1/3R2K1 w - - 0 28"]
+[ChapterId "S20"]
+[Domain "strategy"]
+[Role "exercise"]
+[Block "Rooks"]
+[Source "J. R. Capablanca, Chess Fundamentals; Part II, Game 9, move 28"]
+[Verification "Stockfish 18 NNUE checked; see accompanying report"]
+
+{ You are a pawn up. How can your rook prepare to challenge the open column? } 28. Rd2 { Your rook heads toward c2. A useful exchange can leave your bishop active. [%cal Gd1d2] } (28. g4 { Also strong. Your pawns gain space while the rook transfer waits. } 28... Rh8 { Also playable. Our rook prepares to enter the open c column. [%cal Bc8h8] }) (28. b3 { Also sound. Your pawn chooses a different task. } 28... Rc2 { Also playable. Our rook prepares to enter the open c column. [%cal Bc8c2] }) (28. Rf1 { Less accurate. Your rook chooses a different task. } 28... b4 29. g4 29... f5 { This gives up some pressure. Our rook prepares to enter the open c column. [%cal Rf7f5] }) (28. a3 { Less accurate. Your pawn chooses a different task. } 28... Rc2 29. b4 29... Rc3 { This gives up some pressure. Our rook prepares to enter the open c column. [%cal Rc2c3] }) (28. g3 { Your pawn guards h4, but it gives Black time to free the bishop. } 28... f5 29. Rf1 29... Rc4 { This gives up some pressure. Our rook prepares to enter the open c column. [%cal Rc8c4] }) 28... Rh8 { His rook goes after the h pawn. Can you seize the open column? } 29. Rc2 { You take the c column. A rook trade leaves your extra pawn and active pieces. [%cal Gd2c2] } (29. g3 { Also sound. Your pawn chooses a different task. } 29... f5 { Also playable. Our rook prepares to enter the open c column. [%cal Bf7f5] }) (29. Bg3 { Also sound. Your bishop chooses a different task. } 29... a5 { Also playable. Our rook prepares to enter the open c column. [%cal Ba6a5] }) (29. b3 { Less accurate. Your pawn chooses a different task. } 29... Rxh4 30. Rc2 30... d4 { This gives up some pressure. Our rook prepares to enter the open c column. [%cal Rd5d4] }) (29. a3 { Less accurate. Your pawn chooses a different task. } 29... Rxh4 30. Rc2 30... d4 { This gives up some pressure. Our rook prepares to enter the open c column. [%cal Rd5d4] }) 1-0

@@ -1,0 +1,23 @@
+# The BEGINNER tile on the opening screen: exactly these entries, in exactly
+# this order. Edit this file to change what a beginner is taught and when.
+#
+# One entry per line:
+#   file.pgn            a study -- it must also be listed in playlist.txt
+#   lichess:beginner    a block of ten random lichess puzzles at that level
+#                       (also intermediate / advanced; repeat for more blocks)
+#   # ...               a comment, like this one
+#
+# A line copied straight out of playlist.txt works too -- the name and the
+# level on it are ignored, only the filename is used.
+#
+# The lichess block sits LAST on purpose: it needs the network, and a phone
+# with none must still get to lesson one. Nothing here has to be a beginner
+# study; a preset may pull in any lesson from playlist.txt.
+
+scholars-mate-beginner.pgn
+tactics-beginner.pgn
+checkmate-patterns-beginner.pgn
+italian-beginner.pgn
+black-openings-beginner.pgn
+
+lichess:beginner
