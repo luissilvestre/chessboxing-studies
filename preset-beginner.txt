@@ -13,11 +13,25 @@
 # The lichess block sits LAST on purpose: it needs the network, and a phone
 # with none must still get to lesson one. Nothing here has to be a beginner
 # study; a preset may pull in any lesson from playlist.txt.
+#
+# Runs on into the first 8 studies of the INTERMEDIATE preset (2026-09-16) --
+# tactics, then the conceptual lessons, stopping right before openings begin
+# there -- so a beginner who finishes the 5 native lessons has more to do
+# before the lichess block, instead of running out.
 
 beginners/scholars-mate.pgn
 beginners/basic-tactics.pgn
 beginners/checkmate-patterns.pgn
 beginners/italian.pgn
 beginners/black-openings.pgn
+
+intermediate/intermediate-tactics.pgn
+intermediate/pawn-endgames.pgn
+intermediate/rook-endgames.pgn
+intermediate/lasker-endgames-intermediate.pgn
+intermediate/capablanca-endgames-intermediate.pgn
+intermediate/strategy-pieces.pgn
+intermediate/lasker-plans-intermediate.pgn
+intermediate/capablanca-plans-intermediate.pgn
 
 lichess:beginner
