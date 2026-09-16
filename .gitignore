@@ -4,6 +4,9 @@
 !/advanced
 !/preset-beginner.txt
 !/preset-intermediate.txt
+!/playlist.txt
+!/PGNLINES.md
+!/.claude
 !/.gitignore
 
 /beginners/*
@@ -14,3 +17,14 @@
 
 /advanced/*
 !/advanced/*.pgn
+
+# .claude/settings.local.json is machine-local permission config, not
+# authoring content -- stays ignored. Only the pgn-lines skill (the
+# authoring toolchain: SKILL.md, validate.py, tb_check.py, ...) is tracked.
+/.claude/*
+!/.claude/skills
+
+/.claude/skills/*
+!/.claude/skills/pgn-lines
+
+/.claude/skills/pgn-lines/__pycache__

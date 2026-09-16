@@ -1,0 +1,25 @@
+Scholars mate:beginners/scholars-mate.pgn:beginner
+Basic tactics:beginners/basic-tactics.pgn:beginner
+Basic Checkmates:beginners/checkmate-patterns.pgn:beginner
+Italian for White:beginners/italian.pgn:beginner
+Black against e4 and d4:beginners/black-openings.pgn:beginner
+Intermediate Tactics:intermediate/intermediate-tactics.pgn:intermediate
+Stafford gambit:intermediate/stafford-gambit.pgn:intermediate
+Kings Gambit for White:intermediate/kings-gambit.pgn:intermediate
+Scotch Gambit for White:intermediate/scotch-gambit.pgn:intermediate
+French Defense:intermediate/french.pgn:intermediate
+Sicilian Defence for Black:intermediate/sicilian.pgn:intermediate
+Pawn endgames:intermediate/pawn-endgames.pgn:intermediate
+Rook endgames:intermediate/rook-endgames.pgn:intermediate
+Vienna opening:advanced/vienna.pgn:advanced
+London System:advanced/london-system.pgn:advanced
+Benoni:advanced/benoni.pgn:advanced
+Benoni for White:advanced/benoni-white.pgn:advanced
+Polerio Defence for Black:advanced/polerio-defence.pgn:advanced
+Imbalanced endgames:advanced/imbalanced-endgames.pgn:advanced
+Strategy - pieces and squares:intermediate/strategy-pieces.pgn:intermediate
+Strategy - pawns and plans:advanced/strategy-pawns.pgn:advanced
+Lasker Endgames:intermediate/lasker-endgames-intermediate.pgn:intermediate
+Lasker Plans:intermediate/lasker-plans-intermediate.pgn:intermediate
+Capablanca Endgames:intermediate/capablanca-endgames-intermediate.pgn:intermediate
+Capablanca Plans:intermediate/capablanca-plans-intermediate.pgn:intermediate
