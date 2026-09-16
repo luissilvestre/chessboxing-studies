@@ -1,19 +1,26 @@
 # The INTERMEDIATE tile on the opening screen: exactly these entries, in
 # exactly this order. Edit this file to change what an intermediate player is
 # taught and when. See preset-beginner.txt for the line format.
+#
+# Order (set 2026-09-16): tactics first, then the conceptual lessons --
+# endgame technique before the strategic-planning studies that build on it --
+# and openings only at the end, most common first and the narrowest, trap-
+# reliant lines last.
 
 intermediate/intermediate-tactics.pgn
-intermediate/stafford-gambit.pgn
-intermediate/kings-gambit.pgn
-intermediate/scotch-gambit.pgn
-intermediate/french.pgn
-intermediate/sicilian.pgn
+
 intermediate/pawn-endgames.pgn
 intermediate/rook-endgames.pgn
-intermediate/strategy-pieces.pgn
 intermediate/lasker-endgames-intermediate.pgn
-intermediate/lasker-plans-intermediate.pgn
 intermediate/capablanca-endgames-intermediate.pgn
+intermediate/strategy-pieces.pgn
+intermediate/lasker-plans-intermediate.pgn
 intermediate/capablanca-plans-intermediate.pgn
+
+intermediate/sicilian.pgn
+intermediate/french.pgn
+intermediate/scotch-gambit.pgn
+intermediate/kings-gambit.pgn
+intermediate/stafford-gambit.pgn
 
 lichess:intermediate
