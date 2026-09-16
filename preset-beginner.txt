@@ -14,10 +14,10 @@
 # with none must still get to lesson one. Nothing here has to be a beginner
 # study; a preset may pull in any lesson from playlist.txt.
 
-scholars-mate-beginner.pgn
-tactics-beginner.pgn
-checkmate-patterns-beginner.pgn
-italian-beginner.pgn
-black-openings-beginner.pgn
+beginners/scholars-mate.pgn
+beginners/basic-tactics.pgn
+beginners/checkmate-patterns.pgn
+beginners/italian.pgn
+beginners/black-openings.pgn
 
 lichess:beginner
