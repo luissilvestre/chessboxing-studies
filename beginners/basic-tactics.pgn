@@ -8,7 +8,7 @@
 [Role "teaching"]
 
 { We will now learn the fork. One move, two targets, and he can only save one. }
-52... Ke4 { His king steps out. Now your knight can hit the king and the queen at once. [%csl Re4,Rf7][%cal Yf5d6] } 53. Nd6+ { Check! He must answer the check, so his queen has no time to escape. [%cal Rd6e4,Rd6f7] } (53. Nh6 { You attack the queen, but with no check she simply steps away. } 53... Qe7+ 54. Kh5 { She left with check, and now you are the one in trouble. }) (53. Ne7 { The knight lands next to the queen, and she just eats it. } 53... Qxe7+ 54. Kh6 { A whole knight gone for nothing. }) 53... Kd5 { The king runs, and the queen is still standing on f7. [%cal Yd6f7] } 54. Nxf7 { The queen is yours. One knight, two targets: that is a fork. } (54. Nf5 { The knight runs home and lets the queen off the hook. } 54... Ke5 55. Nh4 Qf4 { The fork is gone and you are losing. }) 1-0
+52... Ke4 { His king steps out. Now your knight can hit the king and the queen at once. [%csl Re4,Rf7][%cal Yf5d6] } 53. Nd6+ { Check! He must answer the check, so his queen has no time to escape. [%cal Rd6e4,Rd6f7] } (53. Nh6 { You attack the queen, but with no check she simply steps away. } 53... Qe7+ 54. Kh5 { She left with check, and now you are the one in trouble. }) (53. Ne7 { The knight lands next to the queen, and she just eats it. } 53... Qxe7+ 54. Kh6 { A whole knight gone for nothing. }) 53... Kd5 { The king runs, and his queen is still standing right where she was. [%cal Yd6f7] } 54. Nxf7 { The queen is yours. One knight, two targets: that is a fork. } (54. Nf5 { The knight runs home and lets the queen off the hook. } 54... Ke5 55. Nh4 Qf4 { The fork is gone and you are losing. }) 1-0
 
 
 [Event "Basic tactics: fork practice one"]
@@ -34,7 +34,7 @@
 [Role "exercise"]
 
 { A busy board this time. He is about to take a bishop, and he feels safe. }
-32... dxe4 { He takes the bishop. Your knight is looking for a square. } 33. Ng6+ { Check, and the queen sitting behind the king is attacked too. [%cal Gg6h8,Gg6f8] } (33. Nc6 { The knight jumps out, but it does not attack anything that matters. } 33... Qa8 34. Qc7 { The queen walked away and now you are worse. }) (33. Be5 { You attack his knight, but he takes yours on e7 first. } 33... Qxe7 34. Bxf6 Qxf6 { A knight down, and the fork is gone too. }) 33... Kg8 { The king slides across, and the queen still cannot move. } 34. Nxf8 { A queen for a bishop. The fork wins again. } (34. Ne5 { The knight steps back and lets the queen live. } 34... Qa8 35. Qc7 { You had a queen in your hands and let it go. }) 1-0
+32... dxe4 { He takes the bishop. Your knight is looking for a square. } 33. Ng6+ { Check, and the queen sitting behind the king is attacked too. [%cal Gg6h8,Gg6f8] } (33. Nc6 { The knight jumps out, but it does not attack anything that matters. } 33... Qa8 34. Qc7 { The queen walked away and now you are worse. }) (33. Be5 { You attack his knight, but he takes yours first. } 33... Qxe7 34. Bxf6 Qxf6 { A knight down, and the fork is gone too. }) 33... Kg8 { The king slides across, and the queen still cannot move. } 34. Nxf8 { A queen for a bishop. The fork wins again. } (34. Ne5 { The knight steps back and lets the queen live. } 34... Qa8 35. Qc7 { You had a queen in your hands and let it go. }) 1-0
 
 
 [Event "Basic tactics: the pin, lesson"]
@@ -47,7 +47,7 @@
 [Role "teaching"]
 
 { We will now learn the pin. A pinned piece is stuck: it is not allowed to move away. }
-16. Bxa8 { He grabs your rook. Now look at his queen and his king on one diagonal. [%csl Rd2,Rc1][%cal Yc5e3] } 16... Be3 { The bishop pins the queen to the king. She cannot step aside. [%cal Ge3d2,Gd2c1] } (16... Qa7 { You tuck the queen away, but the pin was the whole point. } 17. Qc3 { Nothing has happened, and he is still a rook up. }) (16... a5 { A quiet pawn move while you are a rook down. } 17. Rfe1 b4 18. Kb1 { His king steps off the diagonal and the chance is gone. }) 17. Qxe3 { He must take, because his queen was never allowed to move. [%cal Yb6e3] } 17... Qxe3+ { Add it up: he had already won your rook on a8, but the pin just won his queen for a bishop, and you still come out ahead. } (17... Qc7 { You forget to take back, and your bishop is simply gone. } 18. Bg3 { A whole piece for nothing. }) 0-1
+16. Bxa8 { He grabs your rook. Now look at his queen and his king on one diagonal. [%csl Rd2,Rc1][%cal Yc5e3] } 16... Be3 { The bishop pins the queen to the king. She cannot step aside. [%cal Ge3d2,Gd2c1] } (16... Qa7 { You tuck the queen away, but the pin was the whole point. } 17. Qc3 { Nothing has happened, and he is still a rook up. }) (16... a5 { A quiet pawn move while you are a rook down. } 17. Rfe1 b4 18. Kb1 { His king steps off the diagonal and the chance is gone. }) 17. Qxe3 { He must take, because his queen was never allowed to move. [%cal Yb6e3] } 17... Qxe3+ { Add it up: he had already won your rook, but the pin just won his queen for a bishop, and you still come out ahead. } (17... Qc7 { You forget to take back, and your bishop is simply gone. } 18. Bg3 { A whole piece for nothing. }) 0-1
 
 
 [Event "Basic tactics: pin practice one"]
@@ -125,7 +125,7 @@
 [Role "exercise"]
 
 { Your rook and his rook face each other down one column, and your bishop is in the way. }
-21. h3 { He makes a little space for his king. Your bishop is standing in your own way. } 21... Bh2+ { The bishop leaves the column with check, and offers itself as well. [%cal Gd8d1] } (21... c5 { A pawn push while the two rooks stare at each other. } 22. Nc3 cxb4 23. axb4 { Even, and the discovered attack has quietly gone. }) (21... Be7 { The bishop does step off the column, but far too slowly. } 22. Nd4 { He gets organised and his rook is defended again. }) 22. Kxh2 { He takes the bishop, and his king has left the back rank. } 22... Rxd1 { A bishop for a rook, because his king had to answer the check first. } (22... Ra8 { You forget to take, and a whole piece is gone for nothing. } 23. Nd4 c6 24. Nb3 { A bishop down with nothing at all to show. }) 0-1
+21. h3 { He makes a little space for his king. Your bishop is standing in your own way. } 21... Bh2+ { The bishop leaves the column with check, and offers itself as well. [%cal Gd8d1] } (21... c5 { A pawn push while the two rooks stare at each other. } 22. Nc3 cxb4 23. axb4 { Even, and the discovered attack has quietly gone. }) (21... Be7 { The bishop does step off the column, but far too slowly. } 22. Nd4 { He gets organised and his rook is defended again. }) 22. Kxh2 { He takes the bishop, and his king has left the first row. } 22... Rxd1 { A bishop for a rook, because his king had to answer the check first. } (22... Ra8 { You forget to take, and a whole piece is gone for nothing. } 23. Nd4 c6 24. Nb3 { A bishop down with nothing at all to show. }) 0-1
 
 
 [Event "Basic tactics: the back rank mate, lesson"]
@@ -151,7 +151,7 @@
 [Role "exercise"]
 
 { His king is boxed in again, but this time a defender is guarding the door. }
-19... cxd6 { He takes your rook and you are a whole rook down. His queen guards f8. [%csl Rh8,Rg7,Rh7] } 20. Qf8+ { The queen walks in anyway. She cannot be ignored and she cannot be allowed. [%cal Gf3f8] } (20. Rf2 { You defend instead of striking, and now you are simply losing. } 20... Be6 21. Qxb7 Bg8 { His extra rook decides the game. }) (20. h3 { A quiet move, and the whole idea evaporates. } 20... Bd7 21. Qxb7 Bc6 { He is a rook up and getting organised. }) 20... Qxf8 { He has to take. His queen is no longer guarding that square. } 21. Rxf8# { Mate. You gave a queen to drag his guard off the last row. } (21. Rf2 { You forget the mate and hand the queen straight back. } 21... Qxf2+ 22. Kxf2 { A queen down instead of mate in one. }) 1-0
+19... cxd6 { He takes your rook, so you are a whole rook down. Only his queen keeps the door shut. [%csl Rh8,Rg7,Rh7] } 20. Qf8+ { The queen walks in anyway. She cannot be ignored and she cannot be allowed. [%cal Gf3f8] } (20. Rf2 { You defend instead of striking, and now you are simply losing. } 20... Be6 21. Qxb7 Bg8 { His extra rook decides the game. }) (20. h3 { A quiet move, and the whole idea evaporates. } 20... Bd7 21. Qxb7 Bc6 { He is a rook up and getting organised. }) 20... Qxf8 { He has to take, and his queen is now standing on the very square she was guarding. } 21. Rxf8# { Mate. You gave a queen to drag his guard off the last row. } (21. Rf2 { You forget the mate and hand the queen straight back. } 21... Qxf2+ 22. Kxf2 { A queen down instead of mate in one. }) 1-0
 
 
 [Event "Basic tactics: removing the defender, lesson"]
@@ -164,7 +164,7 @@
 [Role "teaching"]
 
 { We will now learn to remove the defender. Take away the guard, then take the prize. }
-28... Rc8 { His rook comes to your column. Only his queen defends it from e6. [%csl Rc8][%cal Ge6c8] } 29. Qxe6 { Take the guard first, even though it is a queen for a queen. [%cal Yc4e6] } (29. axb4 { You grab a pawn, and his rook lands on your queen instead. } 29... Rxc4 30. dxc4 axb4 { A rook for nothing, and you are lost. }) (29. Rc2 { You defend the queen, and he simply takes her anyway. } 29... Rxc4 30. dxc4 { The queen has gone and so has the game. }) 29... fxe6 { He takes back. The guard is gone and the rook is loose. [%cal Yc1c8] } 30. Rxc8+ { A whole rook. Remove the defender, then collect. } (30. Rb1 { You forget the rook you paid a queen to win. } 30... bxa3 31. Kxa3 { Level again, and the queen was spent for nothing. }) 1-0
+28... Rc8 { His rook comes to your column, and his queen is the only thing defending it. [%csl Rc8][%cal Ge6c8] } 29. Qxe6 { Take the guard first, even though it is a queen for a queen. [%cal Yc4e6] } (29. axb4 { You grab a pawn, and his rook lands on your queen instead. } 29... Rxc4 30. dxc4 axb4 { A rook for nothing, and you are lost. }) (29. Rc2 { You defend the queen, and he simply takes her anyway. } 29... Rxc4 30. dxc4 { The queen has gone and so has the game. }) 29... fxe6 { He takes back. The guard is gone and the rook is loose. [%cal Yc1c8] } 30. Rxc8+ { A whole rook. Remove the defender, then collect. } (30. Rb1 { You forget the rook you paid a queen to win. } 30... bxa3 31. Kxa3 { Level again, and the queen was spent for nothing. }) 1-0
 
 
 [Event "Basic tactics: removing the defender practice one"]
@@ -177,4 +177,4 @@
 [Role "exercise"]
 
 { Your rook and his knight face each other down one column. Something is guarding the knight. }
-19. Nh2 { A knight steps back. Now ask what is defending the other one on d2. } 19... Nxe3 { Take the guard. His bishop was the only thing holding d2. [%cal Ge3d2] } (19... Rd7 { You defend your own rook, but his pieces are the better ones. } 20. Nhf1 Rhd8 21. Nb3 { You are worse and the moment has gone. }) (19... b4 { A pawn push that does not touch the knight at all. } 20. Nhf1 { He untangles and you are simply worse. }) 20. Rxe3 { He takes back, and now d2 has nobody looking after it. } 20... Rxd2 { A free knight. Remove the defender, and the rest is free. } (20... Rd5 { You centralise the rook and leave the knight alone. } 21. Ne4 Bg6 22. Nf1 { The knight was there for the taking and you let it go. }) 0-1
+19. Nh2 { His knight steps back. Now ask what is defending the knight your rook is staring at. } 19... Nxe3 { Take the guard. His bishop was the only thing defending that knight. [%cal Ge3d2] } (19... Rd7 { You defend your own rook, but his pieces are the better ones. } 20. Nhf1 Rhd8 21. Nb3 { You are worse and the moment has gone. }) (19... b4 { A pawn push that does not touch the knight at all. } 20. Nhf1 { He untangles and you are simply worse. }) 20. Rxe3 { He takes back, and now one of his knights has nobody looking after it. } 20... Rxd2 { A free knight. Remove the defender, and the rest is free. } (20... Rd5 { You centralise the rook and leave the knight alone. } 21. Ne4 Bg6 22. Nf1 { The knight was there for the taking and you let it go. }) 0-1
