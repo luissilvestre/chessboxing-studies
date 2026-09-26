@@ -20,6 +20,7 @@ intermediate/capablanca-plans-intermediate.pgn
 intermediate/sicilian.pgn
 intermediate/french.pgn
 intermediate/ruy-lopez.pgn
+intermediate/london-system.pgn
 intermediate/scotch-gambit.pgn
 intermediate/kings-gambit.pgn
 intermediate/stafford-gambit.pgn
