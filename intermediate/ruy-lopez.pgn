@@ -1,5 +1,6 @@
 [Event "Ruy Lopez: the main line"]
 [Result "1-0"]
+[ChapterURL "https://lichess.org/study/KWEynsxD/BbL9IxEf"]
 [Role "teaching"]
 [Variant "Standard"]
 [Site "https://lichess.org/analysis"]
@@ -10,6 +11,7 @@
 
 [Event "Ruy Lopez: he hits e4 at once"]
 [Result "1-0"]
+[ChapterURL "https://lichess.org/study/KWEynsxD/16tC5qP2"]
 [Role "exercise"]
 [Variant "Standard"]
 [FEN "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3"]
@@ -22,6 +24,7 @@
 
 [Event "Ruy Lopez: he throws the f pawn forward"]
 [Result "1-0"]
+[ChapterURL "https://lichess.org/study/KWEynsxD/DpkJbovu"]
 [Role "exercise"]
 [Variant "Standard"]
 [FEN "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3"]
@@ -34,6 +37,7 @@
 
 [Event "Ruy Lopez: his bishop comes to c5"]
 [Result "1-0"]
+[ChapterURL "https://lichess.org/study/KWEynsxD/XLnSSy7j"]
 [Role "exercise"]
 [Variant "Standard"]
 [FEN "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3"]
@@ -46,6 +50,7 @@
 
 [Event "Ruy Lopez: he takes on e4"]
 [Result "1-0"]
+[ChapterURL "https://lichess.org/study/KWEynsxD/VDlapa66"]
 [Role "exercise"]
 [Variant "Standard"]
 [FEN "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5"]
@@ -58,6 +63,7 @@
 
 [Event "Ruy Lopez: he kicks the bishop early"]
 [Result "1-0"]
+[ChapterURL "https://lichess.org/study/KWEynsxD/dLS7Obv0"]
 [Role "exercise"]
 [Variant "Standard"]
 [FEN "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5"]
@@ -70,6 +76,7 @@
 
 [Event "Ruy Lopez: he castles too soon"]
 [Result "1-0"]
+[ChapterURL "https://lichess.org/study/KWEynsxD/HGvOKY5v"]
 [Role "exercise"]
 [Variant "Standard"]
 [FEN "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 b kq - 5 6"]
@@ -82,6 +89,7 @@
 
 [Event "Ruy Lopez: dodge the Marshall"]
 [Result "1-0"]
+[ChapterURL "https://lichess.org/study/KWEynsxD/qLgUaalO"]
 [Role "teaching"]
 [Variant "Standard"]
 [FEN "r1bqk2r/2ppbppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 b kq - 1 7"]
@@ -94,6 +102,7 @@
 
 [Event "Ruy Lopez: his bishop comes to b7"]
 [Result "1-0"]
+[ChapterURL "https://lichess.org/study/KWEynsxD/wQTRLGsr"]
 [Role "exercise"]
 [Variant "Standard"]
 [FEN "r1bq1rk1/2ppbppp/p1n2n2/1p2p3/4P3/1B3N1P/PPPP1PP1/RNBQR1K1 b - - 0 8"]
@@ -106,6 +115,7 @@
 
 [Event "Ruy Lopez: his knight chases your bishop"]
 [Result "1-0"]
+[ChapterURL "https://lichess.org/study/KWEynsxD/59Ubrsrk"]
 [Role "exercise"]
 [Variant "Standard"]
 [FEN "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9"]
