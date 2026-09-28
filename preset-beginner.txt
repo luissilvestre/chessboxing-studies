@@ -14,7 +14,8 @@
 # with none must still get to lesson one. Nothing here has to be a beginner
 # study; a preset may pull in any lesson from playlist.txt.
 #
-# Runs on into the first 8 studies of the INTERMEDIATE preset (2026-09-16) --
+# Runs on into the first 5 studies of the INTERMEDIATE preset (2026-09-16;
+# 5 since the book studies were rebuilt, 2026-09-28) --
 # tactics, then the conceptual lessons, stopping right before openings begin
 # there -- so a beginner who finishes the 5 native lessons has more to do
 # before the lichess block, instead of running out.
@@ -28,10 +29,7 @@ beginners/black-openings.pgn
 intermediate/intermediate-tactics.pgn
 intermediate/pawn-endgames.pgn
 intermediate/rook-endgames.pgn
-intermediate/lasker-endgames-intermediate.pgn
-intermediate/capablanca-endgames-intermediate.pgn
+intermediate/capablanca-lasker-endgames.pgn
 intermediate/strategy-pieces.pgn
-intermediate/lasker-plans-intermediate.pgn
-intermediate/capablanca-plans-intermediate.pgn
 
 lichess:beginner

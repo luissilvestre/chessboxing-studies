@@ -11,11 +11,8 @@ intermediate/intermediate-tactics.pgn
 
 intermediate/pawn-endgames.pgn
 intermediate/rook-endgames.pgn
-intermediate/lasker-endgames-intermediate.pgn
-intermediate/capablanca-endgames-intermediate.pgn
+intermediate/capablanca-lasker-endgames.pgn
 intermediate/strategy-pieces.pgn
-intermediate/lasker-plans-intermediate.pgn
-intermediate/capablanca-plans-intermediate.pgn
 
 intermediate/sicilian.pgn
 intermediate/french.pgn

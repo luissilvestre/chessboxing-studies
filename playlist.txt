@@ -20,7 +20,6 @@ Polerio Defence for Black:advanced/polerio-defence.pgn:advanced
 Imbalanced endgames:advanced/imbalanced-endgames.pgn:advanced
 Strategy - pieces and squares:intermediate/strategy-pieces.pgn:intermediate
 Strategy - pawns and plans:advanced/strategy-pawns.pgn:advanced
-Lasker Endgames:intermediate/lasker-endgames-intermediate.pgn:intermediate
-Lasker Plans:intermediate/lasker-plans-intermediate.pgn:intermediate
-Capablanca Endgames:intermediate/capablanca-endgames-intermediate.pgn:intermediate
-Capablanca Plans:intermediate/capablanca-plans-intermediate.pgn:intermediate
+Capablanca and Lasker Endgames:intermediate/capablanca-lasker-endgames.pgn:intermediate
+Lasker Plans:advanced/lasker-plans.pgn:advanced
+Capablanca Plans:advanced/capablanca-plans.pgn:advanced
