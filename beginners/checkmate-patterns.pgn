@@ -66,21 +66,9 @@
 { Now the back rank mate. His own pawns fill the squares in front of his king and do the job of a second rook, so a rook check on his back row that he cannot block is mate. [%csl Rg8,Rf7,Rg7,Rh7] } 37... Rxd1 { He grabs your rook, and that is fine. Your other rook now runs all the way up the empty column to his back row. [%cal Yc1c8] } 38. Rc8+ { Check. His king cannot step up, because his own pawns fill every square in front of him, so he has to block. [%csl Rf7,Rg7,Rh7] } (38. Rxd1 { Taking the rook back is the greedy move. The rook was never the prize here, the mate was, and you have just let it go. } 38... Re2+ 39. Kc1 g6 { His pawn steps up and leaves the red square free for his king, so the mate is gone and you are a knight and a pawn down. [%csl Rg7] }) (38. Rc7 { The seventh row looks strong, but his knight guards that square and eats your rook for nothing. [%cal Rb5c7] } 38... Nxc7 39. Kc2 Rg1 { His knight has taken your last rook. No rook, no mate, and it is two rooks and a knight against your four pawns. [%csl Rc7] }) 38... Rd8 { He throws his rook in the way. Take it, because every blocker just comes off and his king still cannot leave the back row. [%cal Yc8d8] } 39. Rxd8+ { Nice, one blocker gone and it is check again. He still has a second rook to throw in front of his king. [%csl Re3] } (39. Rc1 { You back off with the rook and give up his back row. The mate was yours, and now his two rooks come for your king. } 39... Rd2+ 40. Rc2 Ree2 { His two rooks trap yours right beside your king. You have to give it up, and then his rooks and knight mate you. [%csl Rb2] }) 39... Re8 { That is the last piece he has to throw in the way. Take it, and his king has nothing left to hide behind. [%cal Yd8e8] } 40. Rxe8# { Mate! His own pawns kept him at home and your rook owns his back row. That is the back rank mate. [%csl Rg8,Rf7,Rg7,Rh7] } (40. Rd7 { Mate was one move away and your rook goes pawn hunting instead. His back row is free again. } 40... Rb8 41. Rd5 Nc7 { His rook slipped off the back row and his knight is safe, so there is no mate left and he is a knight and a pawn up. }) (40. Rd1 { Mate was sitting on the board and your rook goes home. That hands him a free move to look after his king. } 40... h6 41. Kc2 Re2+ { His pawn step gave his king air, and now his rook is checking your king while he is a knight and a pawn up. }) 1-0
 
 
-[Event "Basic checkmates: back rank, drag him in"]
-[Result "1-0"]
-[ChapterURL "https://lichess.org/study/yqSNKKs2/EkeFjNod"]
-[Variant "Standard"]
-[FEN "6k1/pbp3pp/1p1pp3/8/P1PPp1Bq/2P1P2P/3Q1rP1/5RRK b - - 0 21"]
-[SetUp "1"]
-[Site "https://lichess.org/analysis/6k1/pbp3pp/1p1pp3/8/P1PPp1Bq/2P1P2P/3Q1rP1/5RRK_b_-_-_0_21"]
-[Role "exercise"]
-
-{ His rook is aiming at your queen and he is already counting up what he wins. He has not looked at his own king once. Mate in two. } 21... Rxd2 { He takes your queen and sits back, a whole queen up and certain the game is over. } 22. Bxe6+ { Your bishop grabs a pawn with check, and the only square his king can reach is the corner. } (22. Rd1 { You attack his rook and he simply takes yours. His king was the thing to go after, never that rook. } 22... Rxd1 23. Rxd1 Qf2 { The rooks come off, his queen lands right beside your king, and you are a queen for a rook down with no mate anywhere. }) (22. Rf8+ { A rook check looks brave, but nothing of yours is guarding that square, so his king simply eats the rook. } 22... Kxf8 23. c5 Qf2 24. Bxe6 Qxe3 { His king took a whole rook for free and strolled to safety. He is a queen up and your attack is over. }) (22. Bf3 { You save the bishop from his queen and his pawn simply takes it anyway. The mate was worth far more than a bishop. } 22... exf3 23. Rf2 Rxf2 24. Kh2 Qg5 { That pawn has crawled in beside your king, and with his queen and rook joining in it is your king being mated, not his. }) 22... Kh8 { His king hides in the corner, with his own two pawns packed in beside him. Now finish him off. } 23. Rf8# { Mate! Your rook drops onto his empty back row, his own pawns hold him in, and your bishop covers his last square. That is a back rank mate. [%csl Rh8,Rg7,Rh7][%cal Ge6g8] } (23. Rf7 { Your rook goes pawn hunting and the mate on his back row is gone. One move was all it needed. } 23... h5 24. g3 Qg5 25. Rf5 Qxf5 { His queen mops up your rook, he is a whole queen up, and your attack has completely run out. }) (23. Bg8 { A cute idea, but the bishop stands there undefended and his king happily takes it. } 23... Kxg8 24. Rf4 Qg3 25. Rg4 Qxe3 { His king stands safe in the open, your bishop is gone for nothing, and he has a queen, a rook and a bishop against two rooks. }) (23. Rf4 { You chase his queen instead of mating him, and your rook leaves the row where the mate was. } 23... Qe7 24. d5 g5 25. Rf5 Bc6 { His queen is tucked away safely, his bishop defends her, and he is a queen up with nothing to fear. }) 1-0
-
-
 [Event "Basic checkmates: back rank, push through"]
 [Result "0-1"]
-[ChapterURL "https://lichess.org/study/yqSNKKs2/ms2TGhxN"]
+[ChapterURL "https://lichess.org/study/yqSNKKs2/XPpBgJfO"]
 [Variant "Standard"]
 [FEN "3rk2r/pp2nppp/2p5/2b5/Nq2P3/5R2/PPP3PP/R1B1Q2K w k - 5 16"]
 [SetUp "1"]
@@ -92,7 +80,7 @@
 
 [Event "Basic checkmates: back rank, the queen sacrifice"]
 [Result "0-1"]
-[ChapterURL "https://lichess.org/study/yqSNKKs2/5hamAUcM"]
+[ChapterURL "https://lichess.org/study/yqSNKKs2/0ST3lSq9"]
 [Variant "Standard"]
 [FEN "4r2k/6p1/p6p/4q3/P1Q5/3p1P2/1r4PP/1R1R3K w - - 0 32"]
 [SetUp "1"]
@@ -102,9 +90,21 @@
 { Your rook is deep in his position, right where his rook can grab it. But something much better is waiting. } 32. Rxb2 { His rook snaps up yours, and he is sure you will simply take his rook back. } Qe1+ { Your queen steps in front of his king and offers herself for nothing. Only the rook on his back row can take her, and take her he must. [%cal Gd1e1] } (32... Qxb2 { You take the rook back, which is exactly what he wanted. Queens and rooks stay level and his king is never in danger. } 33. Qxd3 Qb4 34. Qb1 Qxa4 { A queen and a rook each, the pawns level too, and the mate that was there for one move has gone for good. }) (32... d2 { Your pawn is one square from a new queen, and that is why the rook that just ate yours simply takes it. } 33. Rbxd2 Qe1+ 34. Qf1 Qxf1+ 35. Rxf1 { The queens come off, your brave pawn is gone, and you are a whole rook down with nothing left to attack. }) 33. Rxe1 { He has to take your queen. His king cannot move a square and nothing else of his can block the check. } Rxe1# { Mate! Your rook takes the rook that ate your queen, right on his back row, and his own two pawns seal the way out. That is a back rank mate. [%csl Rh1,Rg2,Rh2] } (33... Rd8 { Your rook slides away instead of taking, so his king lives. You paid a whole queen for a mate you did not play. } 34. Qc7 Rg8 35. Qd6 { A queen and a rook down, and his queen has come round to hunt your king in the corner. }) (33... Rf8 { Your rook steps aside to a quiet square while mate was one move away, and he gets to keep everything. } 34. Qxd3 Kg8 35. Rb7 { He picks off your advanced pawn and brings his rook up. You are a queen and a rook down with no attack at all. }) 0-1
 
 
+[Event "Basic checkmates: back rank, drag him in"]
+[Result "1-0"]
+[ChapterURL "https://lichess.org/study/yqSNKKs2/9kqUPnRX"]
+[Variant "Standard"]
+[FEN "6k1/pbp3pp/1p1pp3/8/P1PPp1Bq/2P1P2P/3Q1rP1/5RRK b - - 0 21"]
+[SetUp "1"]
+[Site "https://lichess.org/analysis/6k1/pbp3pp/1p1pp3/8/P1PPp1Bq/2P1P2P/3Q1rP1/5RRK_b_-_-_0_21"]
+[Role "exercise"]
+
+{ His rook is aiming at your queen and he is already counting up what he wins. He has not looked at his own king once. Mate in two. } 21... Rxd2 { He takes your queen and sits back, a whole queen up and certain the game is over. } 22. Bxe6+ { Your bishop grabs a pawn with check, and the only square his king can reach is the corner. } (22. Rd1 { You attack his rook and he simply takes yours. His king was the thing to go after, never that rook. } 22... Rxd1 23. Rxd1 Qf2 { The rooks come off, his queen lands right beside your king, and you are a queen for a rook down with no mate anywhere. }) (22. Rf8+ { A rook check looks brave, but nothing of yours is guarding that square, so his king simply eats the rook. } 22... Kxf8 23. c5 Qf2 24. Bxe6 Qxe3 { His king took a whole rook for free and strolled to safety. He is a queen up and your attack is over. }) (22. Bf3 { You save the bishop from his queen and his pawn simply takes it anyway. The mate was worth far more than a bishop. } 22... exf3 23. Rf2 Rxf2 24. Kh2 Qg5 { That pawn has crawled in beside your king, and with his queen and rook joining in it is your king being mated, not his. }) 22... Kh8 { His king hides in the corner, with his own two pawns packed in beside him. Now finish him off. } 23. Rf8# { Mate! Your rook drops onto his empty back row, his own pawns hold him in, and your bishop covers his last square. That is a back rank mate. [%csl Rh8,Rg7,Rh7][%cal Ge6g8] } (23. Rf7 { Your rook goes pawn hunting and the mate on his back row is gone. One move was all it needed. } 23... h5 24. g3 Qg5 25. Rf5 Qxf5 { His queen mops up your rook, he is a whole queen up, and your attack has completely run out. }) (23. Bg8 { A cute idea, but the bishop stands there undefended and his king happily takes it. } 23... Kxg8 24. Rf4 Qg3 25. Rg4 Qxe3 { His king stands safe in the open, your bishop is gone for nothing, and he has a queen, a rook and a bishop against two rooks. }) (23. Rf4 { You chase his queen instead of mating him, and your rook leaves the row where the mate was. } 23... Qe7 24. d5 g5 25. Rf5 Bc6 { His queen is tucked away safely, his bishop defends her, and he is a queen up with nothing to fear. }) 1-0
+
+
 [Event "Basic checkmates: king and queen"]
 [Result "1-0"]
-[ChapterURL "https://lichess.org/study/yqSNKKs2/IWMOOfSm"]
+[ChapterURL "https://lichess.org/study/yqSNKKs2/Po1IjNZI"]
 [Role "teaching"]
 [Variant "Standard"]
 [IntendedResult "win"]
@@ -118,7 +118,7 @@
 
 [Event "Basic checkmates: king and queen, two checks"]
 [Result "0-1"]
-[ChapterURL "https://lichess.org/study/yqSNKKs2/IdVW0DfL"]
+[ChapterURL "https://lichess.org/study/yqSNKKs2/U17SCA6W"]
 [Role "exercise"]
 [Variant "Standard"]
 [IntendedResult "win"]
@@ -132,7 +132,7 @@
 
 [Event "Basic checkmates: king and queen, the pawn race"]
 [Result "1-0"]
-[ChapterURL "https://lichess.org/study/yqSNKKs2/woTMMMXp"]
+[ChapterURL "https://lichess.org/study/yqSNKKs2/r9sis45g"]
 [Role "exercise"]
 [Variant "Standard"]
 [IntendedResult "win"]
@@ -146,7 +146,7 @@
 
 [Event "Basic checkmates: king and queen, the stalemate trap"]
 [Result "0-1"]
-[ChapterURL "https://lichess.org/study/yqSNKKs2/weXawJA6"]
+[ChapterURL "https://lichess.org/study/yqSNKKs2/1H9GIHxc"]
 [Role "exercise"]
 [Variant "Standard"]
 [IntendedResult "win"]
@@ -160,7 +160,7 @@
 
 [Event "Basic checkmates: the queen kiss"]
 [Result "1-0"]
-[ChapterURL "https://lichess.org/study/yqSNKKs2/EJ4ppdDU"]
+[ChapterURL "https://lichess.org/study/yqSNKKs2/soYQSTHa"]
 [Variant "Standard"]
 [FEN "2r3k1/2qR1ppp/p7/2p2Q2/P7/7P/5PP1/6K1 b - - 3 26"]
 [SetUp "1"]
@@ -172,7 +172,7 @@
 
 [Event "Basic checkmates: the queen kiss with a rook behind"]
 [Result "1-0"]
-[ChapterURL "https://lichess.org/study/yqSNKKs2/MewPttCJ"]
+[ChapterURL "https://lichess.org/study/yqSNKKs2/6ABBNsg6"]
 [Variant "Standard"]
 [FEN "Q5k1/5q2/p2p4/b1p1pr2/P7/6P1/4KP1R/8 b - - 3 38"]
 [SetUp "1"]
@@ -184,7 +184,7 @@
 
 [Event "Basic checkmates: the queen kiss with a pawn behind"]
 [Result "0-1"]
-[ChapterURL "https://lichess.org/study/yqSNKKs2/SSN891at"]
+[ChapterURL "https://lichess.org/study/yqSNKKs2/7FZEioDa"]
 [Variant "Standard"]
 [FEN "2Q5/pp3p1k/3q1P1p/6p1/P2p2K1/1P1P3P/2P3P1/8 w - - 5 37"]
 [SetUp "1"]
@@ -196,7 +196,7 @@
 
 [Event "Basic checkmates: the queen kiss in the opening"]
 [Result "0-1"]
-[ChapterURL "https://lichess.org/study/yqSNKKs2/SuKTNrId"]
+[ChapterURL "https://lichess.org/study/yqSNKKs2/1ODw5H83"]
 [Variant "Standard"]
 [FEN "rn1qk2r/ppp2ppp/3p2b1/2bP4/2P1n1P1/P1N1pP1P/1P2P1B1/R1BQK1NR w KQkq - 1 10"]
 [SetUp "1"]
@@ -208,7 +208,7 @@
 
 [Event "Basic checkmates: the smothered mate"]
 [Result "1-0"]
-[ChapterURL "https://lichess.org/study/yqSNKKs2/QfI4cZTm"]
+[ChapterURL "https://lichess.org/study/yqSNKKs2/kYhT9M3i"]
 [Variant "Standard"]
 [FEN "r4rk1/1pp3pp/p3Q2N/8/8/7P/Pq3PPK/RN6 b - - 4 20"]
 [SetUp "1"]
@@ -220,7 +220,7 @@
 
 [Event "Basic checkmates: smothered in the corner"]
 [Result "0-1"]
-[ChapterURL "https://lichess.org/study/yqSNKKs2/2Qz2VcRP"]
+[ChapterURL "https://lichess.org/study/yqSNKKs2/3J7PHFkJ"]
 [Variant "Standard"]
 [FEN "2k5/8/p7/1p1Q3p/8/2NP4/PPq5/1K2n3 w - - 1 36"]
 [SetUp "1"]
@@ -232,7 +232,7 @@
 
 [Event "Basic checkmates: smothered against the wall"]
 [Result "0-1"]
-[ChapterURL "https://lichess.org/study/yqSNKKs2/wHuaIdgb"]
+[ChapterURL "https://lichess.org/study/yqSNKKs2/D0ylGqYO"]
 [Variant "Standard"]
 [FEN "rn3rk1/pp3ppp/2pbp3/7q/3P2n1/4PN2/PP1BBPP1/RN1QRK2 w - - 4 13"]
 [SetUp "1"]
@@ -244,7 +244,7 @@
 
 [Event "Basic checkmates: smothered with a rook offer"]
 [Result "0-1"]
-[ChapterURL "https://lichess.org/study/yqSNKKs2/eIapnc4n"]
+[ChapterURL "https://lichess.org/study/yqSNKKs2/Xf2zswyS"]
 [Variant "Standard"]
 [FEN "r3r3/p1q3pp/1p2Nk2/2B5/1n4Q1/8/PP4PP/2Rn3K w - - 3 24"]
 [SetUp "1"]
