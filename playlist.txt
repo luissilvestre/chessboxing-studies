@@ -17,6 +17,7 @@ Vienna opening:advanced/vienna.pgn:advanced
 Benoni:advanced/benoni.pgn:advanced
 Benoni for White:advanced/benoni-white.pgn:advanced
 Polerio Defence for Black:advanced/polerio-defence.pgn:advanced
+Catalan for White:advanced/catalan.pgn:advanced
 Imbalanced endgames:advanced/imbalanced-endgames.pgn:advanced
 Strategy - pieces and squares:intermediate/strategy-pieces.pgn:intermediate
 Strategy - pawns and plans:advanced/strategy-pawns.pgn:advanced
