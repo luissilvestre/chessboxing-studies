@@ -6,6 +6,10 @@
 # endgame technique before the strategic-planning studies that build on it --
 # and openings only at the end, most common first and the narrowest, trap-
 # reliant lines last.
+#
+# Removed from this default order 2026-10-03 (user request): french, london-system,
+# scotch-gambit, kings-gambit, stafford-gambit. They stay in playlist.txt, so they
+# are still in the app; they are just not served by default.
 
 intermediate/intermediate-tactics.pgn
 
@@ -15,12 +19,7 @@ intermediate/capablanca-lasker-endgames.pgn
 intermediate/strategy-pieces.pgn
 
 intermediate/sicilian.pgn
-intermediate/french.pgn
 intermediate/black-against-d4.pgn
 intermediate/ruy-lopez.pgn
-intermediate/london-system.pgn
-intermediate/scotch-gambit.pgn
-intermediate/kings-gambit.pgn
-intermediate/stafford-gambit.pgn
 
 lichess:intermediate
