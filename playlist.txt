@@ -15,8 +15,6 @@ Black against d4:intermediate/black-against-d4.pgn:intermediate
 Pawn endgames:intermediate/pawn-endgames.pgn:intermediate
 Rook endgames:intermediate/rook-endgames.pgn:intermediate
 Vienna opening:advanced/vienna.pgn:advanced
-Benoni:advanced/benoni.pgn:advanced
-Benoni for White:advanced/benoni-white.pgn:advanced
 Polerio Defence for Black:advanced/polerio-defence.pgn:advanced
 Catalan for White:advanced/catalan.pgn:advanced
 Imbalanced endgames:advanced/imbalanced-endgames.pgn:advanced
