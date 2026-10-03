@@ -11,6 +11,7 @@ Ruy Lopez for White:intermediate/ruy-lopez.pgn:intermediate
 London System:intermediate/london-system.pgn:intermediate
 French Defense:intermediate/french.pgn:intermediate
 Sicilian Defence for Black:intermediate/sicilian.pgn:intermediate
+Black against d4:intermediate/black-against-d4.pgn:intermediate
 Pawn endgames:intermediate/pawn-endgames.pgn:intermediate
 Rook endgames:intermediate/rook-endgames.pgn:intermediate
 Vienna opening:advanced/vienna.pgn:advanced

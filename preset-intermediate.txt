@@ -16,6 +16,7 @@ intermediate/strategy-pieces.pgn
 
 intermediate/sicilian.pgn
 intermediate/french.pgn
+intermediate/black-against-d4.pgn
 intermediate/ruy-lopez.pgn
 intermediate/london-system.pgn
 intermediate/scotch-gambit.pgn
